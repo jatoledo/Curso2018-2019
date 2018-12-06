@@ -2,6 +2,9 @@ var data = [];
 data.push(
     {
         neighbourhood: "Q1763694"
+    },
+    {
+        neighbourhood: "Q2002296"
     }
 );
 
@@ -20,12 +23,12 @@ var neighbourhoodDataQuery = [
 $.ajax({
     url: "https://query.wikidata.org/sparql?query=" + encodeURIComponent(neighbourhoodDataQuery) + "&format=json",
     success: function(_data) {
-        console.log(_data.results.bindings);
+        // console.log(_data.results.bindings);
         _data.results.bindings.forEach((wdNeigh) => {
             data.forEach((neighbourhood) => {
                 if ("http://www.wikidata.org/entity/" + neighbourhood.neighbourhood == wdNeigh.neighbourhoodcode.value) {
                     neighbourhood.neighbourhoodInfo = {};
-                    neighbourhood.neighbourhoodInfo.population = parseFloat(wdNeigh.population.value);
+                    neighbourhood.neighbourhoodInfo.population = parseInt(wdNeigh.population.value);
                     neighbourhood.neighbourhoodInfo.area = parseFloat(wdNeigh.area.value);
                     neighbourhood.neighbourhoodInfo.name = wdNeigh.name.value;
                     neighbourhood.neighbourhoodInfo.imageURI = wdNeigh.imageURI.value;
@@ -36,6 +39,4 @@ $.ajax({
     async: false
 });
 
-data.forEach((neighbourhood) => {
-    
-})
+console.log(data);
