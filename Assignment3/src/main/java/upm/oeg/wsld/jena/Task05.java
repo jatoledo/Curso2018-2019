@@ -33,7 +33,8 @@ public class Task05
 		model.read(in, null);
 		
 		// ** TASK 5.2: Write the ontology **
-		model.write(System.out, "RDF/XML-ABBREV");
+		//model.write(System.out, "RDF/XML-ABBREV");
+		model.write(System.out, "TURTLE");
 		
 	}
 }
