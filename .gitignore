@@ -1,1 +1,14 @@
 .DS_Store
+Assignment3/.idea/libraries/Maven__xml_apis_xml_apis_1_4_01.xml
+Assignment3/jena.iml
+Assignment3/.idea/
+Assignment3/target/
+HandsOn/Group07/catalog-v001.xml
+HandsOn/Group07/ontology/catalog-v001.xml
+*.class
+HandsOn/Group07/csv/csvs_per_year/madrid_2018.ods
+HandsOn/Group07/rdf/grupo07_2017-updated.openrefine.tar.gz
+HandsOn/Group07/rdf/measurements_2017-with-links-updated.ttl
+HandsOn/Group07/rdf/measurements_2018.ttl
+HandsOn/Group07/rdf/measurements_2018-updated.ttl
+HandsOn/Group07/rdf/measurements_2018-with-links-updated.ttl
