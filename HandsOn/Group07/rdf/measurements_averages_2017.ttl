@@ -4,7 +4,7 @@
 @prefix property: <http://www.group07.linkeddata.org/property#> .
 @prefix sosa: <http://www.w3.org/ns/sosa/> .
 @prefix ssn: <http://purl.oclc.org/NET/ssnx/ssn#> .
-@prefix station: <http://www.group07.linkeddata.org/individual/station#> .
+@prefix station: <http://www.group07.linkeddata.org/individual/station/> .
 @prefix uo: <http://purl.obolibrary.org/obo/> .
 
 observation:28079004_1_2017 a ssn:Observation;
