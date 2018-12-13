@@ -173,8 +173,8 @@ public class RDF4JTests {
         String path = "/home/luciano/syncthing/actualesUPM/semWeb/Curso2018-2019/HandsOn/Group07/rdf/";
         // Example 15
 //        String filename1 = path + "measurements_2018_reduced-with-links-updated.ttl";
-        String filename1 = path + "measurements_2017-with-links-updated.ttl";
-        int year = 2017;
+        String filename1 = path + "measurements_2018-with-links-updated_with_slash.ttl";
+        int year = 2018;
 //        String filename1 = "/home/luciano/syncthing/actualesUPM/semWeb/Curso2018-2019/HandsOn/Group07/rdf/";
         InputStream input1 = FileManager.get().open(filename1);
         String filename2 = path + "stations-with-links-updated.ttl";
@@ -216,7 +216,7 @@ public class RDF4JTests {
 //        outputModel.setNamespace("individual", nsIndividual);
         outputModel.setNamespace("observableproperty", nsIndividual + "observableProperty#");
         outputModel.setNamespace("observation", nsIndividual + "observation#");
-        outputModel.setNamespace("station", nsIndividual + "station#");
+        outputModel.setNamespace("station", nsIndividual + "station/");
         outputModel.setNamespace("sosa", sosa);
 
         String prefixes = "PREFIX ssn:<" + ssn + "> " + " " +
@@ -261,7 +261,7 @@ public class RDF4JTests {
                 TupleQuery measurementsQuery = conn.prepareTupleQuery(measurementsOfTheMonthQuery);
 
                 List<BindingSet> observationsOfTheMonth = QueryResults.asList(measurementsQuery.evaluate());
-                String sensorID = sensor.getValue("sensor").toString().split("#")[1];
+                String sensorID = sensor.getValue("sensor").toString().split("/")[5];
                 IRI newObservation = vfOutput.createIRI(nsIndividual + "observation#" + sensorID + "_" + i + "_" + year);
                 outputModel.add(newObservation, RDF.TYPE, ssnObservation);
 
@@ -271,36 +271,37 @@ public class RDF4JTests {
                 outputModel.add(newObservation, resultTime, time);
 
                 for (BindingSet observation : observationsOfTheMonth) {
-                    String substanceName = observation.getValue("substance").toString().split("/")[observation.getValue("substance").toString().split("/").length - 1].replace("\"", "");
+                    if (observation != null && observation.getValue("substance") != null) {
+                        String substanceName = observation.getValue("substance").toString().split("/")[observation.getValue("substance").toString().split("/").length - 1].replace("\"", "");
 //                    System.out.println(substanceName);
 
-                    // Create new observable property
-                    IRI observableProperty = vfOutput.createIRI(nsIndividual + "observableProperty#" + sensorID + "_" + substanceName + "_" + i + "_" + year);
+                        // Create new observable property
+                        IRI observableProperty = vfOutput.createIRI(nsIndividual + "observableProperty#" + sensorID + "_" + substanceName + "_" + i + "_" + year);
 
-                    // Bind it to sensor
-                    outputModel.add(observableProperty, madeBySensor, sensor.getValue("sensor"));
+                        // Bind it to sensor
+                        outputModel.add(observableProperty, madeBySensor, sensor.getValue("sensor"));
 
-                    // Bind it to observation
-                    outputModel.add(newObservation, observedProperty, observableProperty);
+                        // Bind it to observation
+                        outputModel.add(newObservation, observedProperty, observableProperty);
 
-                    // Set substance
-                    outputModel.add(observableProperty, hasSubstance, observation.getValue("substance"));
+                        // Set substance
+                        outputModel.add(observableProperty, hasSubstance, observation.getValue("substance"));
 
-                    // Set unit
-                    outputModel.add(observableProperty, hasUnit, vfOutput.createIRI(uo, "UO_0000083"));
+                        // Set unit
+                        outputModel.add(observableProperty, hasUnit, vfOutput.createIRI(uo, "UO_0000083"));
 
-                    // Set value
-                    BigDecimal value = vfOutput.createLiteral(observation.getValue("value").stringValue()).decimalValue();
-                    Literal value2 = vfOutput.createLiteral(value);
-                    outputModel.add(observableProperty, hasMetricValue, value2);
-
+                        // Set value
+                        BigDecimal value = vfOutput.createLiteral(observation.getValue("value").stringValue()).decimalValue();
+                        Literal value2 = vfOutput.createLiteral(value);
+                        outputModel.add(observableProperty, hasMetricValue, value2);
+                    }
                 }
 //                break;
             }
 //            break;
         }
 
-        OutputStream outputStream = new FileOutputStream(path + "measurements_averages_" + year + ".ttl");
+        OutputStream outputStream = new FileOutputStream(path + "measurements_averages_again_" + year + ".ttl");
         Rio.write(outputModel, outputStream, RDFFormat.TURTLE);
         Rio.write(outputModel, System.out, RDFFormat.TURTLE);
 
