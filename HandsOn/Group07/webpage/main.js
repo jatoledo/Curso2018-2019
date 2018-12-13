@@ -7,29 +7,36 @@ var ourDataQuery = [
     'PREFIX sosa:<http://www.w3.org/ns/sosa/>',
     'PREFIX property:<http://www.group07.linkeddata.org/property#>',
     'PREFIX geo:<http://www.w3.org/2003/01/geo/wgs84_pos#>',
-    "select  distinct ?StationName ?Address ?Neighbourhood ?Substance ?Time (AVG(?Value) AS ?Average ) where {",
-    "?obsPr property:hasSubstance ?Substance.",
-    "?observation sosa:observedProperty  ?obsPr.",
-    "?observation sosa:resultTime ?Time.",
-    "?Station rdfs:label ?StationName.",
-    "?Station property:address ?Address.",
-    "?Station geo:location ?Location.",
-    "?Location property:neighbourhood ?Neighbourhood.",
+    "select  distinct ?StationName ?Address ?Neighbourhood ?Substance ?Time (?Value as ?Average) where {",
+        "?obsPr property:hasSubstance ?Substance.",
+        "?observation sosa:observedProperty  ?obsPr.",
+        "?observation sosa:resultTime ?Time.",
+        "?Station rdfs:label ?StationName.",
+        "?Station property:address ?Address.",
+        "?Station geo:location ?Location.",
+        "?Location property:neighbourhood ?Neighbourhood.",
     "{",
-    "select distinct ?Substance ?Station ?Value where {",
-    "?observation a <http://purl.oclc.org/NET/ssnx/ssn#Observation>.",
-    "?observation sosa:observedProperty ?obsProp.",
-    "?obsProp property:hasSubstance ?Substance. ",
-    "?obsProp sosa:madeBySensor ?Station.",
-    "?obsProp property:hasMetricValue ?Value. ",
-    "}group by  ?Station",
-    "}",
-    "} group by ?StationName  ?Address ?Neighbourhood ?Substance ?Lat ?Lon ?Time  order by asc(?Time)"
+        "select distinct ?Substance ?Station ?Value where {",
+        "?observation a <http://purl.oclc.org/NET/ssnx/ssn#Observation>.",
+        "?observation sosa:observedProperty ?obsProp.",
+        "?obsProp property:hasSubstance ?Substance. ",
+        // "?obsProp property:hasSubstance <http://dbpedia.org/resource/Sulfur_dioxide>. ",
+        "?obsProp sosa:madeBySensor ?Station.",
+        // "?obsProp sosa:madeBySensor <http://www.group07.linkeddata.org/individual/station/28079004>.",
+        "?obsProp property:hasMetricValue ?Value. ",
+        "}group by  ?Station",
+        "}",
+    "} group by ?StationName  ?Address ?Neighbourhood ?Substance"
 ].join(' ');
 
 var treatData = (_data) => {
+    console.log(_data)
     _data.results.bindings.forEach((measurement) => {
         var neighbourhoodCode = measurement.Neighbourhood.value.split('/')[4];
+
+        if (measurement.Time != '2017-02-01T00:00:00+01:00') {
+            console.log('algo', measurement);
+        }
 
         if (data[neighbourhoodCode] == undefined) {
             var neighbourhood = {
@@ -37,7 +44,7 @@ var treatData = (_data) => {
                 airInfo: {}
             }
             data[neighbourhoodCode] = neighbourhood;
-            listOfNeighbourhoods.push(neighbourhoodCode);
+            // listOfNeighbourhoods.push(neighbourhoodCode);
         }
 
         var neighbourhood = data[neighbourhoodCode];
@@ -62,6 +69,8 @@ var treatData = (_data) => {
         }
         var month = parseInt(time[1]) - 1;
 
+        // console.log(substanceCode, month, year, measurement.Average.value)
+
         substance[year][month].push(parseFloat(measurement.Average.value))
     });
 }
@@ -72,7 +81,9 @@ $.ajax({
     url: "http://localhost:8890/sparql?query=" + encodeURIComponent(ourDataQuery) + "&format=json",
     success: (_data) => {
         //console.log('Success receives', JSON.parse(JSON.stringify(_data)));
+        // console.log(_data)
         treatData(_data);
+        console.log(data)
 
         Object.keys(data).forEach((neighbourhoodCode) => {
             var neighbourhood = data[neighbourhoodCode];
@@ -82,6 +93,7 @@ $.ajax({
                     if (neighbourhood.airInfo[substanceCode][year] != undefined) {
                         Object.keys(neighbourhood.airInfo[substanceCode][year]).forEach((month) => {
                             var valuesForMonth = neighbourhood.airInfo[substanceCode][year][month];
+                            // console.log(substanceCode, year, neighbourhoodCode, valuesForMonth)
 
                             if (neighbourhood.airInfo[substanceCode][year][month] != undefined && neighbourhood.airInfo[substanceCode][year][month].length != 0) {
                                 var average = 0;
@@ -161,7 +173,7 @@ $.ajax({
 
 
 
-
+                console.log(data);
 
 
 
@@ -187,6 +199,7 @@ $.ajax({
 
                         var labels = ["Jan-2017", "Feb-2017", "Mar-2017", "Apr-2017", "May-2017", "Jun-2017", "Jul-2017", "Aug-2017", "Sep-2017", "Dec-2017", "Jan-2018", "Feb-2018", "Mar-2018", "Apr-2018", "May-2018"];
                         var measures = data[e]["airInfo"][prop][0].concat(data[e]["airInfo"][prop][1]);
+                        console.log(measures)
                         var new_measures = [];
                         for (var i = 0; i < measures.length; i++) {
                             var set = measures[i];

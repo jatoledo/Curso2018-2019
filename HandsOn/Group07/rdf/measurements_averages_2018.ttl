@@ -44,6 +44,11 @@ observation:28079004_2_2018 a ssn:Observation;
     observableproperty:28079004_Sulfur_dioxide_2_2018;
   sosa:resultTime "2018-02-01T00:00:00.000+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 
+observableproperty:28079004_Nitrous_oxide_2_2018 property:hasMetricValue 97.84970238095238;
+  property:hasSubstance dbpedia:Nitrous_oxide;
+  property:hasUnit uo:UO_0000083;
+  sosa:madeBySensor station:28079004 .
+
 observableproperty:28079004_Carbon_monoxide_2_2018 property:hasMetricValue 0.46979167299079044;
   property:hasSubstance dbpedia:Carbon_monoxide;
   property:hasUnit uo:UO_0000083;
@@ -51,11 +56,6 @@ observableproperty:28079004_Carbon_monoxide_2_2018 property:hasMetricValue 0.469
 
 observableproperty:28079004_Nitrogen_dioxide_2_2018 property:hasMetricValue 48.294642857142854;
   property:hasSubstance dbpedia:Nitrogen_dioxide;
-  property:hasUnit uo:UO_0000083;
-  sosa:madeBySensor station:28079004 .
-
-observableproperty:28079004_Nitrous_oxide_2_2018 property:hasMetricValue 97.84970238095238;
-  property:hasSubstance dbpedia:Nitrous_oxide;
   property:hasUnit uo:UO_0000083;
   sosa:madeBySensor station:28079004 .
 
@@ -75,6 +75,16 @@ observation:28079004_3_2018 a ssn:Observation;
     observableproperty:28079004_Sulfur_dioxide_3_2018;
   sosa:resultTime "2018-03-01T00:00:00.000+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 
+observableproperty:28079004_Sulfur_dioxide_3_2018 property:hasMetricValue 1.85464333781965;
+  property:hasSubstance dbpedia:Sulfur_dioxide;
+  property:hasUnit uo:UO_0000083;
+  sosa:madeBySensor station:28079004 .
+
+observableproperty:28079004_Nitrogen_oxide_3_2018 property:hasMetricValue 7.534320323014805;
+  property:hasSubstance dbpedia:Nitrogen_oxide;
+  property:hasUnit uo:UO_0000083;
+  sosa:madeBySensor station:28079004 .
+
 observableproperty:28079004_Carbon_monoxide_3_2018 property:hasMetricValue 0.3608344634681499;
   property:hasSubstance dbpedia:Carbon_monoxide;
   property:hasUnit uo:UO_0000083;
@@ -87,16 +97,6 @@ observableproperty:28079004_Nitrogen_dioxide_3_2018 property:hasMetricValue 31.4
 
 observableproperty:28079004_Nitrous_oxide_3_2018 property:hasMetricValue 43.00672947510094;
   property:hasSubstance dbpedia:Nitrous_oxide;
-  property:hasUnit uo:UO_0000083;
-  sosa:madeBySensor station:28079004 .
-
-observableproperty:28079004_Sulfur_dioxide_3_2018 property:hasMetricValue 1.85464333781965;
-  property:hasSubstance dbpedia:Sulfur_dioxide;
-  property:hasUnit uo:UO_0000083;
-  sosa:madeBySensor station:28079004 .
-
-observableproperty:28079004_Nitrogen_oxide_3_2018 property:hasMetricValue 7.534320323014805;
-  property:hasSubstance dbpedia:Nitrogen_oxide;
   property:hasUnit uo:UO_0000083;
   sosa:madeBySensor station:28079004 .
 
@@ -137,13 +137,8 @@ observation:28079004_5_2018 a ssn:Observation;
     observableproperty:28079004_Sulfur_dioxide_5_2018;
   sosa:resultTime "2018-05-01T00:00:00.000+02:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 
-observableproperty:28079004_Sulfur_dioxide_5_2018 property:hasMetricValue 2.0;
-  property:hasSubstance dbpedia:Sulfur_dioxide;
-  property:hasUnit uo:UO_0000083;
-  sosa:madeBySensor station:28079004 .
-
-observableproperty:28079004_Nitrogen_oxide_5_2018 property:hasMetricValue 2.0;
-  property:hasSubstance dbpedia:Nitrogen_oxide;
+observableproperty:28079004_Nitrous_oxide_5_2018 property:hasMetricValue 46.0;
+  property:hasSubstance dbpedia:Nitrous_oxide;
   property:hasUnit uo:UO_0000083;
   sosa:madeBySensor station:28079004 .
 
@@ -157,8 +152,13 @@ observableproperty:28079004_Nitrogen_dioxide_5_2018 property:hasMetricValue 43.0
   property:hasUnit uo:UO_0000083;
   sosa:madeBySensor station:28079004 .
 
-observableproperty:28079004_Nitrous_oxide_5_2018 property:hasMetricValue 46.0;
-  property:hasSubstance dbpedia:Nitrous_oxide;
+observableproperty:28079004_Nitrogen_oxide_5_2018 property:hasMetricValue 2.0;
+  property:hasSubstance dbpedia:Nitrogen_oxide;
+  property:hasUnit uo:UO_0000083;
+  sosa:madeBySensor station:28079004 .
+
+observableproperty:28079004_Sulfur_dioxide_5_2018 property:hasMetricValue 2.0;
+  property:hasSubstance dbpedia:Sulfur_dioxide;
   property:hasUnit uo:UO_0000083;
   sosa:madeBySensor station:28079004 .
 
@@ -192,8 +192,18 @@ observation:28079008_1_2018 a ssn:Observation;
     observableproperty:28079008_Toluene_1_2018;
   sosa:resultTime "2018-01-01T00:00:00.000+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 
-observableproperty:28079008_Hydrocarbon_1_2018 property:hasMetricValue 1.535848210964884;
-  property:hasSubstance dbpedia:Hydrocarbon;
+observableproperty:28079008_Benzene_1_2018 property:hasMetricValue 1.0541916177078279;
+  property:hasSubstance dbpedia:Benzene;
+  property:hasUnit uo:UO_0000083;
+  sosa:madeBySensor station:28079008 .
+
+observableproperty:28079008_Sulfur_dioxide_1_2018 property:hasMetricValue 5.58998646820027;
+  property:hasSubstance dbpedia:Sulfur_dioxide;
+  property:hasUnit uo:UO_0000083;
+  sosa:madeBySensor station:28079008 .
+
+observableproperty:28079008_Nitrogen_oxide_1_2018 property:hasMetricValue 51.819163292847506;
+  property:hasSubstance dbpedia:Nitrogen_oxide;
   property:hasUnit uo:UO_0000083;
   sosa:madeBySensor station:28079008 .
 
@@ -202,18 +212,8 @@ observableproperty:28079008_Toluene_1_2018 property:hasMetricValue 3.12080838455
   property:hasUnit uo:UO_0000083;
   sosa:madeBySensor station:28079008 .
 
-observableproperty:28079008_Nitrous_oxide_1_2018 property:hasMetricValue 145.99460188933872;
-  property:hasSubstance dbpedia:Nitrous_oxide;
-  property:hasUnit uo:UO_0000083;
-  sosa:madeBySensor station:28079008 .
-
-observableproperty:28079008_Ozone_1_2018 property:hasMetricValue 21.737837837837837;
-  property:hasSubstance dbpedia:Ozone;
-  property:hasUnit uo:UO_0000083;
-  sosa:madeBySensor station:28079008 .
-
-observableproperty:28079008_Methane_1_2018 property:hasMetricValue 1.4656101144140674;
-  property:hasSubstance dbpedia:Methane;
+observableproperty:28079008_Hydrocarbon_1_2018 property:hasMetricValue 1.535848210964884;
+  property:hasSubstance dbpedia:Hydrocarbon;
   property:hasUnit uo:UO_0000083;
   sosa:madeBySensor station:28079008 .
 
@@ -232,18 +232,18 @@ observableproperty:28079008_Nitrogen_dioxide_1_2018 property:hasMetricValue 66.5
   property:hasUnit uo:UO_0000083;
   sosa:madeBySensor station:28079008 .
 
-observableproperty:28079008_Sulfur_dioxide_1_2018 property:hasMetricValue 5.58998646820027;
-  property:hasSubstance dbpedia:Sulfur_dioxide;
+observableproperty:28079008_Methane_1_2018 property:hasMetricValue 1.4656101144140674;
+  property:hasSubstance dbpedia:Methane;
   property:hasUnit uo:UO_0000083;
   sosa:madeBySensor station:28079008 .
 
-observableproperty:28079008_Benzene_1_2018 property:hasMetricValue 1.0541916177078279;
-  property:hasSubstance dbpedia:Benzene;
+observableproperty:28079008_Nitrous_oxide_1_2018 property:hasMetricValue 145.99460188933872;
+  property:hasSubstance dbpedia:Nitrous_oxide;
   property:hasUnit uo:UO_0000083;
   sosa:madeBySensor station:28079008 .
 
-observableproperty:28079008_Nitrogen_oxide_1_2018 property:hasMetricValue 51.819163292847506;
-  property:hasSubstance dbpedia:Nitrogen_oxide;
+observableproperty:28079008_Ozone_1_2018 property:hasMetricValue 21.737837837837837;
+  property:hasSubstance dbpedia:Ozone;
   property:hasUnit uo:UO_0000083;
   sosa:madeBySensor station:28079008 .
 
@@ -255,21 +255,6 @@ observation:28079008_2_2018 a ssn:Observation;
     observableproperty:28079008_Ozone_2_2018, observableproperty:28079008_Sulfur_dioxide_2_2018,
     observableproperty:28079008_Toluene_2_2018;
   sosa:resultTime "2018-02-01T00:00:00.000+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
-
-observableproperty:28079008_Nitrogen_oxide_2_2018 property:hasMetricValue 33.131736526946106;
-  property:hasSubstance dbpedia:Nitrogen_oxide;
-  property:hasUnit uo:UO_0000083;
-  sosa:madeBySensor station:28079008 .
-
-observableproperty:28079008_Sulfur_dioxide_2_2018 property:hasMetricValue 5.373873873873874;
-  property:hasSubstance dbpedia:Sulfur_dioxide;
-  property:hasUnit uo:UO_0000083;
-  sosa:madeBySensor station:28079008 .
-
-observableproperty:28079008_Benzene_2_2018 property:hasMetricValue 0.9601503781358102;
-  property:hasSubstance dbpedia:Benzene;
-  property:hasUnit uo:UO_0000083;
-  sosa:madeBySensor station:28079008 .
 
 observableproperty:28079008_Nitrous_oxide_2_2018 property:hasMetricValue 114.2440119760479;
   property:hasSubstance dbpedia:Nitrous_oxide;
@@ -311,6 +296,21 @@ observableproperty:28079008_Toluene_2_2018 property:hasMetricValue 2.60842105204
   property:hasUnit uo:UO_0000083;
   sosa:madeBySensor station:28079008 .
 
+observableproperty:28079008_Nitrogen_oxide_2_2018 property:hasMetricValue 33.131736526946106;
+  property:hasSubstance dbpedia:Nitrogen_oxide;
+  property:hasUnit uo:UO_0000083;
+  sosa:madeBySensor station:28079008 .
+
+observableproperty:28079008_Sulfur_dioxide_2_2018 property:hasMetricValue 5.373873873873874;
+  property:hasSubstance dbpedia:Sulfur_dioxide;
+  property:hasUnit uo:UO_0000083;
+  sosa:madeBySensor station:28079008 .
+
+observableproperty:28079008_Benzene_2_2018 property:hasMetricValue 0.9601503781358102;
+  property:hasSubstance dbpedia:Benzene;
+  property:hasUnit uo:UO_0000083;
+  sosa:madeBySensor station:28079008 .
+
 observation:28079008_3_2018 a ssn:Observation;
   sosa:observedProperty observableproperty:28079008_Benzene_3_2018, observableproperty:28079008_Carbon_monoxide_3_2018,
     observableproperty:28079008_Ethyl_benzene_3_2018, observableproperty:28079008_Hydrocarbon_3_2018,
@@ -320,13 +320,13 @@ observation:28079008_3_2018 a ssn:Observation;
     observableproperty:28079008_Toluene_3_2018;
   sosa:resultTime "2018-03-01T00:00:00.000+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 
-observableproperty:28079008_Nitrous_oxide_3_2018 property:hasMetricValue 78.36253369272237;
-  property:hasSubstance dbpedia:Nitrous_oxide;
+observableproperty:28079008_Toluene_3_2018 property:hasMetricValue 1.3698240887771924;
+  property:hasSubstance dbpedia:Toluene;
   property:hasUnit uo:UO_0000083;
   sosa:madeBySensor station:28079008 .
 
-observableproperty:28079008_Ozone_3_2018 property:hasMetricValue 49.43800539083558;
-  property:hasSubstance dbpedia:Ozone;
+observableproperty:28079008_Hydrocarbon_3_2018 property:hasMetricValue 1.482334681207191;
+  property:hasSubstance dbpedia:Hydrocarbon;
   property:hasUnit uo:UO_0000083;
   sosa:madeBySensor station:28079008 .
 
@@ -350,18 +350,18 @@ observableproperty:28079008_Nitrogen_dioxide_3_2018 property:hasMetricValue 48.7
   property:hasUnit uo:UO_0000083;
   sosa:madeBySensor station:28079008 .
 
-observableproperty:28079008_Hydrocarbon_3_2018 property:hasMetricValue 1.482334681207191;
-  property:hasSubstance dbpedia:Hydrocarbon;
+observableproperty:28079008_Nitrous_oxide_3_2018 property:hasMetricValue 78.36253369272237;
+  property:hasSubstance dbpedia:Nitrous_oxide;
   property:hasUnit uo:UO_0000083;
   sosa:madeBySensor station:28079008 .
 
-observableproperty:28079008_Toluene_3_2018 property:hasMetricValue 1.3698240887771924;
-  property:hasSubstance dbpedia:Toluene;
+observableproperty:28079008_Ozone_3_2018 property:hasMetricValue 49.43800539083558;
+  property:hasSubstance dbpedia:Ozone;
   property:hasUnit uo:UO_0000083;
   sosa:madeBySensor station:28079008 .
 
-observableproperty:28079008_Nitrogen_oxide_3_2018 property:hasMetricValue 19.254716981132077;
-  property:hasSubstance dbpedia:Nitrogen_oxide;
+observableproperty:28079008_Benzene_3_2018 property:hasMetricValue 0.6764546718463523;
+  property:hasSubstance dbpedia:Benzene;
   property:hasUnit uo:UO_0000083;
   sosa:madeBySensor station:28079008 .
 
@@ -370,8 +370,8 @@ observableproperty:28079008_Sulfur_dioxide_3_2018 property:hasMetricValue 4.8692
   property:hasUnit uo:UO_0000083;
   sosa:madeBySensor station:28079008 .
 
-observableproperty:28079008_Benzene_3_2018 property:hasMetricValue 0.6764546718463523;
-  property:hasSubstance dbpedia:Benzene;
+observableproperty:28079008_Nitrogen_oxide_3_2018 property:hasMetricValue 19.254716981132077;
+  property:hasSubstance dbpedia:Nitrogen_oxide;
   property:hasUnit uo:UO_0000083;
   sosa:madeBySensor station:28079008 .
 
@@ -384,13 +384,43 @@ observation:28079008_4_2018 a ssn:Observation;
     observableproperty:28079008_Toluene_4_2018;
   sosa:resultTime "2018-04-01T00:00:00.000+02:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 
-observableproperty:28079008_Toluene_4_2018 property:hasMetricValue 1.7664325863248511;
-  property:hasSubstance dbpedia:Toluene;
+observableproperty:28079008_Sulfur_dioxide_4_2018 property:hasMetricValue 1.3776223776223777;
+  property:hasSubstance dbpedia:Sulfur_dioxide;
+  property:hasUnit uo:UO_0000083;
+  sosa:madeBySensor station:28079008 .
+
+observableproperty:28079008_Benzene_4_2018 property:hasMetricValue 0.6085674203513713;
+  property:hasSubstance dbpedia:Benzene;
+  property:hasUnit uo:UO_0000083;
+  sosa:madeBySensor station:28079008 .
+
+observableproperty:28079008_Nitrogen_oxide_4_2018 property:hasMetricValue 16.74373259052925;
+  property:hasSubstance dbpedia:Nitrogen_oxide;
   property:hasUnit uo:UO_0000083;
   sosa:madeBySensor station:28079008 .
 
 observableproperty:28079008_Hydrocarbon_4_2018 property:hasMetricValue 1.4777158790976224;
   property:hasSubstance dbpedia:Hydrocarbon;
+  property:hasUnit uo:UO_0000083;
+  sosa:madeBySensor station:28079008 .
+
+observableproperty:28079008_Toluene_4_2018 property:hasMetricValue 1.7664325863248511;
+  property:hasSubstance dbpedia:Toluene;
+  property:hasUnit uo:UO_0000083;
+  sosa:madeBySensor station:28079008 .
+
+observableproperty:28079008_Nitrous_oxide_4_2018 property:hasMetricValue 76.58635097493037;
+  property:hasSubstance dbpedia:Nitrous_oxide;
+  property:hasUnit uo:UO_0000083;
+  sosa:madeBySensor station:28079008 .
+
+observableproperty:28079008_Ozone_4_2018 property:hasMetricValue 50.85495118549512;
+  property:hasSubstance dbpedia:Ozone;
+  property:hasUnit uo:UO_0000083;
+  sosa:madeBySensor station:28079008 .
+
+observableproperty:28079008_Methane_4_2018 property:hasMetricValue 1.435417823472727;
+  property:hasSubstance dbpedia:Methane;
   property:hasUnit uo:UO_0000083;
   sosa:madeBySensor station:28079008 .
 
@@ -409,36 +439,6 @@ observableproperty:28079008_Nitrogen_dioxide_4_2018 property:hasMetricValue 50.8
   property:hasUnit uo:UO_0000083;
   sosa:madeBySensor station:28079008 .
 
-observableproperty:28079008_Methane_4_2018 property:hasMetricValue 1.435417823472727;
-  property:hasSubstance dbpedia:Methane;
-  property:hasUnit uo:UO_0000083;
-  sosa:madeBySensor station:28079008 .
-
-observableproperty:28079008_Nitrous_oxide_4_2018 property:hasMetricValue 76.58635097493037;
-  property:hasSubstance dbpedia:Nitrous_oxide;
-  property:hasUnit uo:UO_0000083;
-  sosa:madeBySensor station:28079008 .
-
-observableproperty:28079008_Ozone_4_2018 property:hasMetricValue 50.85495118549512;
-  property:hasSubstance dbpedia:Ozone;
-  property:hasUnit uo:UO_0000083;
-  sosa:madeBySensor station:28079008 .
-
-observableproperty:28079008_Benzene_4_2018 property:hasMetricValue 0.6085674203513713;
-  property:hasSubstance dbpedia:Benzene;
-  property:hasUnit uo:UO_0000083;
-  sosa:madeBySensor station:28079008 .
-
-observableproperty:28079008_Sulfur_dioxide_4_2018 property:hasMetricValue 1.3776223776223777;
-  property:hasSubstance dbpedia:Sulfur_dioxide;
-  property:hasUnit uo:UO_0000083;
-  sosa:madeBySensor station:28079008 .
-
-observableproperty:28079008_Nitrogen_oxide_4_2018 property:hasMetricValue 16.74373259052925;
-  property:hasSubstance dbpedia:Nitrogen_oxide;
-  property:hasUnit uo:UO_0000083;
-  sosa:madeBySensor station:28079008 .
-
 observation:28079008_5_2018 a ssn:Observation;
   sosa:observedProperty observableproperty:28079008_Benzene_5_2018, observableproperty:28079008_Carbon_monoxide_5_2018,
     observableproperty:28079008_Ethyl_benzene_5_2018, observableproperty:28079008_Hydrocarbon_5_2018,
@@ -448,13 +448,18 @@ observation:28079008_5_2018 a ssn:Observation;
     observableproperty:28079008_Toluene_5_2018;
   sosa:resultTime "2018-05-01T00:00:00.000+02:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 
-observableproperty:28079008_Hydrocarbon_5_2018 property:hasMetricValue 1.440000057220459;
-  property:hasSubstance dbpedia:Hydrocarbon;
+observableproperty:28079008_Nitrogen_oxide_5_2018 property:hasMetricValue 4.0;
+  property:hasSubstance dbpedia:Nitrogen_oxide;
   property:hasUnit uo:UO_0000083;
   sosa:madeBySensor station:28079008 .
 
-observableproperty:28079008_Toluene_5_2018 property:hasMetricValue 1.100000023841858;
-  property:hasSubstance dbpedia:Toluene;
+observableproperty:28079008_Sulfur_dioxide_5_2018 property:hasMetricValue 4.0;
+  property:hasSubstance dbpedia:Sulfur_dioxide;
+  property:hasUnit uo:UO_0000083;
+  sosa:madeBySensor station:28079008 .
+
+observableproperty:28079008_Benzene_5_2018 property:hasMetricValue 0.6000000238418579;
+  property:hasSubstance dbpedia:Benzene;
   property:hasUnit uo:UO_0000083;
   sosa:madeBySensor station:28079008 .
 
@@ -488,18 +493,13 @@ observableproperty:28079008_Nitrogen_dioxide_5_2018 property:hasMetricValue 43.0
   property:hasUnit uo:UO_0000083;
   sosa:madeBySensor station:28079008 .
 
-observableproperty:28079008_Sulfur_dioxide_5_2018 property:hasMetricValue 4.0;
-  property:hasSubstance dbpedia:Sulfur_dioxide;
+observableproperty:28079008_Hydrocarbon_5_2018 property:hasMetricValue 1.440000057220459;
+  property:hasSubstance dbpedia:Hydrocarbon;
   property:hasUnit uo:UO_0000083;
   sosa:madeBySensor station:28079008 .
 
-observableproperty:28079008_Benzene_5_2018 property:hasMetricValue 0.6000000238418579;
-  property:hasSubstance dbpedia:Benzene;
-  property:hasUnit uo:UO_0000083;
-  sosa:madeBySensor station:28079008 .
-
-observableproperty:28079008_Nitrogen_oxide_5_2018 property:hasMetricValue 4.0;
-  property:hasSubstance dbpedia:Nitrogen_oxide;
+observableproperty:28079008_Toluene_5_2018 property:hasMetricValue 1.100000023841858;
+  property:hasSubstance dbpedia:Toluene;
   property:hasUnit uo:UO_0000083;
   sosa:madeBySensor station:28079008 .
 
@@ -530,26 +530,6 @@ observation:28079011_1_2018 a ssn:Observation;
     observableproperty:28079011_Nitrous_oxide_1_2018, observableproperty:28079011_Toluene_1_2018;
   sosa:resultTime "2018-01-01T00:00:00.000+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 
-observableproperty:28079011_Ethyl_benzene_1_2018 property:hasMetricValue 0.22898351950673285;
-  property:hasSubstance dbpedia:Ethyl_benzene;
-  property:hasUnit uo:UO_0000083;
-  sosa:madeBySensor station:28079011 .
-
-observableproperty:28079011_Nitrogen_dioxide_1_2018 property:hasMetricValue 53.387837837837836;
-  property:hasSubstance dbpedia:Nitrogen_dioxide;
-  property:hasUnit uo:UO_0000083;
-  sosa:madeBySensor station:28079011 .
-
-observableproperty:28079011_Nitrous_oxide_1_2018 property:hasMetricValue 106.12432432432432;
-  property:hasSubstance dbpedia:Nitrous_oxide;
-  property:hasUnit uo:UO_0000083;
-  sosa:madeBySensor station:28079011 .
-
-observableproperty:28079011_Toluene_1_2018 property:hasMetricValue 1.7725274743164305;
-  property:hasSubstance dbpedia:Toluene;
-  property:hasUnit uo:UO_0000083;
-  sosa:madeBySensor station:28079011 .
-
 observableproperty:28079011_Nitrogen_oxide_1_2018 property:hasMetricValue 34.39594594594595;
   property:hasSubstance dbpedia:Nitrogen_oxide;
   property:hasUnit uo:UO_0000083;
@@ -560,19 +540,34 @@ observableproperty:28079011_Benzene_1_2018 property:hasMetricValue 0.62197802706
   property:hasUnit uo:UO_0000083;
   sosa:madeBySensor station:28079011 .
 
+observableproperty:28079011_Nitrous_oxide_1_2018 property:hasMetricValue 106.12432432432432;
+  property:hasSubstance dbpedia:Nitrous_oxide;
+  property:hasUnit uo:UO_0000083;
+  sosa:madeBySensor station:28079011 .
+
+observableproperty:28079011_Ethyl_benzene_1_2018 property:hasMetricValue 0.22898351950673285;
+  property:hasSubstance dbpedia:Ethyl_benzene;
+  property:hasUnit uo:UO_0000083;
+  sosa:madeBySensor station:28079011 .
+
+observableproperty:28079011_Nitrogen_dioxide_1_2018 property:hasMetricValue 53.387837837837836;
+  property:hasSubstance dbpedia:Nitrogen_dioxide;
+  property:hasUnit uo:UO_0000083;
+  sosa:madeBySensor station:28079011 .
+
+observableproperty:28079011_Toluene_1_2018 property:hasMetricValue 1.7725274743164305;
+  property:hasSubstance dbpedia:Toluene;
+  property:hasUnit uo:UO_0000083;
+  sosa:madeBySensor station:28079011 .
+
 observation:28079011_2_2018 a ssn:Observation;
   sosa:observedProperty observableproperty:28079011_Benzene_2_2018, observableproperty:28079011_Ethyl_benzene_2_2018,
     observableproperty:28079011_Nitrogen_dioxide_2_2018, observableproperty:28079011_Nitrogen_oxide_2_2018,
     observableproperty:28079011_Nitrous_oxide_2_2018, observableproperty:28079011_Toluene_2_2018;
   sosa:resultTime "2018-02-01T00:00:00.000+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 
-observableproperty:28079011_Nitrogen_oxide_2_2018 property:hasMetricValue 23.309985096870342;
-  property:hasSubstance dbpedia:Nitrogen_oxide;
-  property:hasUnit uo:UO_0000083;
-  sosa:madeBySensor station:28079011 .
-
-observableproperty:28079011_Benzene_2_2018 property:hasMetricValue 0.5312312365070477;
-  property:hasSubstance dbpedia:Benzene;
+observableproperty:28079011_Toluene_2_2018 property:hasMetricValue 1.242942945589801;
+  property:hasSubstance dbpedia:Toluene;
   property:hasUnit uo:UO_0000083;
   sosa:madeBySensor station:28079011 .
 
@@ -591,8 +586,13 @@ observableproperty:28079011_Nitrous_oxide_2_2018 property:hasMetricValue 85.9612
   property:hasUnit uo:UO_0000083;
   sosa:madeBySensor station:28079011 .
 
-observableproperty:28079011_Toluene_2_2018 property:hasMetricValue 1.242942945589801;
-  property:hasSubstance dbpedia:Toluene;
+observableproperty:28079011_Benzene_2_2018 property:hasMetricValue 0.5312312365070477;
+  property:hasSubstance dbpedia:Benzene;
+  property:hasUnit uo:UO_0000083;
+  sosa:madeBySensor station:28079011 .
+
+observableproperty:28079011_Nitrogen_oxide_2_2018 property:hasMetricValue 23.309985096870342;
+  property:hasSubstance dbpedia:Nitrogen_oxide;
   property:hasUnit uo:UO_0000083;
   sosa:madeBySensor station:28079011 .
 
@@ -601,6 +601,21 @@ observation:28079011_3_2018 a ssn:Observation;
     observableproperty:28079011_Nitrogen_dioxide_3_2018, observableproperty:28079011_Nitrogen_oxide_3_2018,
     observableproperty:28079011_Nitrous_oxide_3_2018, observableproperty:28079011_Toluene_3_2018;
   sosa:resultTime "2018-03-01T00:00:00.000+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+observableproperty:28079011_Benzene_3_2018 property:hasMetricValue 0.36870748886243015;
+  property:hasSubstance dbpedia:Benzene;
+  property:hasUnit uo:UO_0000083;
+  sosa:madeBySensor station:28079011 .
+
+observableproperty:28079011_Nitrogen_oxide_3_2018 property:hasMetricValue 13.169811320754716;
+  property:hasSubstance dbpedia:Nitrogen_oxide;
+  property:hasUnit uo:UO_0000083;
+  sosa:madeBySensor station:28079011 .
+
+observableproperty:28079011_Toluene_3_2018 property:hasMetricValue 0.634013609344862;
+  property:hasSubstance dbpedia:Toluene;
+  property:hasUnit uo:UO_0000083;
+  sosa:madeBySensor station:28079011 .
 
 observableproperty:28079011_Nitrous_oxide_3_2018 property:hasMetricValue 55.69137466307278;
   property:hasSubstance dbpedia:Nitrous_oxide;
@@ -617,26 +632,21 @@ observableproperty:28079011_Nitrogen_dioxide_3_2018 property:hasMetricValue 35.4
   property:hasUnit uo:UO_0000083;
   sosa:madeBySensor station:28079011 .
 
-observableproperty:28079011_Toluene_3_2018 property:hasMetricValue 0.634013609344862;
-  property:hasSubstance dbpedia:Toluene;
-  property:hasUnit uo:UO_0000083;
-  sosa:madeBySensor station:28079011 .
-
-observableproperty:28079011_Nitrogen_oxide_3_2018 property:hasMetricValue 13.169811320754716;
-  property:hasSubstance dbpedia:Nitrogen_oxide;
-  property:hasUnit uo:UO_0000083;
-  sosa:madeBySensor station:28079011 .
-
-observableproperty:28079011_Benzene_3_2018 property:hasMetricValue 0.36870748886243015;
-  property:hasSubstance dbpedia:Benzene;
-  property:hasUnit uo:UO_0000083;
-  sosa:madeBySensor station:28079011 .
-
 observation:28079011_4_2018 a ssn:Observation;
   sosa:observedProperty observableproperty:28079011_Benzene_4_2018, observableproperty:28079011_Ethyl_benzene_4_2018,
     observableproperty:28079011_Nitrogen_dioxide_4_2018, observableproperty:28079011_Nitrogen_oxide_4_2018,
     observableproperty:28079011_Nitrous_oxide_4_2018, observableproperty:28079011_Toluene_4_2018;
   sosa:resultTime "2018-04-01T00:00:00.000+02:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+observableproperty:28079011_Toluene_4_2018 property:hasMetricValue 0.6992937904166974;
+  property:hasSubstance dbpedia:Toluene;
+  property:hasUnit uo:UO_0000083;
+  sosa:madeBySensor station:28079011 .
+
+observableproperty:28079011_Nitrous_oxide_4_2018 property:hasMetricValue 48.717663421418635;
+  property:hasSubstance dbpedia:Nitrous_oxide;
+  property:hasUnit uo:UO_0000083;
+  sosa:madeBySensor station:28079011 .
 
 observableproperty:28079011_Ethyl_benzene_4_2018 property:hasMetricValue 0.13912429586894767;
   property:hasSubstance dbpedia:Ethyl_benzene;
@@ -648,23 +658,13 @@ observableproperty:28079011_Nitrogen_dioxide_4_2018 property:hasMetricValue 34.7
   property:hasUnit uo:UO_0000083;
   sosa:madeBySensor station:28079011 .
 
-observableproperty:28079011_Nitrous_oxide_4_2018 property:hasMetricValue 48.717663421418635;
-  property:hasSubstance dbpedia:Nitrous_oxide;
-  property:hasUnit uo:UO_0000083;
-  sosa:madeBySensor station:28079011 .
-
-observableproperty:28079011_Toluene_4_2018 property:hasMetricValue 0.6992937904166974;
-  property:hasSubstance dbpedia:Toluene;
+observableproperty:28079011_Benzene_4_2018 property:hasMetricValue 0.2963276884734294;
+  property:hasSubstance dbpedia:Benzene;
   property:hasUnit uo:UO_0000083;
   sosa:madeBySensor station:28079011 .
 
 observableproperty:28079011_Nitrogen_oxide_4_2018 property:hasMetricValue 9.109874826147427;
   property:hasSubstance dbpedia:Nitrogen_oxide;
-  property:hasUnit uo:UO_0000083;
-  sosa:madeBySensor station:28079011 .
-
-observableproperty:28079011_Benzene_4_2018 property:hasMetricValue 0.2963276884734294;
-  property:hasSubstance dbpedia:Benzene;
   property:hasUnit uo:UO_0000083;
   sosa:madeBySensor station:28079011 .
 
@@ -674,18 +674,13 @@ observation:28079011_5_2018 a ssn:Observation;
     observableproperty:28079011_Nitrous_oxide_5_2018, observableproperty:28079011_Toluene_5_2018;
   sosa:resultTime "2018-05-01T00:00:00.000+02:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 
-observableproperty:28079011_Benzene_5_2018 property:hasMetricValue 0.30000001192092896;
-  property:hasSubstance dbpedia:Benzene;
-  property:hasUnit uo:UO_0000083;
-  sosa:madeBySensor station:28079011 .
-
-observableproperty:28079011_Nitrogen_oxide_5_2018 property:hasMetricValue 6.0;
-  property:hasSubstance dbpedia:Nitrogen_oxide;
-  property:hasUnit uo:UO_0000083;
-  sosa:madeBySensor station:28079011 .
-
 observableproperty:28079011_Toluene_5_2018 property:hasMetricValue 0.5;
   property:hasSubstance dbpedia:Toluene;
+  property:hasUnit uo:UO_0000083;
+  sosa:madeBySensor station:28079011 .
+
+observableproperty:28079011_Nitrous_oxide_5_2018 property:hasMetricValue 43.0;
+  property:hasSubstance dbpedia:Nitrous_oxide;
   property:hasUnit uo:UO_0000083;
   sosa:madeBySensor station:28079011 .
 
@@ -699,8 +694,13 @@ observableproperty:28079011_Nitrogen_dioxide_5_2018 property:hasMetricValue 33.0
   property:hasUnit uo:UO_0000083;
   sosa:madeBySensor station:28079011 .
 
-observableproperty:28079011_Nitrous_oxide_5_2018 property:hasMetricValue 43.0;
-  property:hasSubstance dbpedia:Nitrous_oxide;
+observableproperty:28079011_Benzene_5_2018 property:hasMetricValue 0.30000001192092896;
+  property:hasSubstance dbpedia:Benzene;
+  property:hasUnit uo:UO_0000083;
+  sosa:madeBySensor station:28079011 .
+
+observableproperty:28079011_Nitrogen_oxide_5_2018 property:hasMetricValue 6.0;
+  property:hasSubstance dbpedia:Nitrogen_oxide;
   property:hasUnit uo:UO_0000083;
   sosa:madeBySensor station:28079011 .
 
@@ -731,16 +731,6 @@ observation:28079016_1_2018 a ssn:Observation;
     observableproperty:28079016_Ozone_1_2018;
   sosa:resultTime "2018-01-01T00:00:00.000+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 
-observableproperty:28079016_Nitrous_oxide_1_2018 property:hasMetricValue 104.04312668463612;
-  property:hasSubstance dbpedia:Nitrous_oxide;
-  property:hasUnit uo:UO_0000083;
-  sosa:madeBySensor station:28079016 .
-
-observableproperty:28079016_Ozone_1_2018 property:hasMetricValue 24.252021563342318;
-  property:hasSubstance dbpedia:Ozone;
-  property:hasUnit uo:UO_0000083;
-  sosa:madeBySensor station:28079016 .
-
 observableproperty:28079016_Carbon_monoxide_1_2018 property:hasMetricValue 0.43405115052877175;
   property:hasSubstance dbpedia:Carbon_monoxide;
   property:hasUnit uo:UO_0000083;
@@ -748,6 +738,16 @@ observableproperty:28079016_Carbon_monoxide_1_2018 property:hasMetricValue 0.434
 
 observableproperty:28079016_Nitrogen_dioxide_1_2018 property:hasMetricValue 51.42048517520216;
   property:hasSubstance dbpedia:Nitrogen_dioxide;
+  property:hasUnit uo:UO_0000083;
+  sosa:madeBySensor station:28079016 .
+
+observableproperty:28079016_Nitrous_oxide_1_2018 property:hasMetricValue 104.04312668463612;
+  property:hasSubstance dbpedia:Nitrous_oxide;
+  property:hasUnit uo:UO_0000083;
+  sosa:madeBySensor station:28079016 .
+
+observableproperty:28079016_Ozone_1_2018 property:hasMetricValue 24.252021563342318;
+  property:hasSubstance dbpedia:Ozone;
   property:hasUnit uo:UO_0000083;
   sosa:madeBySensor station:28079016 .
 
@@ -762,16 +762,6 @@ observation:28079016_2_2018 a ssn:Observation;
     observableproperty:28079016_Ozone_2_2018;
   sosa:resultTime "2018-02-01T00:00:00.000+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 
-observableproperty:28079016_Nitrous_oxide_2_2018 property:hasMetricValue 75.65573770491804;
-  property:hasSubstance dbpedia:Nitrous_oxide;
-  property:hasUnit uo:UO_0000083;
-  sosa:madeBySensor station:28079016 .
-
-observableproperty:28079016_Ozone_2_2018 property:hasMetricValue 36.59402985074627;
-  property:hasSubstance dbpedia:Ozone;
-  property:hasUnit uo:UO_0000083;
-  sosa:madeBySensor station:28079016 .
-
 observableproperty:28079016_Carbon_monoxide_2_2018 property:hasMetricValue 0.36616990316642556;
   property:hasSubstance dbpedia:Carbon_monoxide;
   property:hasUnit uo:UO_0000083;
@@ -779,6 +769,16 @@ observableproperty:28079016_Carbon_monoxide_2_2018 property:hasMetricValue 0.366
 
 observableproperty:28079016_Nitrogen_dioxide_2_2018 property:hasMetricValue 45.08345752608048;
   property:hasSubstance dbpedia:Nitrogen_dioxide;
+  property:hasUnit uo:UO_0000083;
+  sosa:madeBySensor station:28079016 .
+
+observableproperty:28079016_Nitrous_oxide_2_2018 property:hasMetricValue 75.65573770491804;
+  property:hasSubstance dbpedia:Nitrous_oxide;
+  property:hasUnit uo:UO_0000083;
+  sosa:madeBySensor station:28079016 .
+
+observableproperty:28079016_Ozone_2_2018 property:hasMetricValue 36.59402985074627;
+  property:hasSubstance dbpedia:Ozone;
   property:hasUnit uo:UO_0000083;
   sosa:madeBySensor station:28079016 .
 
@@ -798,16 +798,6 @@ observableproperty:28079016_Nitrogen_oxide_3_2018 property:hasMetricValue 8.5296
   property:hasUnit uo:UO_0000083;
   sosa:madeBySensor station:28079016 .
 
-observableproperty:28079016_Nitrous_oxide_3_2018 property:hasMetricValue 45.512129380053906;
-  property:hasSubstance dbpedia:Nitrous_oxide;
-  property:hasUnit uo:UO_0000083;
-  sosa:madeBySensor station:28079016 .
-
-observableproperty:28079016_Ozone_3_2018 property:hasMetricValue 56.97304582210243;
-  property:hasSubstance dbpedia:Ozone;
-  property:hasUnit uo:UO_0000083;
-  sosa:madeBySensor station:28079016 .
-
 observableproperty:28079016_Carbon_monoxide_3_2018 property:hasMetricValue 0.30781671947064104;
   property:hasSubstance dbpedia:Carbon_monoxide;
   property:hasUnit uo:UO_0000083;
@@ -818,16 +808,21 @@ observableproperty:28079016_Nitrogen_dioxide_3_2018 property:hasMetricValue 32.4
   property:hasUnit uo:UO_0000083;
   sosa:madeBySensor station:28079016 .
 
+observableproperty:28079016_Nitrous_oxide_3_2018 property:hasMetricValue 45.512129380053906;
+  property:hasSubstance dbpedia:Nitrous_oxide;
+  property:hasUnit uo:UO_0000083;
+  sosa:madeBySensor station:28079016 .
+
+observableproperty:28079016_Ozone_3_2018 property:hasMetricValue 56.97304582210243;
+  property:hasSubstance dbpedia:Ozone;
+  property:hasUnit uo:UO_0000083;
+  sosa:madeBySensor station:28079016 .
+
 observation:28079016_4_2018 a ssn:Observation;
   sosa:observedProperty observableproperty:28079016_Carbon_monoxide_4_2018, observableproperty:28079016_Nitrogen_dioxide_4_2018,
     observableproperty:28079016_Nitrogen_oxide_4_2018, observableproperty:28079016_Nitrous_oxide_4_2018,
     observableproperty:28079016_Ozone_4_2018;
   sosa:resultTime "2018-04-01T00:00:00.000+02:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
-
-observableproperty:28079016_Nitrogen_oxide_4_2018 property:hasMetricValue 5.840277777777778;
-  property:hasSubstance dbpedia:Nitrogen_oxide;
-  property:hasUnit uo:UO_0000083;
-  sosa:madeBySensor station:28079016 .
 
 observableproperty:28079016_Nitrous_oxide_4_2018 property:hasMetricValue 41.36944444444445;
   property:hasSubstance dbpedia:Nitrous_oxide;
@@ -849,21 +844,16 @@ observableproperty:28079016_Nitrogen_dioxide_4_2018 property:hasMetricValue 32.4
   property:hasUnit uo:UO_0000083;
   sosa:madeBySensor station:28079016 .
 
+observableproperty:28079016_Nitrogen_oxide_4_2018 property:hasMetricValue 5.840277777777778;
+  property:hasSubstance dbpedia:Nitrogen_oxide;
+  property:hasUnit uo:UO_0000083;
+  sosa:madeBySensor station:28079016 .
+
 observation:28079016_5_2018 a ssn:Observation;
   sosa:observedProperty observableproperty:28079016_Carbon_monoxide_5_2018, observableproperty:28079016_Nitrogen_dioxide_5_2018,
     observableproperty:28079016_Nitrogen_oxide_5_2018, observableproperty:28079016_Nitrous_oxide_5_2018,
     observableproperty:28079016_Ozone_5_2018;
   sosa:resultTime "2018-05-01T00:00:00.000+02:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
-
-observableproperty:28079016_Nitrous_oxide_5_2018 property:hasMetricValue 30.0;
-  property:hasSubstance dbpedia:Nitrous_oxide;
-  property:hasUnit uo:UO_0000083;
-  sosa:madeBySensor station:28079016 .
-
-observableproperty:28079016_Ozone_5_2018 property:hasMetricValue 51.0;
-  property:hasSubstance dbpedia:Ozone;
-  property:hasUnit uo:UO_0000083;
-  sosa:madeBySensor station:28079016 .
 
 observableproperty:28079016_Carbon_monoxide_5_2018 property:hasMetricValue 0.20000000298023224;
   property:hasSubstance dbpedia:Carbon_monoxide;
@@ -872,6 +862,16 @@ observableproperty:28079016_Carbon_monoxide_5_2018 property:hasMetricValue 0.200
 
 observableproperty:28079016_Nitrogen_dioxide_5_2018 property:hasMetricValue 28.0;
   property:hasSubstance dbpedia:Nitrogen_dioxide;
+  property:hasUnit uo:UO_0000083;
+  sosa:madeBySensor station:28079016 .
+
+observableproperty:28079016_Nitrous_oxide_5_2018 property:hasMetricValue 30.0;
+  property:hasSubstance dbpedia:Nitrous_oxide;
+  property:hasUnit uo:UO_0000083;
+  sosa:madeBySensor station:28079016 .
+
+observableproperty:28079016_Ozone_5_2018 property:hasMetricValue 51.0;
+  property:hasSubstance dbpedia:Ozone;
   property:hasUnit uo:UO_0000083;
   sosa:madeBySensor station:28079016 .
 
@@ -907,13 +907,18 @@ observation:28079017_1_2018 a ssn:Observation;
     observableproperty:28079017_Sulfur_dioxide_1_2018;
   sosa:resultTime "2018-01-01T00:00:00.000+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 
+observableproperty:28079017_Nitrogen_oxide_1_2018 property:hasMetricValue 64.91363022941971;
+  property:hasSubstance dbpedia:Nitrogen_oxide;
+  property:hasUnit uo:UO_0000083;
+  sosa:madeBySensor station:28079017 .
+
 observableproperty:28079017_Sulfur_dioxide_1_2018 property:hasMetricValue 5.013495276653171;
   property:hasSubstance dbpedia:Sulfur_dioxide;
   property:hasUnit uo:UO_0000083;
   sosa:madeBySensor station:28079017 .
 
-observableproperty:28079017_Nitrogen_oxide_1_2018 property:hasMetricValue 64.91363022941971;
-  property:hasSubstance dbpedia:Nitrogen_oxide;
+observableproperty:28079017_Nitrogen_dioxide_1_2018 property:hasMetricValue 52.578947368421055;
+  property:hasSubstance dbpedia:Nitrogen_dioxide;
   property:hasUnit uo:UO_0000083;
   sosa:madeBySensor station:28079017 .
 
@@ -927,19 +932,19 @@ observableproperty:28079017_Ozone_1_2018 property:hasMetricValue 22.457697642163
   property:hasUnit uo:UO_0000083;
   sosa:madeBySensor station:28079017 .
 
-observableproperty:28079017_Nitrogen_dioxide_1_2018 property:hasMetricValue 52.578947368421055;
-  property:hasSubstance dbpedia:Nitrogen_dioxide;
-  property:hasUnit uo:UO_0000083;
-  sosa:madeBySensor station:28079017 .
-
 observation:28079017_2_2018 a ssn:Observation;
   sosa:observedProperty observableproperty:28079017_Nitrogen_dioxide_2_2018, observableproperty:28079017_Nitrogen_oxide_2_2018,
     observableproperty:28079017_Nitrous_oxide_2_2018, observableproperty:28079017_Ozone_2_2018,
     observableproperty:28079017_Sulfur_dioxide_2_2018;
   sosa:resultTime "2018-02-01T00:00:00.000+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 
-observableproperty:28079017_Nitrogen_dioxide_2_2018 property:hasMetricValue 49.919642857142854;
-  property:hasSubstance dbpedia:Nitrogen_dioxide;
+observableproperty:28079017_Sulfur_dioxide_2_2018 property:hasMetricValue 4.604166666666667;
+  property:hasSubstance dbpedia:Sulfur_dioxide;
+  property:hasUnit uo:UO_0000083;
+  sosa:madeBySensor station:28079017 .
+
+observableproperty:28079017_Nitrogen_oxide_2_2018 property:hasMetricValue 37.21875;
+  property:hasSubstance dbpedia:Nitrogen_oxide;
   property:hasUnit uo:UO_0000083;
   sosa:madeBySensor station:28079017 .
 
@@ -953,13 +958,8 @@ observableproperty:28079017_Ozone_2_2018 property:hasMetricValue 27.693452380952
   property:hasUnit uo:UO_0000083;
   sosa:madeBySensor station:28079017 .
 
-observableproperty:28079017_Nitrogen_oxide_2_2018 property:hasMetricValue 37.21875;
-  property:hasSubstance dbpedia:Nitrogen_oxide;
-  property:hasUnit uo:UO_0000083;
-  sosa:madeBySensor station:28079017 .
-
-observableproperty:28079017_Sulfur_dioxide_2_2018 property:hasMetricValue 4.604166666666667;
-  property:hasSubstance dbpedia:Sulfur_dioxide;
+observableproperty:28079017_Nitrogen_dioxide_2_2018 property:hasMetricValue 49.919642857142854;
+  property:hasSubstance dbpedia:Nitrogen_dioxide;
   property:hasUnit uo:UO_0000083;
   sosa:madeBySensor station:28079017 .
 
@@ -984,13 +984,13 @@ observableproperty:28079017_Nitrogen_dioxide_3_2018 property:hasMetricValue 28.1
   property:hasUnit uo:UO_0000083;
   sosa:madeBySensor station:28079017 .
 
-observableproperty:28079017_Nitrogen_oxide_3_2018 property:hasMetricValue 7.181571815718157;
-  property:hasSubstance dbpedia:Nitrogen_oxide;
+observableproperty:28079017_Sulfur_dioxide_3_2018 property:hasMetricValue 3.470189701897019;
+  property:hasSubstance dbpedia:Sulfur_dioxide;
   property:hasUnit uo:UO_0000083;
   sosa:madeBySensor station:28079017 .
 
-observableproperty:28079017_Sulfur_dioxide_3_2018 property:hasMetricValue 3.470189701897019;
-  property:hasSubstance dbpedia:Sulfur_dioxide;
+observableproperty:28079017_Nitrogen_oxide_3_2018 property:hasMetricValue 7.181571815718157;
+  property:hasSubstance dbpedia:Nitrogen_oxide;
   property:hasUnit uo:UO_0000083;
   sosa:madeBySensor station:28079017 .
 
@@ -1000,13 +1000,13 @@ observation:28079017_4_2018 a ssn:Observation;
     observableproperty:28079017_Sulfur_dioxide_4_2018;
   sosa:resultTime "2018-04-01T00:00:00.000+02:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 
-observableproperty:28079017_Nitrogen_oxide_4_2018 property:hasMetricValue 9.877437325905293;
-  property:hasSubstance dbpedia:Nitrogen_oxide;
+observableproperty:28079017_Sulfur_dioxide_4_2018 property:hasMetricValue 4.66016713091922;
+  property:hasSubstance dbpedia:Sulfur_dioxide;
   property:hasUnit uo:UO_0000083;
   sosa:madeBySensor station:28079017 .
 
-observableproperty:28079017_Sulfur_dioxide_4_2018 property:hasMetricValue 4.66016713091922;
-  property:hasSubstance dbpedia:Sulfur_dioxide;
+observableproperty:28079017_Nitrogen_oxide_4_2018 property:hasMetricValue 9.877437325905293;
+  property:hasSubstance dbpedia:Nitrogen_oxide;
   property:hasUnit uo:UO_0000083;
   sosa:madeBySensor station:28079017 .
 
@@ -1031,16 +1031,6 @@ observation:28079017_5_2018 a ssn:Observation;
     observableproperty:28079017_Sulfur_dioxide_5_2018;
   sosa:resultTime "2018-05-01T00:00:00.000+02:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 
-observableproperty:28079017_Nitrogen_oxide_5_2018 property:hasMetricValue 2.0;
-  property:hasSubstance dbpedia:Nitrogen_oxide;
-  property:hasUnit uo:UO_0000083;
-  sosa:madeBySensor station:28079017 .
-
-observableproperty:28079017_Sulfur_dioxide_5_2018 property:hasMetricValue 5.0;
-  property:hasSubstance dbpedia:Sulfur_dioxide;
-  property:hasUnit uo:UO_0000083;
-  sosa:madeBySensor station:28079017 .
-
 observableproperty:28079017_Nitrogen_dioxide_5_2018 property:hasMetricValue 50.0;
   property:hasSubstance dbpedia:Nitrogen_dioxide;
   property:hasUnit uo:UO_0000083;
@@ -1053,6 +1043,16 @@ observableproperty:28079017_Nitrous_oxide_5_2018 property:hasMetricValue 53.0;
 
 observableproperty:28079017_Ozone_5_2018 property:hasMetricValue 32.0;
   property:hasSubstance dbpedia:Ozone;
+  property:hasUnit uo:UO_0000083;
+  sosa:madeBySensor station:28079017 .
+
+observableproperty:28079017_Sulfur_dioxide_5_2018 property:hasMetricValue 5.0;
+  property:hasSubstance dbpedia:Sulfur_dioxide;
+  property:hasUnit uo:UO_0000083;
+  sosa:madeBySensor station:28079017 .
+
+observableproperty:28079017_Nitrogen_oxide_5_2018 property:hasMetricValue 2.0;
+  property:hasSubstance dbpedia:Nitrogen_oxide;
   property:hasUnit uo:UO_0000083;
   sosa:madeBySensor station:28079017 .
 
@@ -1085,18 +1085,23 @@ observation:28079018_1_2018 a ssn:Observation;
     observableproperty:28079018_Toluene_1_2018;
   sosa:resultTime "2018-01-01T00:00:00.000+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 
+observableproperty:28079018_Benzene_1_2018 property:hasMetricValue 0.5991891946744274;
+  property:hasSubstance dbpedia:Benzene;
+  property:hasUnit uo:UO_0000083;
+  sosa:madeBySensor station:28079018 .
+
+observableproperty:28079018_Sulfur_dioxide_1_2018 property:hasMetricValue 6.012145748987854;
+  property:hasSubstance dbpedia:Sulfur_dioxide;
+  property:hasUnit uo:UO_0000083;
+  sosa:madeBySensor station:28079018 .
+
+observableproperty:28079018_Nitrogen_oxide_1_2018 property:hasMetricValue 39.35087719298246;
+  property:hasSubstance dbpedia:Nitrogen_oxide;
+  property:hasUnit uo:UO_0000083;
+  sosa:madeBySensor station:28079018 .
+
 observableproperty:28079018_Toluene_1_2018 property:hasMetricValue 2.803513518398678;
   property:hasSubstance dbpedia:Toluene;
-  property:hasUnit uo:UO_0000083;
-  sosa:madeBySensor station:28079018 .
-
-observableproperty:28079018_Nitrous_oxide_1_2018 property:hasMetricValue 107.70985155195682;
-  property:hasSubstance dbpedia:Nitrous_oxide;
-  property:hasUnit uo:UO_0000083;
-  sosa:madeBySensor station:28079018 .
-
-observableproperty:28079018_Ozone_1_2018 property:hasMetricValue 24.82051282051282;
-  property:hasSubstance dbpedia:Ozone;
   property:hasUnit uo:UO_0000083;
   sosa:madeBySensor station:28079018 .
 
@@ -1115,18 +1120,13 @@ observableproperty:28079018_Nitrogen_dioxide_1_2018 property:hasMetricValue 47.3
   property:hasUnit uo:UO_0000083;
   sosa:madeBySensor station:28079018 .
 
-observableproperty:28079018_Sulfur_dioxide_1_2018 property:hasMetricValue 6.012145748987854;
-  property:hasSubstance dbpedia:Sulfur_dioxide;
+observableproperty:28079018_Nitrous_oxide_1_2018 property:hasMetricValue 107.70985155195682;
+  property:hasSubstance dbpedia:Nitrous_oxide;
   property:hasUnit uo:UO_0000083;
   sosa:madeBySensor station:28079018 .
 
-observableproperty:28079018_Benzene_1_2018 property:hasMetricValue 0.5991891946744274;
-  property:hasSubstance dbpedia:Benzene;
-  property:hasUnit uo:UO_0000083;
-  sosa:madeBySensor station:28079018 .
-
-observableproperty:28079018_Nitrogen_oxide_1_2018 property:hasMetricValue 39.35087719298246;
-  property:hasSubstance dbpedia:Nitrogen_oxide;
+observableproperty:28079018_Ozone_1_2018 property:hasMetricValue 24.82051282051282;
+  property:hasSubstance dbpedia:Ozone;
   property:hasUnit uo:UO_0000083;
   sosa:madeBySensor station:28079018 .
 
@@ -1138,8 +1138,33 @@ observation:28079018_2_2018 a ssn:Observation;
     observableproperty:28079018_Toluene_2_2018;
   sosa:resultTime "2018-02-01T00:00:00.000+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 
+observableproperty:28079018_Sulfur_dioxide_2_2018 property:hasMetricValue 4.568656716417911;
+  property:hasSubstance dbpedia:Sulfur_dioxide;
+  property:hasUnit uo:UO_0000083;
+  sosa:madeBySensor station:28079018 .
+
+observableproperty:28079018_Benzene_2_2018 property:hasMetricValue 0.5328828879483827;
+  property:hasSubstance dbpedia:Benzene;
+  property:hasUnit uo:UO_0000083;
+  sosa:madeBySensor station:28079018 .
+
+observableproperty:28079018_Nitrogen_oxide_2_2018 property:hasMetricValue 23.30493273542601;
+  property:hasSubstance dbpedia:Nitrogen_oxide;
+  property:hasUnit uo:UO_0000083;
+  sosa:madeBySensor station:28079018 .
+
 observableproperty:28079018_Toluene_2_2018 property:hasMetricValue 1.7714714749573588;
   property:hasSubstance dbpedia:Toluene;
+  property:hasUnit uo:UO_0000083;
+  sosa:madeBySensor station:28079018 .
+
+observableproperty:28079018_Nitrous_oxide_2_2018 property:hasMetricValue 81.31390134529148;
+  property:hasSubstance dbpedia:Nitrous_oxide;
+  property:hasUnit uo:UO_0000083;
+  sosa:madeBySensor station:28079018 .
+
+observableproperty:28079018_Ozone_2_2018 property:hasMetricValue 34.10463378176382;
+  property:hasSubstance dbpedia:Ozone;
   property:hasUnit uo:UO_0000083;
   sosa:madeBySensor station:28079018 .
 
@@ -1158,31 +1183,6 @@ observableproperty:28079018_Nitrogen_dioxide_2_2018 property:hasMetricValue 45.5
   property:hasUnit uo:UO_0000083;
   sosa:madeBySensor station:28079018 .
 
-observableproperty:28079018_Nitrous_oxide_2_2018 property:hasMetricValue 81.31390134529148;
-  property:hasSubstance dbpedia:Nitrous_oxide;
-  property:hasUnit uo:UO_0000083;
-  sosa:madeBySensor station:28079018 .
-
-observableproperty:28079018_Ozone_2_2018 property:hasMetricValue 34.10463378176382;
-  property:hasSubstance dbpedia:Ozone;
-  property:hasUnit uo:UO_0000083;
-  sosa:madeBySensor station:28079018 .
-
-observableproperty:28079018_Benzene_2_2018 property:hasMetricValue 0.5328828879483827;
-  property:hasSubstance dbpedia:Benzene;
-  property:hasUnit uo:UO_0000083;
-  sosa:madeBySensor station:28079018 .
-
-observableproperty:28079018_Sulfur_dioxide_2_2018 property:hasMetricValue 4.568656716417911;
-  property:hasSubstance dbpedia:Sulfur_dioxide;
-  property:hasUnit uo:UO_0000083;
-  sosa:madeBySensor station:28079018 .
-
-observableproperty:28079018_Nitrogen_oxide_2_2018 property:hasMetricValue 23.30493273542601;
-  property:hasSubstance dbpedia:Nitrogen_oxide;
-  property:hasUnit uo:UO_0000083;
-  sosa:madeBySensor station:28079018 .
-
 observation:28079018_3_2018 a ssn:Observation;
   sosa:observedProperty observableproperty:28079018_Benzene_3_2018, observableproperty:28079018_Carbon_monoxide_3_2018,
     observableproperty:28079018_Ethyl_benzene_3_2018, observableproperty:28079018_Nitrogen_dioxide_3_2018,
@@ -1190,16 +1190,6 @@ observation:28079018_3_2018 a ssn:Observation;
     observableproperty:28079018_Ozone_3_2018, observableproperty:28079018_Sulfur_dioxide_3_2018,
     observableproperty:28079018_Toluene_3_2018;
   sosa:resultTime "2018-03-01T00:00:00.000+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
-
-observableproperty:28079018_Nitrous_oxide_3_2018 property:hasMetricValue 34.50877192982456;
-  property:hasSubstance dbpedia:Nitrous_oxide;
-  property:hasUnit uo:UO_0000083;
-  sosa:madeBySensor station:28079018 .
-
-observableproperty:28079018_Ozone_3_2018 property:hasMetricValue 61.94070080862534;
-  property:hasSubstance dbpedia:Ozone;
-  property:hasUnit uo:UO_0000083;
-  sosa:madeBySensor station:28079018 .
 
 observableproperty:28079018_Carbon_monoxide_3_2018 property:hasMetricValue 0.1267833131820485;
   property:hasSubstance dbpedia:Carbon_monoxide;
@@ -1216,6 +1206,16 @@ observableproperty:28079018_Nitrogen_dioxide_3_2018 property:hasMetricValue 24.8
   property:hasUnit uo:UO_0000083;
   sosa:madeBySensor station:28079018 .
 
+observableproperty:28079018_Nitrous_oxide_3_2018 property:hasMetricValue 34.50877192982456;
+  property:hasSubstance dbpedia:Nitrous_oxide;
+  property:hasUnit uo:UO_0000083;
+  sosa:madeBySensor station:28079018 .
+
+observableproperty:28079018_Ozone_3_2018 property:hasMetricValue 61.94070080862534;
+  property:hasSubstance dbpedia:Ozone;
+  property:hasUnit uo:UO_0000083;
+  sosa:madeBySensor station:28079018 .
+
 observableproperty:28079018_Toluene_3_2018 property:hasMetricValue 0.748400560091865;
   property:hasSubstance dbpedia:Toluene;
   property:hasUnit uo:UO_0000083;
@@ -1226,13 +1226,13 @@ observableproperty:28079018_Nitrogen_oxide_3_2018 property:hasMetricValue 6.3130
   property:hasUnit uo:UO_0000083;
   sosa:madeBySensor station:28079018 .
 
-observableproperty:28079018_Sulfur_dioxide_3_2018 property:hasMetricValue 3.285329744279946;
-  property:hasSubstance dbpedia:Sulfur_dioxide;
+observableproperty:28079018_Benzene_3_2018 property:hasMetricValue 0.2905424258286996;
+  property:hasSubstance dbpedia:Benzene;
   property:hasUnit uo:UO_0000083;
   sosa:madeBySensor station:28079018 .
 
-observableproperty:28079018_Benzene_3_2018 property:hasMetricValue 0.2905424258286996;
-  property:hasSubstance dbpedia:Benzene;
+observableproperty:28079018_Sulfur_dioxide_3_2018 property:hasMetricValue 3.285329744279946;
+  property:hasSubstance dbpedia:Sulfur_dioxide;
   property:hasUnit uo:UO_0000083;
   sosa:madeBySensor station:28079018 .
 
@@ -1244,13 +1244,13 @@ observation:28079018_4_2018 a ssn:Observation;
     observableproperty:28079018_Toluene_4_2018;
   sosa:resultTime "2018-04-01T00:00:00.000+02:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 
-observableproperty:28079018_Sulfur_dioxide_4_2018 property:hasMetricValue 5.736131934032984;
-  property:hasSubstance dbpedia:Sulfur_dioxide;
+observableproperty:28079018_Benzene_4_2018 property:hasMetricValue 0.31651515668314517;
+  property:hasSubstance dbpedia:Benzene;
   property:hasUnit uo:UO_0000083;
   sosa:madeBySensor station:28079018 .
 
-observableproperty:28079018_Benzene_4_2018 property:hasMetricValue 0.31651515668314517;
-  property:hasSubstance dbpedia:Benzene;
+observableproperty:28079018_Sulfur_dioxide_4_2018 property:hasMetricValue 5.736131934032984;
+  property:hasSubstance dbpedia:Sulfur_dioxide;
   property:hasUnit uo:UO_0000083;
   sosa:madeBySensor station:28079018 .
 
@@ -1261,16 +1261,6 @@ observableproperty:28079018_Nitrogen_oxide_4_2018 property:hasMetricValue 6.7805
 
 observableproperty:28079018_Toluene_4_2018 property:hasMetricValue 1.2424242436321395;
   property:hasSubstance dbpedia:Toluene;
-  property:hasUnit uo:UO_0000083;
-  sosa:madeBySensor station:28079018 .
-
-observableproperty:28079018_Nitrous_oxide_4_2018 property:hasMetricValue 37.125373134328356;
-  property:hasSubstance dbpedia:Nitrous_oxide;
-  property:hasUnit uo:UO_0000083;
-  sosa:madeBySensor station:28079018 .
-
-observableproperty:28079018_Ozone_4_2018 property:hasMetricValue 62.031296572280176;
-  property:hasSubstance dbpedia:Ozone;
   property:hasUnit uo:UO_0000083;
   sosa:madeBySensor station:28079018 .
 
@@ -1289,6 +1279,16 @@ observableproperty:28079018_Nitrogen_dioxide_4_2018 property:hasMetricValue 26.7
   property:hasUnit uo:UO_0000083;
   sosa:madeBySensor station:28079018 .
 
+observableproperty:28079018_Nitrous_oxide_4_2018 property:hasMetricValue 37.125373134328356;
+  property:hasSubstance dbpedia:Nitrous_oxide;
+  property:hasUnit uo:UO_0000083;
+  sosa:madeBySensor station:28079018 .
+
+observableproperty:28079018_Ozone_4_2018 property:hasMetricValue 62.031296572280176;
+  property:hasSubstance dbpedia:Ozone;
+  property:hasUnit uo:UO_0000083;
+  sosa:madeBySensor station:28079018 .
+
 observation:28079018_5_2018 a ssn:Observation;
   sosa:observedProperty observableproperty:28079018_Benzene_5_2018, observableproperty:28079018_Carbon_monoxide_5_2018,
     observableproperty:28079018_Ethyl_benzene_5_2018, observableproperty:28079018_Nitrogen_dioxide_5_2018,
@@ -1297,11 +1297,6 @@ observation:28079018_5_2018 a ssn:Observation;
     observableproperty:28079018_Toluene_5_2018;
   sosa:resultTime "2018-05-01T00:00:00.000+02:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 
-observableproperty:28079018_Nitrogen_oxide_5_2018 property:hasMetricValue 2.0;
-  property:hasSubstance dbpedia:Nitrogen_oxide;
-  property:hasUnit uo:UO_0000083;
-  sosa:madeBySensor station:28079018 .
-
 observableproperty:28079018_Benzene_5_2018 property:hasMetricValue 0.30000001192092896;
   property:hasSubstance dbpedia:Benzene;
   property:hasUnit uo:UO_0000083;
@@ -1309,6 +1304,16 @@ observableproperty:28079018_Benzene_5_2018 property:hasMetricValue 0.30000001192
 
 observableproperty:28079018_Sulfur_dioxide_5_2018 property:hasMetricValue 5.0;
   property:hasSubstance dbpedia:Sulfur_dioxide;
+  property:hasUnit uo:UO_0000083;
+  sosa:madeBySensor station:28079018 .
+
+observableproperty:28079018_Nitrogen_oxide_5_2018 property:hasMetricValue 2.0;
+  property:hasSubstance dbpedia:Nitrogen_oxide;
+  property:hasUnit uo:UO_0000083;
+  sosa:madeBySensor station:28079018 .
+
+observableproperty:28079018_Toluene_5_2018 property:hasMetricValue 0.800000011920929;
+  property:hasSubstance dbpedia:Toluene;
   property:hasUnit uo:UO_0000083;
   sosa:madeBySensor station:28079018 .
 
@@ -1334,11 +1339,6 @@ observableproperty:28079018_Nitrous_oxide_5_2018 property:hasMetricValue 30.0;
 
 observableproperty:28079018_Ozone_5_2018 property:hasMetricValue 55.0;
   property:hasSubstance dbpedia:Ozone;
-  property:hasUnit uo:UO_0000083;
-  sosa:madeBySensor station:28079018 .
-
-observableproperty:28079018_Toluene_5_2018 property:hasMetricValue 0.800000011920929;
-  property:hasSubstance dbpedia:Toluene;
   property:hasUnit uo:UO_0000083;
   sosa:madeBySensor station:28079018 .
 
@@ -1371,6 +1371,21 @@ observation:28079024_1_2018 a ssn:Observation;
     observableproperty:28079024_Ozone_1_2018, observableproperty:28079024_Sulfur_dioxide_1_2018,
     observableproperty:28079024_Toluene_1_2018;
   sosa:resultTime "2018-01-01T00:00:00.000+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+observableproperty:28079024_Nitrogen_oxide_1_2018 property:hasMetricValue 17.18970189701897;
+  property:hasSubstance dbpedia:Nitrogen_oxide;
+  property:hasUnit uo:UO_0000083;
+  sosa:madeBySensor station:28079024 .
+
+observableproperty:28079024_Sulfur_dioxide_1_2018 property:hasMetricValue 4.172610556348074;
+  property:hasSubstance dbpedia:Sulfur_dioxide;
+  property:hasUnit uo:UO_0000083;
+  sosa:madeBySensor station:28079024 .
+
+observableproperty:28079024_Benzene_1_2018 property:hasMetricValue 0.5751733760066569;
+  property:hasSubstance dbpedia:Benzene;
+  property:hasUnit uo:UO_0000083;
+  sosa:madeBySensor station:28079024 .
 
 observableproperty:28079024_Nitrous_oxide_1_2018 property:hasMetricValue 56.31707317073171;
   property:hasSubstance dbpedia:Nitrous_oxide;
@@ -1412,21 +1427,6 @@ observableproperty:28079024_Toluene_1_2018 property:hasMetricValue 2.02441054433
   property:hasUnit uo:UO_0000083;
   sosa:madeBySensor station:28079024 .
 
-observableproperty:28079024_Nitrogen_oxide_1_2018 property:hasMetricValue 17.18970189701897;
-  property:hasSubstance dbpedia:Nitrogen_oxide;
-  property:hasUnit uo:UO_0000083;
-  sosa:madeBySensor station:28079024 .
-
-observableproperty:28079024_Sulfur_dioxide_1_2018 property:hasMetricValue 4.172610556348074;
-  property:hasSubstance dbpedia:Sulfur_dioxide;
-  property:hasUnit uo:UO_0000083;
-  sosa:madeBySensor station:28079024 .
-
-observableproperty:28079024_Benzene_1_2018 property:hasMetricValue 0.5751733760066569;
-  property:hasSubstance dbpedia:Benzene;
-  property:hasUnit uo:UO_0000083;
-  sosa:madeBySensor station:28079024 .
-
 observation:28079024_2_2018 a ssn:Observation;
   sosa:observedProperty observableproperty:28079024_Benzene_2_2018, observableproperty:28079024_Carbon_monoxide_2_2018,
     observableproperty:28079024_Ethyl_benzene_2_2018, observableproperty:28079024_Hydrocarbon_2_2018,
@@ -1435,6 +1435,21 @@ observation:28079024_2_2018 a ssn:Observation;
     observableproperty:28079024_Ozone_2_2018, observableproperty:28079024_Sulfur_dioxide_2_2018,
     observableproperty:28079024_Toluene_2_2018;
   sosa:resultTime "2018-02-01T00:00:00.000+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+observableproperty:28079024_Nitrogen_oxide_2_2018 property:hasMetricValue 9.650746268656716;
+  property:hasSubstance dbpedia:Nitrogen_oxide;
+  property:hasUnit uo:UO_0000083;
+  sosa:madeBySensor station:28079024 .
+
+observableproperty:28079024_Benzene_2_2018 property:hasMetricValue 0.5415915964736236;
+  property:hasSubstance dbpedia:Benzene;
+  property:hasUnit uo:UO_0000083;
+  sosa:madeBySensor station:28079024 .
+
+observableproperty:28079024_Sulfur_dioxide_2_2018 property:hasMetricValue 4.004484304932736;
+  property:hasSubstance dbpedia:Sulfur_dioxide;
+  property:hasUnit uo:UO_0000083;
+  sosa:madeBySensor station:28079024 .
 
 observableproperty:28079024_Methane_2_2018 property:hasMetricValue 1.1404783394304627;
   property:hasSubstance dbpedia:Methane;
@@ -1476,21 +1491,6 @@ observableproperty:28079024_Hydrocarbon_2_2018 property:hasMetricValue 1.2068460
   property:hasUnit uo:UO_0000083;
   sosa:madeBySensor station:28079024 .
 
-observableproperty:28079024_Nitrogen_oxide_2_2018 property:hasMetricValue 9.650746268656716;
-  property:hasSubstance dbpedia:Nitrogen_oxide;
-  property:hasUnit uo:UO_0000083;
-  sosa:madeBySensor station:28079024 .
-
-observableproperty:28079024_Benzene_2_2018 property:hasMetricValue 0.5415915964736236;
-  property:hasSubstance dbpedia:Benzene;
-  property:hasUnit uo:UO_0000083;
-  sosa:madeBySensor station:28079024 .
-
-observableproperty:28079024_Sulfur_dioxide_2_2018 property:hasMetricValue 4.004484304932736;
-  property:hasSubstance dbpedia:Sulfur_dioxide;
-  property:hasUnit uo:UO_0000083;
-  sosa:madeBySensor station:28079024 .
-
 observation:28079024_3_2018 a ssn:Observation;
   sosa:observedProperty observableproperty:28079024_Benzene_3_2018, observableproperty:28079024_Carbon_monoxide_3_2018,
     observableproperty:28079024_Ethyl_benzene_3_2018, observableproperty:28079024_Hydrocarbon_3_2018,
@@ -1500,13 +1500,28 @@ observation:28079024_3_2018 a ssn:Observation;
     observableproperty:28079024_Toluene_3_2018;
   sosa:resultTime "2018-03-01T00:00:00.000+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 
-observableproperty:28079024_Nitrous_oxide_3_2018 property:hasMetricValue 15.10377358490566;
-  property:hasSubstance dbpedia:Nitrous_oxide;
+observableproperty:28079024_Benzene_3_2018 property:hasMetricValue 0.3252032588571714;
+  property:hasSubstance dbpedia:Benzene;
   property:hasUnit uo:UO_0000083;
   sosa:madeBySensor station:28079024 .
 
-observableproperty:28079024_Ozone_3_2018 property:hasMetricValue 71.12313937753721;
-  property:hasSubstance dbpedia:Ozone;
+observableproperty:28079024_Sulfur_dioxide_3_2018 property:hasMetricValue 3.303234501347709;
+  property:hasSubstance dbpedia:Sulfur_dioxide;
+  property:hasUnit uo:UO_0000083;
+  sosa:madeBySensor station:28079024 .
+
+observableproperty:28079024_Nitrogen_oxide_3_2018 property:hasMetricValue 2.421832884097035;
+  property:hasSubstance dbpedia:Nitrogen_oxide;
+  property:hasUnit uo:UO_0000083;
+  sosa:madeBySensor station:28079024 .
+
+observableproperty:28079024_Toluene_3_2018 property:hasMetricValue 0.5350948541972856;
+  property:hasSubstance dbpedia:Toluene;
+  property:hasUnit uo:UO_0000083;
+  sosa:madeBySensor station:28079024 .
+
+observableproperty:28079024_Hydrocarbon_3_2018 property:hasMetricValue 1.1498113129980803;
+  property:hasSubstance dbpedia:Hydrocarbon;
   property:hasUnit uo:UO_0000083;
   sosa:madeBySensor station:28079024 .
 
@@ -1530,28 +1545,13 @@ observableproperty:28079024_Nitrogen_dioxide_3_2018 property:hasMetricValue 11.3
   property:hasUnit uo:UO_0000083;
   sosa:madeBySensor station:28079024 .
 
-observableproperty:28079024_Hydrocarbon_3_2018 property:hasMetricValue 1.1498113129980803;
-  property:hasSubstance dbpedia:Hydrocarbon;
+observableproperty:28079024_Nitrous_oxide_3_2018 property:hasMetricValue 15.10377358490566;
+  property:hasSubstance dbpedia:Nitrous_oxide;
   property:hasUnit uo:UO_0000083;
   sosa:madeBySensor station:28079024 .
 
-observableproperty:28079024_Toluene_3_2018 property:hasMetricValue 0.5350948541972856;
-  property:hasSubstance dbpedia:Toluene;
-  property:hasUnit uo:UO_0000083;
-  sosa:madeBySensor station:28079024 .
-
-observableproperty:28079024_Nitrogen_oxide_3_2018 property:hasMetricValue 2.421832884097035;
-  property:hasSubstance dbpedia:Nitrogen_oxide;
-  property:hasUnit uo:UO_0000083;
-  sosa:madeBySensor station:28079024 .
-
-observableproperty:28079024_Sulfur_dioxide_3_2018 property:hasMetricValue 3.303234501347709;
-  property:hasSubstance dbpedia:Sulfur_dioxide;
-  property:hasUnit uo:UO_0000083;
-  sosa:madeBySensor station:28079024 .
-
-observableproperty:28079024_Benzene_3_2018 property:hasMetricValue 0.3252032588571714;
-  property:hasSubstance dbpedia:Benzene;
+observableproperty:28079024_Ozone_3_2018 property:hasMetricValue 71.12313937753721;
+  property:hasSubstance dbpedia:Ozone;
   property:hasUnit uo:UO_0000083;
   sosa:madeBySensor station:28079024 .
 
@@ -1564,23 +1564,18 @@ observation:28079024_4_2018 a ssn:Observation;
     observableproperty:28079024_Toluene_4_2018;
   sosa:resultTime "2018-04-01T00:00:00.000+02:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 
-observableproperty:28079024_Hydrocarbon_4_2018 property:hasMetricValue 1.1900728927061788;
-  property:hasSubstance dbpedia:Hydrocarbon;
-  property:hasUnit uo:UO_0000083;
-  sosa:madeBySensor station:28079024 .
-
 observableproperty:28079024_Toluene_4_2018 property:hasMetricValue 0.7248595524056072;
   property:hasSubstance dbpedia:Toluene;
   property:hasUnit uo:UO_0000083;
   sosa:madeBySensor station:28079024 .
 
-observableproperty:28079024_Nitrous_oxide_4_2018 property:hasMetricValue 17.029411764705884;
-  property:hasSubstance dbpedia:Nitrous_oxide;
+observableproperty:28079024_Hydrocarbon_4_2018 property:hasMetricValue 1.1900728927061788;
+  property:hasSubstance dbpedia:Hydrocarbon;
   property:hasUnit uo:UO_0000083;
   sosa:madeBySensor station:28079024 .
 
-observableproperty:28079024_Ozone_4_2018 property:hasMetricValue 72.43076923076923;
-  property:hasSubstance dbpedia:Ozone;
+observableproperty:28079024_Methane_4_2018 property:hasMetricValue 1.1423177884201963;
+  property:hasSubstance dbpedia:Methane;
   property:hasUnit uo:UO_0000083;
   sosa:madeBySensor station:28079024 .
 
@@ -1599,18 +1594,23 @@ observableproperty:28079024_Nitrogen_dioxide_4_2018 property:hasMetricValue 13.1
   property:hasUnit uo:UO_0000083;
   sosa:madeBySensor station:28079024 .
 
-observableproperty:28079024_Methane_4_2018 property:hasMetricValue 1.1423177884201963;
-  property:hasSubstance dbpedia:Methane;
+observableproperty:28079024_Nitrous_oxide_4_2018 property:hasMetricValue 17.029411764705884;
+  property:hasSubstance dbpedia:Nitrous_oxide;
   property:hasUnit uo:UO_0000083;
   sosa:madeBySensor station:28079024 .
 
-observableproperty:28079024_Sulfur_dioxide_4_2018 property:hasMetricValue 3.5260196905766525;
-  property:hasSubstance dbpedia:Sulfur_dioxide;
+observableproperty:28079024_Ozone_4_2018 property:hasMetricValue 72.43076923076923;
+  property:hasSubstance dbpedia:Ozone;
   property:hasUnit uo:UO_0000083;
   sosa:madeBySensor station:28079024 .
 
 observableproperty:28079024_Benzene_4_2018 property:hasMetricValue 0.262359555287475;
   property:hasSubstance dbpedia:Benzene;
+  property:hasUnit uo:UO_0000083;
+  sosa:madeBySensor station:28079024 .
+
+observableproperty:28079024_Sulfur_dioxide_4_2018 property:hasMetricValue 3.5260196905766525;
+  property:hasSubstance dbpedia:Sulfur_dioxide;
   property:hasUnit uo:UO_0000083;
   sosa:madeBySensor station:28079024 .
 
@@ -1627,6 +1627,16 @@ observation:28079024_5_2018 a ssn:Observation;
     observableproperty:28079024_Ozone_5_2018, observableproperty:28079024_Sulfur_dioxide_5_2018,
     observableproperty:28079024_Toluene_5_2018;
   sosa:resultTime "2018-05-01T00:00:00.000+02:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+observableproperty:28079024_Hydrocarbon_5_2018 property:hasMetricValue 1.2100000381469727;
+  property:hasSubstance dbpedia:Hydrocarbon;
+  property:hasUnit uo:UO_0000083;
+  sosa:madeBySensor station:28079024 .
+
+observableproperty:28079024_Toluene_5_2018 property:hasMetricValue 0.20000000298023224;
+  property:hasSubstance dbpedia:Toluene;
+  property:hasUnit uo:UO_0000083;
+  sosa:madeBySensor station:28079024 .
 
 observableproperty:28079024_Nitrous_oxide_5_2018 property:hasMetricValue 12.0;
   property:hasSubstance dbpedia:Nitrous_oxide;
@@ -1658,21 +1668,6 @@ observableproperty:28079024_Nitrogen_dioxide_5_2018 property:hasMetricValue 11.0
   property:hasUnit uo:UO_0000083;
   sosa:madeBySensor station:28079024 .
 
-observableproperty:28079024_Hydrocarbon_5_2018 property:hasMetricValue 1.2100000381469727;
-  property:hasSubstance dbpedia:Hydrocarbon;
-  property:hasUnit uo:UO_0000083;
-  sosa:madeBySensor station:28079024 .
-
-observableproperty:28079024_Toluene_5_2018 property:hasMetricValue 0.20000000298023224;
-  property:hasSubstance dbpedia:Toluene;
-  property:hasUnit uo:UO_0000083;
-  sosa:madeBySensor station:28079024 .
-
-observableproperty:28079024_Nitrogen_oxide_5_2018 property:hasMetricValue 1.0;
-  property:hasSubstance dbpedia:Nitrogen_oxide;
-  property:hasUnit uo:UO_0000083;
-  sosa:madeBySensor station:28079024 .
-
 observableproperty:28079024_Sulfur_dioxide_5_2018 property:hasMetricValue 3.0;
   property:hasSubstance dbpedia:Sulfur_dioxide;
   property:hasUnit uo:UO_0000083;
@@ -1680,6 +1675,11 @@ observableproperty:28079024_Sulfur_dioxide_5_2018 property:hasMetricValue 3.0;
 
 observableproperty:28079024_Benzene_5_2018 property:hasMetricValue 0.20000000298023224;
   property:hasSubstance dbpedia:Benzene;
+  property:hasUnit uo:UO_0000083;
+  sosa:madeBySensor station:28079024 .
+
+observableproperty:28079024_Nitrogen_oxide_5_2018 property:hasMetricValue 1.0;
+  property:hasSubstance dbpedia:Nitrogen_oxide;
   property:hasUnit uo:UO_0000083;
   sosa:madeBySensor station:28079024 .
 
@@ -1709,6 +1709,11 @@ observation:28079027_1_2018 a ssn:Observation;
     observableproperty:28079027_Nitrous_oxide_1_2018, observableproperty:28079027_Ozone_1_2018;
   sosa:resultTime "2018-01-01T00:00:00.000+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 
+observableproperty:28079027_Nitrogen_oxide_1_2018 property:hasMetricValue 36.15924426450742;
+  property:hasSubstance dbpedia:Nitrogen_oxide;
+  property:hasUnit uo:UO_0000083;
+  sosa:madeBySensor station:28079027 .
+
 observableproperty:28079027_Nitrogen_dioxide_1_2018 property:hasMetricValue 49.67206477732793;
   property:hasSubstance dbpedia:Nitrogen_dioxide;
   property:hasUnit uo:UO_0000083;
@@ -1721,11 +1726,6 @@ observableproperty:28079027_Nitrous_oxide_1_2018 property:hasMetricValue 105.064
 
 observableproperty:28079027_Ozone_1_2018 property:hasMetricValue 24.751025991792066;
   property:hasSubstance dbpedia:Ozone;
-  property:hasUnit uo:UO_0000083;
-  sosa:madeBySensor station:28079027 .
-
-observableproperty:28079027_Nitrogen_oxide_1_2018 property:hasMetricValue 36.15924426450742;
-  property:hasSubstance dbpedia:Nitrogen_oxide;
   property:hasUnit uo:UO_0000083;
   sosa:madeBySensor station:28079027 .
 
@@ -1784,11 +1784,6 @@ observation:28079027_4_2018 a ssn:Observation;
     observableproperty:28079027_Nitrous_oxide_4_2018, observableproperty:28079027_Ozone_4_2018;
   sosa:resultTime "2018-04-01T00:00:00.000+02:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 
-observableproperty:28079027_Nitrogen_oxide_4_2018 property:hasMetricValue 7.833333333333333;
-  property:hasSubstance dbpedia:Nitrogen_oxide;
-  property:hasUnit uo:UO_0000083;
-  sosa:madeBySensor station:28079027 .
-
 observableproperty:28079027_Nitrogen_dioxide_4_2018 property:hasMetricValue 30.56111111111111;
   property:hasSubstance dbpedia:Nitrogen_dioxide;
   property:hasUnit uo:UO_0000083;
@@ -1804,13 +1799,18 @@ observableproperty:28079027_Ozone_4_2018 property:hasMetricValue 60.311018131101
   property:hasUnit uo:UO_0000083;
   sosa:madeBySensor station:28079027 .
 
+observableproperty:28079027_Nitrogen_oxide_4_2018 property:hasMetricValue 7.833333333333333;
+  property:hasSubstance dbpedia:Nitrogen_oxide;
+  property:hasUnit uo:UO_0000083;
+  sosa:madeBySensor station:28079027 .
+
 observation:28079027_5_2018 a ssn:Observation;
   sosa:observedProperty observableproperty:28079027_Nitrogen_dioxide_5_2018, observableproperty:28079027_Nitrogen_oxide_5_2018,
     observableproperty:28079027_Nitrous_oxide_5_2018, observableproperty:28079027_Ozone_5_2018;
   sosa:resultTime "2018-05-01T00:00:00.000+02:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 
-observableproperty:28079027_Nitrogen_dioxide_5_2018 property:hasMetricValue 35.0;
-  property:hasSubstance dbpedia:Nitrogen_dioxide;
+observableproperty:28079027_Nitrogen_oxide_5_2018 property:hasMetricValue 2.0;
+  property:hasSubstance dbpedia:Nitrogen_oxide;
   property:hasUnit uo:UO_0000083;
   sosa:madeBySensor station:28079027 .
 
@@ -1824,8 +1824,8 @@ observableproperty:28079027_Ozone_5_2018 property:hasMetricValue 51.0;
   property:hasUnit uo:UO_0000083;
   sosa:madeBySensor station:28079027 .
 
-observableproperty:28079027_Nitrogen_oxide_5_2018 property:hasMetricValue 2.0;
-  property:hasSubstance dbpedia:Nitrogen_oxide;
+observableproperty:28079027_Nitrogen_dioxide_5_2018 property:hasMetricValue 35.0;
+  property:hasSubstance dbpedia:Nitrogen_dioxide;
   property:hasUnit uo:UO_0000083;
   sosa:madeBySensor station:28079027 .
 
@@ -1856,23 +1856,13 @@ observation:28079035_1_2018 a ssn:Observation;
     observableproperty:28079035_Ozone_1_2018, observableproperty:28079035_Sulfur_dioxide_1_2018;
   sosa:resultTime "2018-01-01T00:00:00.000+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 
-observableproperty:28079035_Sulfur_dioxide_1_2018 property:hasMetricValue 7.333333333333333;
-  property:hasSubstance dbpedia:Sulfur_dioxide;
-  property:hasUnit uo:UO_0000083;
-  sosa:madeBySensor station:28079035 .
-
 observableproperty:28079035_Nitrogen_oxide_1_2018 property:hasMetricValue 36.06657608695652;
   property:hasSubstance dbpedia:Nitrogen_oxide;
   property:hasUnit uo:UO_0000083;
   sosa:madeBySensor station:28079035 .
 
-observableproperty:28079035_Carbon_monoxide_1_2018 property:hasMetricValue 0.22364865202154663;
-  property:hasSubstance dbpedia:Carbon_monoxide;
-  property:hasUnit uo:UO_0000083;
-  sosa:madeBySensor station:28079035 .
-
-observableproperty:28079035_Nitrogen_dioxide_1_2018 property:hasMetricValue 51.89673913043478;
-  property:hasSubstance dbpedia:Nitrogen_dioxide;
+observableproperty:28079035_Sulfur_dioxide_1_2018 property:hasMetricValue 7.333333333333333;
+  property:hasSubstance dbpedia:Sulfur_dioxide;
   property:hasUnit uo:UO_0000083;
   sosa:madeBySensor station:28079035 .
 
@@ -1883,6 +1873,16 @@ observableproperty:28079035_Nitrous_oxide_1_2018 property:hasMetricValue 107.180
 
 observableproperty:28079035_Ozone_1_2018 property:hasMetricValue 14.802968960863698;
   property:hasSubstance dbpedia:Ozone;
+  property:hasUnit uo:UO_0000083;
+  sosa:madeBySensor station:28079035 .
+
+observableproperty:28079035_Carbon_monoxide_1_2018 property:hasMetricValue 0.22364865202154663;
+  property:hasSubstance dbpedia:Carbon_monoxide;
+  property:hasUnit uo:UO_0000083;
+  sosa:madeBySensor station:28079035 .
+
+observableproperty:28079035_Nitrogen_dioxide_1_2018 property:hasMetricValue 51.89673913043478;
+  property:hasSubstance dbpedia:Nitrogen_dioxide;
   property:hasUnit uo:UO_0000083;
   sosa:madeBySensor station:28079035 .
 
@@ -2000,6 +2000,16 @@ observation:28079035_5_2018 a ssn:Observation;
     observableproperty:28079035_Ozone_5_2018, observableproperty:28079035_Sulfur_dioxide_5_2018;
   sosa:resultTime "2018-05-01T00:00:00.000+02:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 
+observableproperty:28079035_Sulfur_dioxide_5_2018 property:hasMetricValue 6.0;
+  property:hasSubstance dbpedia:Sulfur_dioxide;
+  property:hasUnit uo:UO_0000083;
+  sosa:madeBySensor station:28079035 .
+
+observableproperty:28079035_Nitrogen_oxide_5_2018 property:hasMetricValue 4.0;
+  property:hasSubstance dbpedia:Nitrogen_oxide;
+  property:hasUnit uo:UO_0000083;
+  sosa:madeBySensor station:28079035 .
+
 observableproperty:28079035_Nitrous_oxide_5_2018 property:hasMetricValue 53.0;
   property:hasSubstance dbpedia:Nitrous_oxide;
   property:hasUnit uo:UO_0000083;
@@ -2017,16 +2027,6 @@ observableproperty:28079035_Carbon_monoxide_5_2018 property:hasMetricValue 0.300
 
 observableproperty:28079035_Nitrogen_dioxide_5_2018 property:hasMetricValue 46.0;
   property:hasSubstance dbpedia:Nitrogen_dioxide;
-  property:hasUnit uo:UO_0000083;
-  sosa:madeBySensor station:28079035 .
-
-observableproperty:28079035_Sulfur_dioxide_5_2018 property:hasMetricValue 6.0;
-  property:hasSubstance dbpedia:Sulfur_dioxide;
-  property:hasUnit uo:UO_0000083;
-  sosa:madeBySensor station:28079035 .
-
-observableproperty:28079035_Nitrogen_oxide_5_2018 property:hasMetricValue 4.0;
-  property:hasSubstance dbpedia:Nitrogen_oxide;
   property:hasUnit uo:UO_0000083;
   sosa:madeBySensor station:28079035 .
 
@@ -2067,11 +2067,6 @@ observableproperty:28079036_Nitrogen_oxide_1_2018 property:hasMetricValue 40.036
   property:hasUnit uo:UO_0000083;
   sosa:madeBySensor station:28079036 .
 
-observableproperty:28079036_Nitrous_oxide_1_2018 property:hasMetricValue 114.34426229508196;
-  property:hasSubstance dbpedia:Nitrous_oxide;
-  property:hasUnit uo:UO_0000083;
-  sosa:madeBySensor station:28079036 .
-
 observableproperty:28079036_Carbon_monoxide_1_2018 property:hasMetricValue 0.42755798727151967;
   property:hasSubstance dbpedia:Carbon_monoxide;
   property:hasUnit uo:UO_0000083;
@@ -2079,6 +2074,11 @@ observableproperty:28079036_Carbon_monoxide_1_2018 property:hasMetricValue 0.427
 
 observableproperty:28079036_Nitrogen_dioxide_1_2018 property:hasMetricValue 52.93715846994535;
   property:hasSubstance dbpedia:Nitrogen_dioxide;
+  property:hasUnit uo:UO_0000083;
+  sosa:madeBySensor station:28079036 .
+
+observableproperty:28079036_Nitrous_oxide_1_2018 property:hasMetricValue 114.34426229508196;
+  property:hasSubstance dbpedia:Nitrous_oxide;
   property:hasUnit uo:UO_0000083;
   sosa:madeBySensor station:28079036 .
 
@@ -2098,6 +2098,11 @@ observableproperty:28079036_Sulfur_dioxide_2_2018 property:hasMetricValue 17.228
   property:hasUnit uo:UO_0000083;
   sosa:madeBySensor station:28079036 .
 
+observableproperty:28079036_Nitrous_oxide_2_2018 property:hasMetricValue 85.07898658718331;
+  property:hasSubstance dbpedia:Nitrous_oxide;
+  property:hasUnit uo:UO_0000083;
+  sosa:madeBySensor station:28079036 .
+
 observableproperty:28079036_Carbon_monoxide_2_2018 property:hasMetricValue 0.43576751795948526;
   property:hasSubstance dbpedia:Carbon_monoxide;
   property:hasUnit uo:UO_0000083;
@@ -2108,16 +2113,21 @@ observableproperty:28079036_Nitrogen_dioxide_2_2018 property:hasMetricValue 46.7
   property:hasUnit uo:UO_0000083;
   sosa:madeBySensor station:28079036 .
 
-observableproperty:28079036_Nitrous_oxide_2_2018 property:hasMetricValue 85.07898658718331;
-  property:hasSubstance dbpedia:Nitrous_oxide;
-  property:hasUnit uo:UO_0000083;
-  sosa:madeBySensor station:28079036 .
-
 observation:28079036_3_2018 a ssn:Observation;
   sosa:observedProperty observableproperty:28079036_Carbon_monoxide_3_2018, observableproperty:28079036_Nitrogen_dioxide_3_2018,
     observableproperty:28079036_Nitrogen_oxide_3_2018, observableproperty:28079036_Nitrous_oxide_3_2018,
     observableproperty:28079036_Sulfur_dioxide_3_2018;
   sosa:resultTime "2018-03-01T00:00:00.000+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+observableproperty:28079036_Sulfur_dioxide_3_2018 property:hasMetricValue 7.421052631578948;
+  property:hasSubstance dbpedia:Sulfur_dioxide;
+  property:hasUnit uo:UO_0000083;
+  sosa:madeBySensor station:28079036 .
+
+observableproperty:28079036_Nitrogen_oxide_3_2018 property:hasMetricValue 9.916329284750338;
+  property:hasSubstance dbpedia:Nitrogen_oxide;
+  property:hasUnit uo:UO_0000083;
+  sosa:madeBySensor station:28079036 .
 
 observableproperty:28079036_Nitrous_oxide_3_2018 property:hasMetricValue 46.51147098515519;
   property:hasSubstance dbpedia:Nitrous_oxide;
@@ -2134,21 +2144,21 @@ observableproperty:28079036_Nitrogen_dioxide_3_2018 property:hasMetricValue 31.2
   property:hasUnit uo:UO_0000083;
   sosa:madeBySensor station:28079036 .
 
-observableproperty:28079036_Nitrogen_oxide_3_2018 property:hasMetricValue 9.916329284750338;
-  property:hasSubstance dbpedia:Nitrogen_oxide;
-  property:hasUnit uo:UO_0000083;
-  sosa:madeBySensor station:28079036 .
-
-observableproperty:28079036_Sulfur_dioxide_3_2018 property:hasMetricValue 7.421052631578948;
-  property:hasSubstance dbpedia:Sulfur_dioxide;
-  property:hasUnit uo:UO_0000083;
-  sosa:madeBySensor station:28079036 .
-
 observation:28079036_4_2018 a ssn:Observation;
   sosa:observedProperty observableproperty:28079036_Carbon_monoxide_4_2018, observableproperty:28079036_Nitrogen_dioxide_4_2018,
     observableproperty:28079036_Nitrogen_oxide_4_2018, observableproperty:28079036_Nitrous_oxide_4_2018,
     observableproperty:28079036_Sulfur_dioxide_4_2018;
   sosa:resultTime "2018-04-01T00:00:00.000+02:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+observableproperty:28079036_Nitrogen_oxide_4_2018 property:hasMetricValue 9.572222222222223;
+  property:hasSubstance dbpedia:Nitrogen_oxide;
+  property:hasUnit uo:UO_0000083;
+  sosa:madeBySensor station:28079036 .
+
+observableproperty:28079036_Sulfur_dioxide_4_2018 property:hasMetricValue 8.784313725490197;
+  property:hasSubstance dbpedia:Sulfur_dioxide;
+  property:hasUnit uo:UO_0000083;
+  sosa:madeBySensor station:28079036 .
 
 observableproperty:28079036_Carbon_monoxide_4_2018 property:hasMetricValue 0.26536857235207845;
   property:hasSubstance dbpedia:Carbon_monoxide;
@@ -2165,36 +2175,11 @@ observableproperty:28079036_Nitrous_oxide_4_2018 property:hasMetricValue 48.3166
   property:hasUnit uo:UO_0000083;
   sosa:madeBySensor station:28079036 .
 
-observableproperty:28079036_Nitrogen_oxide_4_2018 property:hasMetricValue 9.572222222222223;
-  property:hasSubstance dbpedia:Nitrogen_oxide;
-  property:hasUnit uo:UO_0000083;
-  sosa:madeBySensor station:28079036 .
-
-observableproperty:28079036_Sulfur_dioxide_4_2018 property:hasMetricValue 8.784313725490197;
-  property:hasSubstance dbpedia:Sulfur_dioxide;
-  property:hasUnit uo:UO_0000083;
-  sosa:madeBySensor station:28079036 .
-
 observation:28079036_5_2018 a ssn:Observation;
   sosa:observedProperty observableproperty:28079036_Carbon_monoxide_5_2018, observableproperty:28079036_Nitrogen_dioxide_5_2018,
     observableproperty:28079036_Nitrogen_oxide_5_2018, observableproperty:28079036_Nitrous_oxide_5_2018,
     observableproperty:28079036_Sulfur_dioxide_5_2018;
   sosa:resultTime "2018-05-01T00:00:00.000+02:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
-
-observableproperty:28079036_Nitrogen_oxide_5_2018 property:hasMetricValue 2.0;
-  property:hasSubstance dbpedia:Nitrogen_oxide;
-  property:hasUnit uo:UO_0000083;
-  sosa:madeBySensor station:28079036 .
-
-observableproperty:28079036_Sulfur_dioxide_5_2018 property:hasMetricValue 6.0;
-  property:hasSubstance dbpedia:Sulfur_dioxide;
-  property:hasUnit uo:UO_0000083;
-  sosa:madeBySensor station:28079036 .
-
-observableproperty:28079036_Nitrous_oxide_5_2018 property:hasMetricValue 39.0;
-  property:hasSubstance dbpedia:Nitrous_oxide;
-  property:hasUnit uo:UO_0000083;
-  sosa:madeBySensor station:28079036 .
 
 observableproperty:28079036_Carbon_monoxide_5_2018 property:hasMetricValue 0.20000000298023224;
   property:hasSubstance dbpedia:Carbon_monoxide;
@@ -2203,6 +2188,21 @@ observableproperty:28079036_Carbon_monoxide_5_2018 property:hasMetricValue 0.200
 
 observableproperty:28079036_Nitrogen_dioxide_5_2018 property:hasMetricValue 35.0;
   property:hasSubstance dbpedia:Nitrogen_dioxide;
+  property:hasUnit uo:UO_0000083;
+  sosa:madeBySensor station:28079036 .
+
+observableproperty:28079036_Nitrous_oxide_5_2018 property:hasMetricValue 39.0;
+  property:hasSubstance dbpedia:Nitrous_oxide;
+  property:hasUnit uo:UO_0000083;
+  sosa:madeBySensor station:28079036 .
+
+observableproperty:28079036_Sulfur_dioxide_5_2018 property:hasMetricValue 6.0;
+  property:hasSubstance dbpedia:Sulfur_dioxide;
+  property:hasUnit uo:UO_0000083;
+  sosa:madeBySensor station:28079036 .
+
+observableproperty:28079036_Nitrogen_oxide_5_2018 property:hasMetricValue 2.0;
+  property:hasSubstance dbpedia:Nitrogen_oxide;
   property:hasUnit uo:UO_0000083;
   sosa:madeBySensor station:28079036 .
 
@@ -2234,6 +2234,26 @@ observation:28079038_1_2018 a ssn:Observation;
     observableproperty:28079038_Toluene_1_2018;
   sosa:resultTime "2018-01-01T00:00:00.000+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 
+observableproperty:28079038_Benzene_1_2018 property:hasMetricValue 0.7997293678768916;
+  property:hasSubstance dbpedia:Benzene;
+  property:hasUnit uo:UO_0000083;
+  sosa:madeBySensor station:28079038 .
+
+observableproperty:28079038_Sulfur_dioxide_1_2018 property:hasMetricValue 5.717948717948718;
+  property:hasSubstance dbpedia:Sulfur_dioxide;
+  property:hasUnit uo:UO_0000083;
+  sosa:madeBySensor station:28079038 .
+
+observableproperty:28079038_Nitrogen_oxide_1_2018 property:hasMetricValue 42.04043126684636;
+  property:hasSubstance dbpedia:Nitrogen_oxide;
+  property:hasUnit uo:UO_0000083;
+  sosa:madeBySensor station:28079038 .
+
+observableproperty:28079038_Toluene_1_2018 property:hasMetricValue 2.995534504187849;
+  property:hasSubstance dbpedia:Toluene;
+  property:hasUnit uo:UO_0000083;
+  sosa:madeBySensor station:28079038 .
+
 observableproperty:28079038_Ethyl_benzene_1_2018 property:hasMetricValue 0.5866035235307213;
   property:hasSubstance dbpedia:Ethyl_benzene;
   property:hasUnit uo:UO_0000083;
@@ -2249,26 +2269,6 @@ observableproperty:28079038_Nitrous_oxide_1_2018 property:hasMetricValue 118.564
   property:hasUnit uo:UO_0000083;
   sosa:madeBySensor station:28079038 .
 
-observableproperty:28079038_Toluene_1_2018 property:hasMetricValue 2.995534504187849;
-  property:hasSubstance dbpedia:Toluene;
-  property:hasUnit uo:UO_0000083;
-  sosa:madeBySensor station:28079038 .
-
-observableproperty:28079038_Nitrogen_oxide_1_2018 property:hasMetricValue 42.04043126684636;
-  property:hasSubstance dbpedia:Nitrogen_oxide;
-  property:hasUnit uo:UO_0000083;
-  sosa:madeBySensor station:28079038 .
-
-observableproperty:28079038_Benzene_1_2018 property:hasMetricValue 0.7997293678768916;
-  property:hasSubstance dbpedia:Benzene;
-  property:hasUnit uo:UO_0000083;
-  sosa:madeBySensor station:28079038 .
-
-observableproperty:28079038_Sulfur_dioxide_1_2018 property:hasMetricValue 5.717948717948718;
-  property:hasSubstance dbpedia:Sulfur_dioxide;
-  property:hasUnit uo:UO_0000083;
-  sosa:madeBySensor station:28079038 .
-
 observation:28079038_2_2018 a ssn:Observation;
   sosa:observedProperty observableproperty:28079038_Benzene_2_2018, observableproperty:28079038_Ethyl_benzene_2_2018,
     observableproperty:28079038_Nitrogen_dioxide_2_2018, observableproperty:28079038_Nitrogen_oxide_2_2018,
@@ -2276,13 +2276,23 @@ observation:28079038_2_2018 a ssn:Observation;
     observableproperty:28079038_Toluene_2_2018;
   sosa:resultTime "2018-02-01T00:00:00.000+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 
-observableproperty:28079038_Toluene_2_2018 property:hasMetricValue 2.431729323142453;
-  property:hasSubstance dbpedia:Toluene;
+observableproperty:28079038_Benzene_2_2018 property:hasMetricValue 0.7896240643316642;
+  property:hasSubstance dbpedia:Benzene;
   property:hasUnit uo:UO_0000083;
   sosa:madeBySensor station:28079038 .
 
-observableproperty:28079038_Nitrous_oxide_2_2018 property:hasMetricValue 102.07611940298507;
-  property:hasSubstance dbpedia:Nitrous_oxide;
+observableproperty:28079038_Sulfur_dioxide_2_2018 property:hasMetricValue 5.5305514157973175;
+  property:hasSubstance dbpedia:Sulfur_dioxide;
+  property:hasUnit uo:UO_0000083;
+  sosa:madeBySensor station:28079038 .
+
+observableproperty:28079038_Nitrogen_oxide_2_2018 property:hasMetricValue 31.03731343283582;
+  property:hasSubstance dbpedia:Nitrogen_oxide;
+  property:hasUnit uo:UO_0000083;
+  sosa:madeBySensor station:28079038 .
+
+observableproperty:28079038_Toluene_2_2018 property:hasMetricValue 2.431729323142453;
+  property:hasSubstance dbpedia:Toluene;
   property:hasUnit uo:UO_0000083;
   sosa:madeBySensor station:28079038 .
 
@@ -2296,18 +2306,8 @@ observableproperty:28079038_Nitrogen_dioxide_2_2018 property:hasMetricValue 54.4
   property:hasUnit uo:UO_0000083;
   sosa:madeBySensor station:28079038 .
 
-observableproperty:28079038_Sulfur_dioxide_2_2018 property:hasMetricValue 5.5305514157973175;
-  property:hasSubstance dbpedia:Sulfur_dioxide;
-  property:hasUnit uo:UO_0000083;
-  sosa:madeBySensor station:28079038 .
-
-observableproperty:28079038_Benzene_2_2018 property:hasMetricValue 0.7896240643316642;
-  property:hasSubstance dbpedia:Benzene;
-  property:hasUnit uo:UO_0000083;
-  sosa:madeBySensor station:28079038 .
-
-observableproperty:28079038_Nitrogen_oxide_2_2018 property:hasMetricValue 31.03731343283582;
-  property:hasSubstance dbpedia:Nitrogen_oxide;
+observableproperty:28079038_Nitrous_oxide_2_2018 property:hasMetricValue 102.07611940298507;
+  property:hasSubstance dbpedia:Nitrous_oxide;
   property:hasUnit uo:UO_0000083;
   sosa:madeBySensor station:28079038 .
 
@@ -2317,6 +2317,26 @@ observation:28079038_3_2018 a ssn:Observation;
     observableproperty:28079038_Nitrous_oxide_3_2018, observableproperty:28079038_Sulfur_dioxide_3_2018,
     observableproperty:28079038_Toluene_3_2018;
   sosa:resultTime "2018-03-01T00:00:00.000+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+observableproperty:28079038_Sulfur_dioxide_3_2018 property:hasMetricValue 3.528936742934051;
+  property:hasSubstance dbpedia:Sulfur_dioxide;
+  property:hasUnit uo:UO_0000083;
+  sosa:madeBySensor station:28079038 .
+
+observableproperty:28079038_Benzene_3_2018 property:hasMetricValue 0.5035230406537289;
+  property:hasSubstance dbpedia:Benzene;
+  property:hasUnit uo:UO_0000083;
+  sosa:madeBySensor station:28079038 .
+
+observableproperty:28079038_Nitrogen_oxide_3_2018 property:hasMetricValue 10.099596231493944;
+  property:hasSubstance dbpedia:Nitrogen_oxide;
+  property:hasUnit uo:UO_0000083;
+  sosa:madeBySensor station:28079038 .
+
+observableproperty:28079038_Toluene_3_2018 property:hasMetricValue 1.0467479714674517;
+  property:hasSubstance dbpedia:Toluene;
+  property:hasUnit uo:UO_0000083;
+  sosa:madeBySensor station:28079038 .
 
 observableproperty:28079038_Nitrous_oxide_3_2018 property:hasMetricValue 47.34320323014805;
   property:hasSubstance dbpedia:Nitrous_oxide;
@@ -2333,32 +2353,37 @@ observableproperty:28079038_Nitrogen_dioxide_3_2018 property:hasMetricValue 31.8
   property:hasUnit uo:UO_0000083;
   sosa:madeBySensor station:28079038 .
 
-observableproperty:28079038_Toluene_3_2018 property:hasMetricValue 1.0467479714674517;
-  property:hasSubstance dbpedia:Toluene;
-  property:hasUnit uo:UO_0000083;
-  sosa:madeBySensor station:28079038 .
-
-observableproperty:28079038_Nitrogen_oxide_3_2018 property:hasMetricValue 10.099596231493944;
-  property:hasSubstance dbpedia:Nitrogen_oxide;
-  property:hasUnit uo:UO_0000083;
-  sosa:madeBySensor station:28079038 .
-
-observableproperty:28079038_Sulfur_dioxide_3_2018 property:hasMetricValue 3.528936742934051;
-  property:hasSubstance dbpedia:Sulfur_dioxide;
-  property:hasUnit uo:UO_0000083;
-  sosa:madeBySensor station:28079038 .
-
-observableproperty:28079038_Benzene_3_2018 property:hasMetricValue 0.5035230406537289;
-  property:hasSubstance dbpedia:Benzene;
-  property:hasUnit uo:UO_0000083;
-  sosa:madeBySensor station:28079038 .
-
 observation:28079038_4_2018 a ssn:Observation;
   sosa:observedProperty observableproperty:28079038_Benzene_4_2018, observableproperty:28079038_Ethyl_benzene_4_2018,
     observableproperty:28079038_Nitrogen_dioxide_4_2018, observableproperty:28079038_Nitrogen_oxide_4_2018,
     observableproperty:28079038_Nitrous_oxide_4_2018, observableproperty:28079038_Sulfur_dioxide_4_2018,
     observableproperty:28079038_Toluene_4_2018;
   sosa:resultTime "2018-04-01T00:00:00.000+02:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+observableproperty:28079038_Sulfur_dioxide_4_2018 property:hasMetricValue 3.3699582753824755;
+  property:hasSubstance dbpedia:Sulfur_dioxide;
+  property:hasUnit uo:UO_0000083;
+  sosa:madeBySensor station:28079038 .
+
+observableproperty:28079038_Benzene_4_2018 property:hasMetricValue 0.5394405645611403;
+  property:hasSubstance dbpedia:Benzene;
+  property:hasUnit uo:UO_0000083;
+  sosa:madeBySensor station:28079038 .
+
+observableproperty:28079038_Nitrogen_oxide_4_2018 property:hasMetricValue 10.605849582172702;
+  property:hasSubstance dbpedia:Nitrogen_oxide;
+  property:hasUnit uo:UO_0000083;
+  sosa:madeBySensor station:28079038 .
+
+observableproperty:28079038_Toluene_4_2018 property:hasMetricValue 1.5043356651088575;
+  property:hasSubstance dbpedia:Toluene;
+  property:hasUnit uo:UO_0000083;
+  sosa:madeBySensor station:28079038 .
+
+observableproperty:28079038_Nitrous_oxide_4_2018 property:hasMetricValue 51.550139275766014;
+  property:hasSubstance dbpedia:Nitrous_oxide;
+  property:hasUnit uo:UO_0000083;
+  sosa:madeBySensor station:28079038 .
 
 observableproperty:28079038_Ethyl_benzene_4_2018 property:hasMetricValue 0.43846154386972214;
   property:hasSubstance dbpedia:Ethyl_benzene;
@@ -2370,31 +2395,6 @@ observableproperty:28079038_Nitrogen_dioxide_4_2018 property:hasMetricValue 35.2
   property:hasUnit uo:UO_0000083;
   sosa:madeBySensor station:28079038 .
 
-observableproperty:28079038_Nitrous_oxide_4_2018 property:hasMetricValue 51.550139275766014;
-  property:hasSubstance dbpedia:Nitrous_oxide;
-  property:hasUnit uo:UO_0000083;
-  sosa:madeBySensor station:28079038 .
-
-observableproperty:28079038_Toluene_4_2018 property:hasMetricValue 1.5043356651088575;
-  property:hasSubstance dbpedia:Toluene;
-  property:hasUnit uo:UO_0000083;
-  sosa:madeBySensor station:28079038 .
-
-observableproperty:28079038_Nitrogen_oxide_4_2018 property:hasMetricValue 10.605849582172702;
-  property:hasSubstance dbpedia:Nitrogen_oxide;
-  property:hasUnit uo:UO_0000083;
-  sosa:madeBySensor station:28079038 .
-
-observableproperty:28079038_Benzene_4_2018 property:hasMetricValue 0.5394405645611403;
-  property:hasSubstance dbpedia:Benzene;
-  property:hasUnit uo:UO_0000083;
-  sosa:madeBySensor station:28079038 .
-
-observableproperty:28079038_Sulfur_dioxide_4_2018 property:hasMetricValue 3.3699582753824755;
-  property:hasSubstance dbpedia:Sulfur_dioxide;
-  property:hasUnit uo:UO_0000083;
-  sosa:madeBySensor station:28079038 .
-
 observation:28079038_5_2018 a ssn:Observation;
   sosa:observedProperty observableproperty:28079038_Benzene_5_2018, observableproperty:28079038_Ethyl_benzene_5_2018,
     observableproperty:28079038_Nitrogen_dioxide_5_2018, observableproperty:28079038_Nitrogen_oxide_5_2018,
@@ -2402,8 +2402,8 @@ observation:28079038_5_2018 a ssn:Observation;
     observableproperty:28079038_Toluene_5_2018;
   sosa:resultTime "2018-05-01T00:00:00.000+02:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 
-observableproperty:28079038_Benzene_5_2018 property:hasMetricValue 0.4000000059604645;
-  property:hasSubstance dbpedia:Benzene;
+observableproperty:28079038_Nitrogen_oxide_5_2018 property:hasMetricValue 5.0;
+  property:hasSubstance dbpedia:Nitrogen_oxide;
   property:hasUnit uo:UO_0000083;
   sosa:madeBySensor station:28079038 .
 
@@ -2412,13 +2412,13 @@ observableproperty:28079038_Sulfur_dioxide_5_2018 property:hasMetricValue 3.0;
   property:hasUnit uo:UO_0000083;
   sosa:madeBySensor station:28079038 .
 
-observableproperty:28079038_Nitrogen_oxide_5_2018 property:hasMetricValue 5.0;
-  property:hasSubstance dbpedia:Nitrogen_oxide;
+observableproperty:28079038_Benzene_5_2018 property:hasMetricValue 0.4000000059604645;
+  property:hasSubstance dbpedia:Benzene;
   property:hasUnit uo:UO_0000083;
   sosa:madeBySensor station:28079038 .
 
-observableproperty:28079038_Toluene_5_2018 property:hasMetricValue 0.8999999761581421;
-  property:hasSubstance dbpedia:Toluene;
+observableproperty:28079038_Nitrous_oxide_5_2018 property:hasMetricValue 34.0;
+  property:hasSubstance dbpedia:Nitrous_oxide;
   property:hasUnit uo:UO_0000083;
   sosa:madeBySensor station:28079038 .
 
@@ -2432,8 +2432,8 @@ observableproperty:28079038_Nitrogen_dioxide_5_2018 property:hasMetricValue 27.0
   property:hasUnit uo:UO_0000083;
   sosa:madeBySensor station:28079038 .
 
-observableproperty:28079038_Nitrous_oxide_5_2018 property:hasMetricValue 34.0;
-  property:hasSubstance dbpedia:Nitrous_oxide;
+observableproperty:28079038_Toluene_5_2018 property:hasMetricValue 0.8999999761581421;
+  property:hasSubstance dbpedia:Toluene;
   property:hasUnit uo:UO_0000083;
   sosa:madeBySensor station:28079038 .
 
@@ -2464,6 +2464,11 @@ observation:28079039_1_2018 a ssn:Observation;
     observableproperty:28079039_Ozone_1_2018;
   sosa:resultTime "2018-01-01T00:00:00.000+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 
+observableproperty:28079039_Nitrogen_oxide_1_2018 property:hasMetricValue 50.82249322493225;
+  property:hasSubstance dbpedia:Nitrogen_oxide;
+  property:hasUnit uo:UO_0000083;
+  sosa:madeBySensor station:28079039 .
+
 observableproperty:28079039_Carbon_monoxide_1_2018 property:hasMetricValue 0.4546684764718816;
   property:hasSubstance dbpedia:Carbon_monoxide;
   property:hasUnit uo:UO_0000083;
@@ -2484,26 +2489,11 @@ observableproperty:28079039_Ozone_1_2018 property:hasMetricValue 24.430894308943
   property:hasUnit uo:UO_0000083;
   sosa:madeBySensor station:28079039 .
 
-observableproperty:28079039_Nitrogen_oxide_1_2018 property:hasMetricValue 50.82249322493225;
-  property:hasSubstance dbpedia:Nitrogen_oxide;
-  property:hasUnit uo:UO_0000083;
-  sosa:madeBySensor station:28079039 .
-
 observation:28079039_2_2018 a ssn:Observation;
   sosa:observedProperty observableproperty:28079039_Carbon_monoxide_2_2018, observableproperty:28079039_Nitrogen_dioxide_2_2018,
     observableproperty:28079039_Nitrogen_oxide_2_2018, observableproperty:28079039_Nitrous_oxide_2_2018,
     observableproperty:28079039_Ozone_2_2018;
   sosa:resultTime "2018-02-01T00:00:00.000+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
-
-observableproperty:28079039_Nitrous_oxide_2_2018 property:hasMetricValue 83.37275449101796;
-  property:hasSubstance dbpedia:Nitrous_oxide;
-  property:hasUnit uo:UO_0000083;
-  sosa:madeBySensor station:28079039 .
-
-observableproperty:28079039_Ozone_2_2018 property:hasMetricValue 39.188059701492534;
-  property:hasSubstance dbpedia:Ozone;
-  property:hasUnit uo:UO_0000083;
-  sosa:madeBySensor station:28079039 .
 
 observableproperty:28079039_Carbon_monoxide_2_2018 property:hasMetricValue 0.3409566580581024;
   property:hasSubstance dbpedia:Carbon_monoxide;
@@ -2512,6 +2502,16 @@ observableproperty:28079039_Carbon_monoxide_2_2018 property:hasMetricValue 0.340
 
 observableproperty:28079039_Nitrogen_dioxide_2_2018 property:hasMetricValue 46.69011976047904;
   property:hasSubstance dbpedia:Nitrogen_dioxide;
+  property:hasUnit uo:UO_0000083;
+  sosa:madeBySensor station:28079039 .
+
+observableproperty:28079039_Nitrous_oxide_2_2018 property:hasMetricValue 83.37275449101796;
+  property:hasSubstance dbpedia:Nitrous_oxide;
+  property:hasUnit uo:UO_0000083;
+  sosa:madeBySensor station:28079039 .
+
+observableproperty:28079039_Ozone_2_2018 property:hasMetricValue 39.188059701492534;
+  property:hasSubstance dbpedia:Ozone;
   property:hasUnit uo:UO_0000083;
   sosa:madeBySensor station:28079039 .
 
@@ -2531,16 +2531,6 @@ observableproperty:28079039_Nitrogen_oxide_3_2018 property:hasMetricValue 7.7767
   property:hasUnit uo:UO_0000083;
   sosa:madeBySensor station:28079039 .
 
-observableproperty:28079039_Nitrous_oxide_3_2018 property:hasMetricValue 42.64931506849315;
-  property:hasSubstance dbpedia:Nitrous_oxide;
-  property:hasUnit uo:UO_0000083;
-  sosa:madeBySensor station:28079039 .
-
-observableproperty:28079039_Ozone_3_2018 property:hasMetricValue 60.46027397260274;
-  property:hasSubstance dbpedia:Ozone;
-  property:hasUnit uo:UO_0000083;
-  sosa:madeBySensor station:28079039 .
-
 observableproperty:28079039_Carbon_monoxide_3_2018 property:hasMetricValue 0.2961643910367195;
   property:hasSubstance dbpedia:Carbon_monoxide;
   property:hasUnit uo:UO_0000083;
@@ -2548,6 +2538,16 @@ observableproperty:28079039_Carbon_monoxide_3_2018 property:hasMetricValue 0.296
 
 observableproperty:28079039_Nitrogen_dioxide_3_2018 property:hasMetricValue 30.736986301369864;
   property:hasSubstance dbpedia:Nitrogen_dioxide;
+  property:hasUnit uo:UO_0000083;
+  sosa:madeBySensor station:28079039 .
+
+observableproperty:28079039_Nitrous_oxide_3_2018 property:hasMetricValue 42.64931506849315;
+  property:hasSubstance dbpedia:Nitrous_oxide;
+  property:hasUnit uo:UO_0000083;
+  sosa:madeBySensor station:28079039 .
+
+observableproperty:28079039_Ozone_3_2018 property:hasMetricValue 60.46027397260274;
+  property:hasSubstance dbpedia:Ozone;
   property:hasUnit uo:UO_0000083;
   sosa:madeBySensor station:28079039 .
 
@@ -2562,16 +2562,6 @@ observableproperty:28079039_Nitrogen_oxide_4_2018 property:hasMetricValue 6.5847
   property:hasUnit uo:UO_0000083;
   sosa:madeBySensor station:28079039 .
 
-observableproperty:28079039_Carbon_monoxide_4_2018 property:hasMetricValue 0.2721357919286299;
-  property:hasSubstance dbpedia:Carbon_monoxide;
-  property:hasUnit uo:UO_0000083;
-  sosa:madeBySensor station:28079039 .
-
-observableproperty:28079039_Nitrogen_dioxide_4_2018 property:hasMetricValue 31.427966101694917;
-  property:hasSubstance dbpedia:Nitrogen_dioxide;
-  property:hasUnit uo:UO_0000083;
-  sosa:madeBySensor station:28079039 .
-
 observableproperty:28079039_Nitrous_oxide_4_2018 property:hasMetricValue 41.49858757062147;
   property:hasSubstance dbpedia:Nitrous_oxide;
   property:hasUnit uo:UO_0000083;
@@ -2579,6 +2569,16 @@ observableproperty:28079039_Nitrous_oxide_4_2018 property:hasMetricValue 41.4985
 
 observableproperty:28079039_Ozone_4_2018 property:hasMetricValue 62.00141242937853;
   property:hasSubstance dbpedia:Ozone;
+  property:hasUnit uo:UO_0000083;
+  sosa:madeBySensor station:28079039 .
+
+observableproperty:28079039_Carbon_monoxide_4_2018 property:hasMetricValue 0.2721357919286299;
+  property:hasSubstance dbpedia:Carbon_monoxide;
+  property:hasUnit uo:UO_0000083;
+  sosa:madeBySensor station:28079039 .
+
+observableproperty:28079039_Nitrogen_dioxide_4_2018 property:hasMetricValue 31.427966101694917;
+  property:hasSubstance dbpedia:Nitrogen_dioxide;
   property:hasUnit uo:UO_0000083;
   sosa:madeBySensor station:28079039 .
 
@@ -2649,13 +2649,13 @@ observableproperty:28079040_Nitrogen_oxide_1_2018 property:hasMetricValue 28.476
   property:hasUnit uo:UO_0000083;
   sosa:madeBySensor station:28079040 .
 
-observableproperty:28079040_Nitrogen_dioxide_1_2018 property:hasMetricValue 49.609986504723345;
-  property:hasSubstance dbpedia:Nitrogen_dioxide;
+observableproperty:28079040_Nitrous_oxide_1_2018 property:hasMetricValue 93.32388663967612;
+  property:hasSubstance dbpedia:Nitrous_oxide;
   property:hasUnit uo:UO_0000083;
   sosa:madeBySensor station:28079040 .
 
-observableproperty:28079040_Nitrous_oxide_1_2018 property:hasMetricValue 93.32388663967612;
-  property:hasSubstance dbpedia:Nitrous_oxide;
+observableproperty:28079040_Nitrogen_dioxide_1_2018 property:hasMetricValue 49.609986504723345;
+  property:hasSubstance dbpedia:Nitrogen_dioxide;
   property:hasUnit uo:UO_0000083;
   sosa:madeBySensor station:28079040 .
 
@@ -2663,16 +2663,6 @@ observation:28079040_2_2018 a ssn:Observation;
   sosa:observedProperty observableproperty:28079040_Nitrogen_dioxide_2_2018, observableproperty:28079040_Nitrogen_oxide_2_2018,
     observableproperty:28079040_Nitrous_oxide_2_2018, observableproperty:28079040_Sulfur_dioxide_2_2018;
   sosa:resultTime "2018-02-01T00:00:00.000+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
-
-observableproperty:28079040_Nitrogen_dioxide_2_2018 property:hasMetricValue 45.56333830104322;
-  property:hasSubstance dbpedia:Nitrogen_dioxide;
-  property:hasUnit uo:UO_0000083;
-  sosa:madeBySensor station:28079040 .
-
-observableproperty:28079040_Nitrous_oxide_2_2018 property:hasMetricValue 76.575260804769;
-  property:hasSubstance dbpedia:Nitrous_oxide;
-  property:hasUnit uo:UO_0000083;
-  sosa:madeBySensor station:28079040 .
 
 observableproperty:28079040_Nitrogen_oxide_2_2018 property:hasMetricValue 20.236959761549926;
   property:hasSubstance dbpedia:Nitrogen_oxide;
@@ -2684,18 +2674,28 @@ observableproperty:28079040_Sulfur_dioxide_2_2018 property:hasMetricValue 4.0789
   property:hasUnit uo:UO_0000083;
   sosa:madeBySensor station:28079040 .
 
+observableproperty:28079040_Nitrogen_dioxide_2_2018 property:hasMetricValue 45.56333830104322;
+  property:hasSubstance dbpedia:Nitrogen_dioxide;
+  property:hasUnit uo:UO_0000083;
+  sosa:madeBySensor station:28079040 .
+
+observableproperty:28079040_Nitrous_oxide_2_2018 property:hasMetricValue 76.575260804769;
+  property:hasSubstance dbpedia:Nitrous_oxide;
+  property:hasUnit uo:UO_0000083;
+  sosa:madeBySensor station:28079040 .
+
 observation:28079040_3_2018 a ssn:Observation;
   sosa:observedProperty observableproperty:28079040_Nitrogen_dioxide_3_2018, observableproperty:28079040_Nitrogen_oxide_3_2018,
     observableproperty:28079040_Nitrous_oxide_3_2018, observableproperty:28079040_Sulfur_dioxide_3_2018;
   sosa:resultTime "2018-03-01T00:00:00.000+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 
-observableproperty:28079040_Sulfur_dioxide_3_2018 property:hasMetricValue 2.6105121293800537;
-  property:hasSubstance dbpedia:Sulfur_dioxide;
+observableproperty:28079040_Nitrogen_oxide_3_2018 property:hasMetricValue 7.967654986522911;
+  property:hasSubstance dbpedia:Nitrogen_oxide;
   property:hasUnit uo:UO_0000083;
   sosa:madeBySensor station:28079040 .
 
-observableproperty:28079040_Nitrogen_oxide_3_2018 property:hasMetricValue 7.967654986522911;
-  property:hasSubstance dbpedia:Nitrogen_oxide;
+observableproperty:28079040_Sulfur_dioxide_3_2018 property:hasMetricValue 2.6105121293800537;
+  property:hasSubstance dbpedia:Sulfur_dioxide;
   property:hasUnit uo:UO_0000083;
   sosa:madeBySensor station:28079040 .
 
@@ -2739,13 +2739,8 @@ observation:28079040_5_2018 a ssn:Observation;
     observableproperty:28079040_Nitrous_oxide_5_2018, observableproperty:28079040_Sulfur_dioxide_5_2018;
   sosa:resultTime "2018-05-01T00:00:00.000+02:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 
-observableproperty:28079040_Nitrogen_oxide_5_2018 property:hasMetricValue 2.0;
-  property:hasSubstance dbpedia:Nitrogen_oxide;
-  property:hasUnit uo:UO_0000083;
-  sosa:madeBySensor station:28079040 .
-
-observableproperty:28079040_Sulfur_dioxide_5_2018 property:hasMetricValue 2.0;
-  property:hasSubstance dbpedia:Sulfur_dioxide;
+observableproperty:28079040_Nitrogen_dioxide_5_2018 property:hasMetricValue 37.0;
+  property:hasSubstance dbpedia:Nitrogen_dioxide;
   property:hasUnit uo:UO_0000083;
   sosa:madeBySensor station:28079040 .
 
@@ -2754,8 +2749,13 @@ observableproperty:28079040_Nitrous_oxide_5_2018 property:hasMetricValue 41.0;
   property:hasUnit uo:UO_0000083;
   sosa:madeBySensor station:28079040 .
 
-observableproperty:28079040_Nitrogen_dioxide_5_2018 property:hasMetricValue 37.0;
-  property:hasSubstance dbpedia:Nitrogen_dioxide;
+observableproperty:28079040_Sulfur_dioxide_5_2018 property:hasMetricValue 2.0;
+  property:hasSubstance dbpedia:Sulfur_dioxide;
+  property:hasUnit uo:UO_0000083;
+  sosa:madeBySensor station:28079040 .
+
+observableproperty:28079040_Nitrogen_oxide_5_2018 property:hasMetricValue 2.0;
+  property:hasSubstance dbpedia:Nitrogen_oxide;
   property:hasUnit uo:UO_0000083;
   sosa:madeBySensor station:28079040 .
 
@@ -2790,13 +2790,13 @@ observableproperty:28079047_Nitrogen_oxide_1_2018 property:hasMetricValue 40.487
   property:hasUnit uo:UO_0000083;
   sosa:madeBySensor station:28079047 .
 
-observableproperty:28079047_Nitrogen_dioxide_1_2018 property:hasMetricValue 49.37972972972973;
-  property:hasSubstance dbpedia:Nitrogen_dioxide;
+observableproperty:28079047_Nitrous_oxide_1_2018 property:hasMetricValue 111.43783783783783;
+  property:hasSubstance dbpedia:Nitrous_oxide;
   property:hasUnit uo:UO_0000083;
   sosa:madeBySensor station:28079047 .
 
-observableproperty:28079047_Nitrous_oxide_1_2018 property:hasMetricValue 111.43783783783783;
-  property:hasSubstance dbpedia:Nitrous_oxide;
+observableproperty:28079047_Nitrogen_dioxide_1_2018 property:hasMetricValue 49.37972972972973;
+  property:hasSubstance dbpedia:Nitrogen_dioxide;
   property:hasUnit uo:UO_0000083;
   sosa:madeBySensor station:28079047 .
 
@@ -2804,11 +2804,6 @@ observation:28079047_2_2018 a ssn:Observation;
   sosa:observedProperty observableproperty:28079047_Nitrogen_dioxide_2_2018, observableproperty:28079047_Nitrogen_oxide_2_2018,
     observableproperty:28079047_Nitrous_oxide_2_2018;
   sosa:resultTime "2018-02-01T00:00:00.000+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
-
-observableproperty:28079047_Nitrogen_oxide_2_2018 property:hasMetricValue 24.332339791356183;
-  property:hasSubstance dbpedia:Nitrogen_oxide;
-  property:hasUnit uo:UO_0000083;
-  sosa:madeBySensor station:28079047 .
 
 observableproperty:28079047_Nitrogen_dioxide_2_2018 property:hasMetricValue 47.926974664679584;
   property:hasSubstance dbpedia:Nitrogen_dioxide;
@@ -2820,13 +2815,18 @@ observableproperty:28079047_Nitrous_oxide_2_2018 property:hasMetricValue 85.2473
   property:hasUnit uo:UO_0000083;
   sosa:madeBySensor station:28079047 .
 
+observableproperty:28079047_Nitrogen_oxide_2_2018 property:hasMetricValue 24.332339791356183;
+  property:hasSubstance dbpedia:Nitrogen_oxide;
+  property:hasUnit uo:UO_0000083;
+  sosa:madeBySensor station:28079047 .
+
 observation:28079047_3_2018 a ssn:Observation;
   sosa:observedProperty observableproperty:28079047_Nitrogen_dioxide_3_2018, observableproperty:28079047_Nitrogen_oxide_3_2018,
     observableproperty:28079047_Nitrous_oxide_3_2018;
   sosa:resultTime "2018-03-01T00:00:00.000+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 
-observableproperty:28079047_Nitrogen_oxide_3_2018 property:hasMetricValue 5.979784366576819;
-  property:hasSubstance dbpedia:Nitrogen_oxide;
+observableproperty:28079047_Nitrogen_dioxide_3_2018 property:hasMetricValue 26.28032345013477;
+  property:hasSubstance dbpedia:Nitrogen_dioxide;
   property:hasUnit uo:UO_0000083;
   sosa:madeBySensor station:28079047 .
 
@@ -2835,8 +2835,8 @@ observableproperty:28079047_Nitrous_oxide_3_2018 property:hasMetricValue 35.4514
   property:hasUnit uo:UO_0000083;
   sosa:madeBySensor station:28079047 .
 
-observableproperty:28079047_Nitrogen_dioxide_3_2018 property:hasMetricValue 26.28032345013477;
-  property:hasSubstance dbpedia:Nitrogen_dioxide;
+observableproperty:28079047_Nitrogen_oxide_3_2018 property:hasMetricValue 5.979784366576819;
+  property:hasSubstance dbpedia:Nitrogen_oxide;
   property:hasUnit uo:UO_0000083;
   sosa:madeBySensor station:28079047 .
 
@@ -2865,11 +2865,6 @@ observation:28079047_5_2018 a ssn:Observation;
     observableproperty:28079047_Nitrous_oxide_5_2018;
   sosa:resultTime "2018-05-01T00:00:00.000+02:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 
-observableproperty:28079047_Nitrogen_oxide_5_2018 property:hasMetricValue 1.0;
-  property:hasSubstance dbpedia:Nitrogen_oxide;
-  property:hasUnit uo:UO_0000083;
-  sosa:madeBySensor station:28079047 .
-
 observableproperty:28079047_Nitrogen_dioxide_5_2018 property:hasMetricValue 27.0;
   property:hasSubstance dbpedia:Nitrogen_dioxide;
   property:hasUnit uo:UO_0000083;
@@ -2877,6 +2872,11 @@ observableproperty:28079047_Nitrogen_dioxide_5_2018 property:hasMetricValue 27.0
 
 observableproperty:28079047_Nitrous_oxide_5_2018 property:hasMetricValue 29.0;
   property:hasSubstance dbpedia:Nitrous_oxide;
+  property:hasUnit uo:UO_0000083;
+  sosa:madeBySensor station:28079047 .
+
+observableproperty:28079047_Nitrogen_oxide_5_2018 property:hasMetricValue 1.0;
+  property:hasSubstance dbpedia:Nitrogen_oxide;
   property:hasUnit uo:UO_0000083;
   sosa:madeBySensor station:28079047 .
 
@@ -2926,11 +2926,6 @@ observation:28079048_2_2018 a ssn:Observation;
     observableproperty:28079048_Nitrous_oxide_2_2018;
   sosa:resultTime "2018-02-01T00:00:00.000+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 
-observableproperty:28079048_Nitrogen_oxide_2_2018 property:hasMetricValue 18.614008941877795;
-  property:hasSubstance dbpedia:Nitrogen_oxide;
-  property:hasUnit uo:UO_0000083;
-  sosa:madeBySensor station:28079048 .
-
 observableproperty:28079048_Nitrous_oxide_2_2018 property:hasMetricValue 74.64381520119225;
   property:hasSubstance dbpedia:Nitrous_oxide;
   property:hasUnit uo:UO_0000083;
@@ -2941,10 +2936,20 @@ observableproperty:28079048_Nitrogen_dioxide_2_2018 property:hasMetricValue 46.0
   property:hasUnit uo:UO_0000083;
   sosa:madeBySensor station:28079048 .
 
+observableproperty:28079048_Nitrogen_oxide_2_2018 property:hasMetricValue 18.614008941877795;
+  property:hasSubstance dbpedia:Nitrogen_oxide;
+  property:hasUnit uo:UO_0000083;
+  sosa:madeBySensor station:28079048 .
+
 observation:28079048_3_2018 a ssn:Observation;
   sosa:observedProperty observableproperty:28079048_Nitrogen_dioxide_3_2018, observableproperty:28079048_Nitrogen_oxide_3_2018,
     observableproperty:28079048_Nitrous_oxide_3_2018;
   sosa:resultTime "2018-03-01T00:00:00.000+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+observableproperty:28079048_Nitrogen_oxide_3_2018 property:hasMetricValue 9.267833109017497;
+  property:hasSubstance dbpedia:Nitrogen_oxide;
+  property:hasUnit uo:UO_0000083;
+  sosa:madeBySensor station:28079048 .
 
 observableproperty:28079048_Nitrogen_dioxide_3_2018 property:hasMetricValue 36.82099596231494;
   property:hasSubstance dbpedia:Nitrogen_dioxide;
@@ -2953,11 +2958,6 @@ observableproperty:28079048_Nitrogen_dioxide_3_2018 property:hasMetricValue 36.8
 
 observableproperty:28079048_Nitrous_oxide_3_2018 property:hasMetricValue 51.033647375504714;
   property:hasSubstance dbpedia:Nitrous_oxide;
-  property:hasUnit uo:UO_0000083;
-  sosa:madeBySensor station:28079048 .
-
-observableproperty:28079048_Nitrogen_oxide_3_2018 property:hasMetricValue 9.267833109017497;
-  property:hasSubstance dbpedia:Nitrogen_oxide;
   property:hasUnit uo:UO_0000083;
   sosa:madeBySensor station:28079048 .
 
@@ -2971,13 +2971,13 @@ observableproperty:28079048_Nitrogen_oxide_4_2018 property:hasMetricValue 6.5722
   property:hasUnit uo:UO_0000083;
   sosa:madeBySensor station:28079048 .
 
-observableproperty:28079048_Nitrous_oxide_4_2018 property:hasMetricValue 45.354166666666664;
-  property:hasSubstance dbpedia:Nitrous_oxide;
+observableproperty:28079048_Nitrogen_dioxide_4_2018 property:hasMetricValue 35.22222222222222;
+  property:hasSubstance dbpedia:Nitrogen_dioxide;
   property:hasUnit uo:UO_0000083;
   sosa:madeBySensor station:28079048 .
 
-observableproperty:28079048_Nitrogen_dioxide_4_2018 property:hasMetricValue 35.22222222222222;
-  property:hasSubstance dbpedia:Nitrogen_dioxide;
+observableproperty:28079048_Nitrous_oxide_4_2018 property:hasMetricValue 45.354166666666664;
+  property:hasSubstance dbpedia:Nitrous_oxide;
   property:hasUnit uo:UO_0000083;
   sosa:madeBySensor station:28079048 .
 
@@ -2986,8 +2986,8 @@ observation:28079048_5_2018 a ssn:Observation;
     observableproperty:28079048_Nitrous_oxide_5_2018;
   sosa:resultTime "2018-05-01T00:00:00.000+02:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 
-observableproperty:28079048_Nitrogen_oxide_5_2018 property:hasMetricValue 2.0;
-  property:hasSubstance dbpedia:Nitrogen_oxide;
+observableproperty:28079048_Nitrous_oxide_5_2018 property:hasMetricValue 30.0;
+  property:hasSubstance dbpedia:Nitrous_oxide;
   property:hasUnit uo:UO_0000083;
   sosa:madeBySensor station:28079048 .
 
@@ -2996,8 +2996,8 @@ observableproperty:28079048_Nitrogen_dioxide_5_2018 property:hasMetricValue 28.0
   property:hasUnit uo:UO_0000083;
   sosa:madeBySensor station:28079048 .
 
-observableproperty:28079048_Nitrous_oxide_5_2018 property:hasMetricValue 30.0;
-  property:hasSubstance dbpedia:Nitrous_oxide;
+observableproperty:28079048_Nitrogen_oxide_5_2018 property:hasMetricValue 2.0;
+  property:hasSubstance dbpedia:Nitrogen_oxide;
   property:hasUnit uo:UO_0000083;
   sosa:madeBySensor station:28079048 .
 
@@ -3027,8 +3027,13 @@ observation:28079049_1_2018 a ssn:Observation;
     observableproperty:28079049_Nitrous_oxide_1_2018, observableproperty:28079049_Ozone_1_2018;
   sosa:resultTime "2018-01-01T00:00:00.000+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 
-observableproperty:28079049_Nitrogen_oxide_1_2018 property:hasMetricValue 22.373315363881403;
-  property:hasSubstance dbpedia:Nitrogen_oxide;
+observableproperty:28079049_Nitrous_oxide_1_2018 property:hasMetricValue 75.8288409703504;
+  property:hasSubstance dbpedia:Nitrous_oxide;
+  property:hasUnit uo:UO_0000083;
+  sosa:madeBySensor station:28079049 .
+
+observableproperty:28079049_Ozone_1_2018 property:hasMetricValue 25.890835579514825;
+  property:hasSubstance dbpedia:Ozone;
   property:hasUnit uo:UO_0000083;
   sosa:madeBySensor station:28079049 .
 
@@ -3037,13 +3042,8 @@ observableproperty:28079049_Nitrogen_dioxide_1_2018 property:hasMetricValue 41.5
   property:hasUnit uo:UO_0000083;
   sosa:madeBySensor station:28079049 .
 
-observableproperty:28079049_Nitrous_oxide_1_2018 property:hasMetricValue 75.8288409703504;
-  property:hasSubstance dbpedia:Nitrous_oxide;
-  property:hasUnit uo:UO_0000083;
-  sosa:madeBySensor station:28079049 .
-
-observableproperty:28079049_Ozone_1_2018 property:hasMetricValue 25.890835579514825;
-  property:hasSubstance dbpedia:Ozone;
+observableproperty:28079049_Nitrogen_oxide_1_2018 property:hasMetricValue 22.373315363881403;
+  property:hasSubstance dbpedia:Nitrogen_oxide;
   property:hasUnit uo:UO_0000083;
   sosa:madeBySensor station:28079049 .
 
@@ -3057,6 +3057,11 @@ observableproperty:28079049_Nitrogen_oxide_2_2018 property:hasMetricValue 13.398
   property:hasUnit uo:UO_0000083;
   sosa:madeBySensor station:28079049 .
 
+observableproperty:28079049_Nitrogen_dioxide_2_2018 property:hasMetricValue 39.657738095238095;
+  property:hasSubstance dbpedia:Nitrogen_dioxide;
+  property:hasUnit uo:UO_0000083;
+  sosa:madeBySensor station:28079049 .
+
 observableproperty:28079049_Nitrous_oxide_2_2018 property:hasMetricValue 60.200892857142854;
   property:hasSubstance dbpedia:Nitrous_oxide;
   property:hasUnit uo:UO_0000083;
@@ -3064,11 +3069,6 @@ observableproperty:28079049_Nitrous_oxide_2_2018 property:hasMetricValue 60.2008
 
 observableproperty:28079049_Ozone_2_2018 property:hasMetricValue 37.013412816691506;
   property:hasSubstance dbpedia:Ozone;
-  property:hasUnit uo:UO_0000083;
-  sosa:madeBySensor station:28079049 .
-
-observableproperty:28079049_Nitrogen_dioxide_2_2018 property:hasMetricValue 39.657738095238095;
-  property:hasSubstance dbpedia:Nitrogen_dioxide;
   property:hasUnit uo:UO_0000083;
   sosa:madeBySensor station:28079049 .
 
@@ -3102,6 +3102,11 @@ observation:28079049_4_2018 a ssn:Observation;
     observableproperty:28079049_Nitrous_oxide_4_2018, observableproperty:28079049_Ozone_4_2018;
   sosa:resultTime "2018-04-01T00:00:00.000+02:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 
+observableproperty:28079049_Nitrogen_oxide_4_2018 property:hasMetricValue 2.9554317548746516;
+  property:hasSubstance dbpedia:Nitrogen_oxide;
+  property:hasUnit uo:UO_0000083;
+  sosa:madeBySensor station:28079049 .
+
 observableproperty:28079049_Nitrogen_dioxide_4_2018 property:hasMetricValue 24.254874651810585;
   property:hasSubstance dbpedia:Nitrogen_dioxide;
   property:hasUnit uo:UO_0000083;
@@ -3114,11 +3119,6 @@ observableproperty:28079049_Nitrous_oxide_4_2018 property:hasMetricValue 28.7618
 
 observableproperty:28079049_Ozone_4_2018 property:hasMetricValue 61.116991643454035;
   property:hasSubstance dbpedia:Ozone;
-  property:hasUnit uo:UO_0000083;
-  sosa:madeBySensor station:28079049 .
-
-observableproperty:28079049_Nitrogen_oxide_4_2018 property:hasMetricValue 2.9554317548746516;
-  property:hasSubstance dbpedia:Nitrogen_oxide;
   property:hasUnit uo:UO_0000083;
   sosa:madeBySensor station:28079049 .
 
@@ -3173,6 +3173,11 @@ observation:28079050_1_2018 a ssn:Observation;
     observableproperty:28079050_Nitrous_oxide_1_2018;
   sosa:resultTime "2018-01-01T00:00:00.000+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 
+observableproperty:28079050_Nitrogen_oxide_1_2018 property:hasMetricValue 42.172739541160595;
+  property:hasSubstance dbpedia:Nitrogen_oxide;
+  property:hasUnit uo:UO_0000083;
+  sosa:madeBySensor station:28079050 .
+
 observableproperty:28079050_Nitrogen_dioxide_1_2018 property:hasMetricValue 50.23751686909581;
   property:hasSubstance dbpedia:Nitrogen_dioxide;
   property:hasUnit uo:UO_0000083;
@@ -3183,18 +3188,13 @@ observableproperty:28079050_Nitrous_oxide_1_2018 property:hasMetricValue 114.881
   property:hasUnit uo:UO_0000083;
   sosa:madeBySensor station:28079050 .
 
-observableproperty:28079050_Nitrogen_oxide_1_2018 property:hasMetricValue 42.172739541160595;
-  property:hasSubstance dbpedia:Nitrogen_oxide;
-  property:hasUnit uo:UO_0000083;
-  sosa:madeBySensor station:28079050 .
-
 observation:28079050_2_2018 a ssn:Observation;
   sosa:observedProperty observableproperty:28079050_Nitrogen_dioxide_2_2018, observableproperty:28079050_Nitrogen_oxide_2_2018,
     observableproperty:28079050_Nitrous_oxide_2_2018;
   sosa:resultTime "2018-02-01T00:00:00.000+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 
-observableproperty:28079050_Nitrogen_dioxide_2_2018 property:hasMetricValue 52.08955223880597;
-  property:hasSubstance dbpedia:Nitrogen_dioxide;
+observableproperty:28079050_Nitrogen_oxide_2_2018 property:hasMetricValue 31.47761194029851;
+  property:hasSubstance dbpedia:Nitrogen_oxide;
   property:hasUnit uo:UO_0000083;
   sosa:madeBySensor station:28079050 .
 
@@ -3203,8 +3203,8 @@ observableproperty:28079050_Nitrous_oxide_2_2018 property:hasMetricValue 100.341
   property:hasUnit uo:UO_0000083;
   sosa:madeBySensor station:28079050 .
 
-observableproperty:28079050_Nitrogen_oxide_2_2018 property:hasMetricValue 31.47761194029851;
-  property:hasSubstance dbpedia:Nitrogen_oxide;
+observableproperty:28079050_Nitrogen_dioxide_2_2018 property:hasMetricValue 52.08955223880597;
+  property:hasSubstance dbpedia:Nitrogen_dioxide;
   property:hasUnit uo:UO_0000083;
   sosa:madeBySensor station:28079050 .
 
@@ -3218,13 +3218,13 @@ observableproperty:28079050_Nitrogen_oxide_3_2018 property:hasMetricValue 30.437
   property:hasUnit uo:UO_0000083;
   sosa:madeBySensor station:28079050 .
 
-observableproperty:28079050_Nitrous_oxide_3_2018 property:hasMetricValue 85.58734525447042;
-  property:hasSubstance dbpedia:Nitrous_oxide;
+observableproperty:28079050_Nitrogen_dioxide_3_2018 property:hasMetricValue 38.91334250343879;
+  property:hasSubstance dbpedia:Nitrogen_dioxide;
   property:hasUnit uo:UO_0000083;
   sosa:madeBySensor station:28079050 .
 
-observableproperty:28079050_Nitrogen_dioxide_3_2018 property:hasMetricValue 38.91334250343879;
-  property:hasSubstance dbpedia:Nitrogen_dioxide;
+observableproperty:28079050_Nitrous_oxide_3_2018 property:hasMetricValue 85.58734525447042;
+  property:hasSubstance dbpedia:Nitrous_oxide;
   property:hasUnit uo:UO_0000083;
   sosa:madeBySensor station:28079050 .
 
@@ -3232,11 +3232,6 @@ observation:28079050_4_2018 a ssn:Observation;
   sosa:observedProperty observableproperty:28079050_Nitrogen_dioxide_4_2018, observableproperty:28079050_Nitrogen_oxide_4_2018,
     observableproperty:28079050_Nitrous_oxide_4_2018;
   sosa:resultTime "2018-04-01T00:00:00.000+02:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
-
-observableproperty:28079050_Nitrogen_oxide_4_2018 property:hasMetricValue 21.834492350486787;
-  property:hasSubstance dbpedia:Nitrogen_oxide;
-  property:hasUnit uo:UO_0000083;
-  sosa:madeBySensor station:28079050 .
 
 observableproperty:28079050_Nitrogen_dioxide_4_2018 property:hasMetricValue 36.013908205841446;
   property:hasSubstance dbpedia:Nitrogen_dioxide;
@@ -3248,15 +3243,15 @@ observableproperty:28079050_Nitrous_oxide_4_2018 property:hasMetricValue 69.4798
   property:hasUnit uo:UO_0000083;
   sosa:madeBySensor station:28079050 .
 
+observableproperty:28079050_Nitrogen_oxide_4_2018 property:hasMetricValue 21.834492350486787;
+  property:hasSubstance dbpedia:Nitrogen_oxide;
+  property:hasUnit uo:UO_0000083;
+  sosa:madeBySensor station:28079050 .
+
 observation:28079050_5_2018 a ssn:Observation;
   sosa:observedProperty observableproperty:28079050_Nitrogen_dioxide_5_2018, observableproperty:28079050_Nitrogen_oxide_5_2018,
     observableproperty:28079050_Nitrous_oxide_5_2018;
   sosa:resultTime "2018-05-01T00:00:00.000+02:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
-
-observableproperty:28079050_Nitrogen_oxide_5_2018 property:hasMetricValue 24.0;
-  property:hasSubstance dbpedia:Nitrogen_oxide;
-  property:hasUnit uo:UO_0000083;
-  sosa:madeBySensor station:28079050 .
 
 observableproperty:28079050_Nitrous_oxide_5_2018 property:hasMetricValue 72.0;
   property:hasSubstance dbpedia:Nitrous_oxide;
@@ -3265,6 +3260,11 @@ observableproperty:28079050_Nitrous_oxide_5_2018 property:hasMetricValue 72.0;
 
 observableproperty:28079050_Nitrogen_dioxide_5_2018 property:hasMetricValue 35.0;
   property:hasSubstance dbpedia:Nitrogen_dioxide;
+  property:hasUnit uo:UO_0000083;
+  sosa:madeBySensor station:28079050 .
+
+observableproperty:28079050_Nitrogen_oxide_5_2018 property:hasMetricValue 24.0;
+  property:hasSubstance dbpedia:Nitrogen_oxide;
   property:hasUnit uo:UO_0000083;
   sosa:madeBySensor station:28079050 .
 
@@ -3299,6 +3299,11 @@ observableproperty:28079054_Nitrogen_oxide_1_2018 property:hasMetricValue 42.642
   property:hasUnit uo:UO_0000083;
   sosa:madeBySensor station:28079054 .
 
+observableproperty:28079054_Nitrogen_dioxide_1_2018 property:hasMetricValue 46.60081190798376;
+  property:hasSubstance dbpedia:Nitrogen_dioxide;
+  property:hasUnit uo:UO_0000083;
+  sosa:madeBySensor station:28079054 .
+
 observableproperty:28079054_Nitrous_oxide_1_2018 property:hasMetricValue 111.99188092016239;
   property:hasSubstance dbpedia:Nitrous_oxide;
   property:hasUnit uo:UO_0000083;
@@ -3309,20 +3314,10 @@ observableproperty:28079054_Ozone_1_2018 property:hasMetricValue 26.364993215739
   property:hasUnit uo:UO_0000083;
   sosa:madeBySensor station:28079054 .
 
-observableproperty:28079054_Nitrogen_dioxide_1_2018 property:hasMetricValue 46.60081190798376;
-  property:hasSubstance dbpedia:Nitrogen_dioxide;
-  property:hasUnit uo:UO_0000083;
-  sosa:madeBySensor station:28079054 .
-
 observation:28079054_2_2018 a ssn:Observation;
   sosa:observedProperty observableproperty:28079054_Nitrogen_dioxide_2_2018, observableproperty:28079054_Nitrogen_oxide_2_2018,
     observableproperty:28079054_Nitrous_oxide_2_2018, observableproperty:28079054_Ozone_2_2018;
   sosa:resultTime "2018-02-01T00:00:00.000+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
-
-observableproperty:28079054_Nitrogen_dioxide_2_2018 property:hasMetricValue 44.44693572496263;
-  property:hasSubstance dbpedia:Nitrogen_dioxide;
-  property:hasUnit uo:UO_0000083;
-  sosa:madeBySensor station:28079054 .
 
 observableproperty:28079054_Nitrous_oxide_2_2018 property:hasMetricValue 82.42301943198804;
   property:hasSubstance dbpedia:Nitrous_oxide;
@@ -3331,6 +3326,11 @@ observableproperty:28079054_Nitrous_oxide_2_2018 property:hasMetricValue 82.4230
 
 observableproperty:28079054_Ozone_2_2018 property:hasMetricValue 34.91952309985097;
   property:hasSubstance dbpedia:Ozone;
+  property:hasUnit uo:UO_0000083;
+  sosa:madeBySensor station:28079054 .
+
+observableproperty:28079054_Nitrogen_dioxide_2_2018 property:hasMetricValue 44.44693572496263;
+  property:hasSubstance dbpedia:Nitrogen_dioxide;
   property:hasUnit uo:UO_0000083;
   sosa:madeBySensor station:28079054 .
 
@@ -3349,11 +3349,6 @@ observableproperty:28079054_Nitrogen_oxide_3_2018 property:hasMetricValue 5.0080
   property:hasUnit uo:UO_0000083;
   sosa:madeBySensor station:28079054 .
 
-observableproperty:28079054_Nitrogen_dioxide_3_2018 property:hasMetricValue 28.684636118598384;
-  property:hasSubstance dbpedia:Nitrogen_dioxide;
-  property:hasUnit uo:UO_0000083;
-  sosa:madeBySensor station:28079054 .
-
 observableproperty:28079054_Nitrous_oxide_3_2018 property:hasMetricValue 36.34366576819407;
   property:hasSubstance dbpedia:Nitrous_oxide;
   property:hasUnit uo:UO_0000083;
@@ -3364,15 +3359,15 @@ observableproperty:28079054_Ozone_3_2018 property:hasMetricValue 57.119946091644
   property:hasUnit uo:UO_0000083;
   sosa:madeBySensor station:28079054 .
 
+observableproperty:28079054_Nitrogen_dioxide_3_2018 property:hasMetricValue 28.684636118598384;
+  property:hasSubstance dbpedia:Nitrogen_dioxide;
+  property:hasUnit uo:UO_0000083;
+  sosa:madeBySensor station:28079054 .
+
 observation:28079054_4_2018 a ssn:Observation;
   sosa:observedProperty observableproperty:28079054_Nitrogen_dioxide_4_2018, observableproperty:28079054_Nitrogen_oxide_4_2018,
     observableproperty:28079054_Nitrous_oxide_4_2018, observableproperty:28079054_Ozone_4_2018;
   sosa:resultTime "2018-04-01T00:00:00.000+02:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
-
-observableproperty:28079054_Nitrogen_oxide_4_2018 property:hasMetricValue 6.986091794158553;
-  property:hasSubstance dbpedia:Nitrogen_oxide;
-  property:hasUnit uo:UO_0000083;
-  sosa:madeBySensor station:28079054 .
 
 observableproperty:28079054_Nitrogen_dioxide_4_2018 property:hasMetricValue 32.26425591098748;
   property:hasSubstance dbpedia:Nitrogen_dioxide;
@@ -3386,6 +3381,11 @@ observableproperty:28079054_Nitrous_oxide_4_2018 property:hasMetricValue 42.9888
 
 observableproperty:28079054_Ozone_4_2018 property:hasMetricValue 57.36388888888889;
   property:hasSubstance dbpedia:Ozone;
+  property:hasUnit uo:UO_0000083;
+  sosa:madeBySensor station:28079054 .
+
+observableproperty:28079054_Nitrogen_oxide_4_2018 property:hasMetricValue 6.986091794158553;
+  property:hasSubstance dbpedia:Nitrogen_oxide;
   property:hasUnit uo:UO_0000083;
   sosa:madeBySensor station:28079054 .
 
@@ -3442,18 +3442,13 @@ observation:28079055_1_2018 a ssn:Observation;
     observableproperty:28079055_Nitrous_oxide_1_2018, observableproperty:28079055_Toluene_1_2018;
   sosa:resultTime "2018-01-01T00:00:00.000+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 
-observableproperty:28079055_Nitrogen_oxide_1_2018 property:hasMetricValue 46.211590296495956;
-  property:hasSubstance dbpedia:Nitrogen_oxide;
+observableproperty:28079055_Toluene_1_2018 property:hasMetricValue 2.895380434661132;
+  property:hasSubstance dbpedia:Toluene;
   property:hasUnit uo:UO_0000083;
   sosa:madeBySensor station:28079055 .
 
-observableproperty:28079055_Benzene_1_2018 property:hasMetricValue 0.7547554383864221;
-  property:hasSubstance dbpedia:Benzene;
-  property:hasUnit uo:UO_0000083;
-  sosa:madeBySensor station:28079055 .
-
-observableproperty:28079055_Methane_1_2018 property:hasMetricValue 1.2898871669984502;
-  property:hasSubstance dbpedia:Methane;
+observableproperty:28079055_Hydrocarbon_1_2018 property:hasMetricValue 1.3495204541175423;
+  property:hasSubstance dbpedia:Hydrocarbon;
   property:hasUnit uo:UO_0000083;
   sosa:madeBySensor station:28079055 .
 
@@ -3467,18 +3462,23 @@ observableproperty:28079055_Nitrogen_dioxide_1_2018 property:hasMetricValue 54.7
   property:hasUnit uo:UO_0000083;
   sosa:madeBySensor station:28079055 .
 
+observableproperty:28079055_Methane_1_2018 property:hasMetricValue 1.2898871669984502;
+  property:hasSubstance dbpedia:Methane;
+  property:hasUnit uo:UO_0000083;
+  sosa:madeBySensor station:28079055 .
+
 observableproperty:28079055_Nitrous_oxide_1_2018 property:hasMetricValue 125.55795148247978;
   property:hasSubstance dbpedia:Nitrous_oxide;
   property:hasUnit uo:UO_0000083;
   sosa:madeBySensor station:28079055 .
 
-observableproperty:28079055_Toluene_1_2018 property:hasMetricValue 2.895380434661132;
-  property:hasSubstance dbpedia:Toluene;
+observableproperty:28079055_Benzene_1_2018 property:hasMetricValue 0.7547554383864221;
+  property:hasSubstance dbpedia:Benzene;
   property:hasUnit uo:UO_0000083;
   sosa:madeBySensor station:28079055 .
 
-observableproperty:28079055_Hydrocarbon_1_2018 property:hasMetricValue 1.3495204541175423;
-  property:hasSubstance dbpedia:Hydrocarbon;
+observableproperty:28079055_Nitrogen_oxide_1_2018 property:hasMetricValue 46.211590296495956;
+  property:hasSubstance dbpedia:Nitrogen_oxide;
   property:hasUnit uo:UO_0000083;
   sosa:madeBySensor station:28079055 .
 
@@ -3499,8 +3499,8 @@ observableproperty:28079055_Benzene_2_2018 property:hasMetricValue 0.62481089736
   property:hasUnit uo:UO_0000083;
   sosa:madeBySensor station:28079055 .
 
-observableproperty:28079055_Nitrous_oxide_2_2018 property:hasMetricValue 92.44992526158445;
-  property:hasSubstance dbpedia:Nitrous_oxide;
+observableproperty:28079055_Methane_2_2018 property:hasMetricValue 1.2667316360988359;
+  property:hasSubstance dbpedia:Methane;
   property:hasUnit uo:UO_0000083;
   sosa:madeBySensor station:28079055 .
 
@@ -3514,18 +3514,18 @@ observableproperty:28079055_Nitrogen_dioxide_2_2018 property:hasMetricValue 50.1
   property:hasUnit uo:UO_0000083;
   sosa:madeBySensor station:28079055 .
 
-observableproperty:28079055_Methane_2_2018 property:hasMetricValue 1.2667316360988359;
-  property:hasSubstance dbpedia:Methane;
-  property:hasUnit uo:UO_0000083;
-  sosa:madeBySensor station:28079055 .
-
-observableproperty:28079055_Hydrocarbon_2_2018 property:hasMetricValue 1.3797900948388644;
-  property:hasSubstance dbpedia:Hydrocarbon;
+observableproperty:28079055_Nitrous_oxide_2_2018 property:hasMetricValue 92.44992526158445;
+  property:hasSubstance dbpedia:Nitrous_oxide;
   property:hasUnit uo:UO_0000083;
   sosa:madeBySensor station:28079055 .
 
 observableproperty:28079055_Toluene_2_2018 property:hasMetricValue 1.8531013638479987;
   property:hasSubstance dbpedia:Toluene;
+  property:hasUnit uo:UO_0000083;
+  sosa:madeBySensor station:28079055 .
+
+observableproperty:28079055_Hydrocarbon_2_2018 property:hasMetricValue 1.3797900948388644;
+  property:hasSubstance dbpedia:Hydrocarbon;
   property:hasUnit uo:UO_0000083;
   sosa:madeBySensor station:28079055 .
 
@@ -3536,23 +3536,18 @@ observation:28079055_3_2018 a ssn:Observation;
     observableproperty:28079055_Nitrous_oxide_3_2018, observableproperty:28079055_Toluene_3_2018;
   sosa:resultTime "2018-03-01T00:00:00.000+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 
-observableproperty:28079055_Benzene_3_2018 property:hasMetricValue 0.4331972856809493;
-  property:hasSubstance dbpedia:Benzene;
-  property:hasUnit uo:UO_0000083;
-  sosa:madeBySensor station:28079055 .
-
 observableproperty:28079055_Nitrogen_oxide_3_2018 property:hasMetricValue 9.226415094339623;
   property:hasSubstance dbpedia:Nitrogen_oxide;
   property:hasUnit uo:UO_0000083;
   sosa:madeBySensor station:28079055 .
 
-observableproperty:28079055_Toluene_3_2018 property:hasMetricValue 1.4629932000422152;
-  property:hasSubstance dbpedia:Toluene;
+observableproperty:28079055_Benzene_3_2018 property:hasMetricValue 0.4331972856809493;
+  property:hasSubstance dbpedia:Benzene;
   property:hasUnit uo:UO_0000083;
   sosa:madeBySensor station:28079055 .
 
-observableproperty:28079055_Hydrocarbon_3_2018 property:hasMetricValue 1.3288873658898404;
-  property:hasSubstance dbpedia:Hydrocarbon;
+observableproperty:28079055_Methane_3_2018 property:hasMetricValue 1.2451560476256516;
+  property:hasSubstance dbpedia:Methane;
   property:hasUnit uo:UO_0000083;
   sosa:madeBySensor station:28079055 .
 
@@ -3566,13 +3561,18 @@ observableproperty:28079055_Nitrogen_dioxide_3_2018 property:hasMetricValue 31.0
   property:hasUnit uo:UO_0000083;
   sosa:madeBySensor station:28079055 .
 
-observableproperty:28079055_Methane_3_2018 property:hasMetricValue 1.2451560476256516;
-  property:hasSubstance dbpedia:Methane;
+observableproperty:28079055_Nitrous_oxide_3_2018 property:hasMetricValue 45.25876010781671;
+  property:hasSubstance dbpedia:Nitrous_oxide;
   property:hasUnit uo:UO_0000083;
   sosa:madeBySensor station:28079055 .
 
-observableproperty:28079055_Nitrous_oxide_3_2018 property:hasMetricValue 45.25876010781671;
-  property:hasSubstance dbpedia:Nitrous_oxide;
+observableproperty:28079055_Toluene_3_2018 property:hasMetricValue 1.4629932000422152;
+  property:hasSubstance dbpedia:Toluene;
+  property:hasUnit uo:UO_0000083;
+  sosa:madeBySensor station:28079055 .
+
+observableproperty:28079055_Hydrocarbon_3_2018 property:hasMetricValue 1.3288873658898404;
+  property:hasSubstance dbpedia:Hydrocarbon;
   property:hasUnit uo:UO_0000083;
   sosa:madeBySensor station:28079055 .
 
@@ -3583,18 +3583,13 @@ observation:28079055_4_2018 a ssn:Observation;
     observableproperty:28079055_Nitrous_oxide_4_2018, observableproperty:28079055_Toluene_4_2018;
   sosa:resultTime "2018-04-01T00:00:00.000+02:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 
-observableproperty:28079055_Toluene_4_2018 property:hasMetricValue 1.5675561802901243;
-  property:hasSubstance dbpedia:Toluene;
+observableproperty:28079055_Nitrogen_oxide_4_2018 property:hasMetricValue 10.894297635605007;
+  property:hasSubstance dbpedia:Nitrogen_oxide;
   property:hasUnit uo:UO_0000083;
   sosa:madeBySensor station:28079055 .
 
-observableproperty:28079055_Hydrocarbon_4_2018 property:hasMetricValue 1.349245796156995;
-  property:hasSubstance dbpedia:Hydrocarbon;
-  property:hasUnit uo:UO_0000083;
-  sosa:madeBySensor station:28079055 .
-
-observableproperty:28079055_Methane_4_2018 property:hasMetricValue 1.2665782256166362;
-  property:hasSubstance dbpedia:Methane;
+observableproperty:28079055_Benzene_4_2018 property:hasMetricValue 0.3900280961494767;
+  property:hasSubstance dbpedia:Benzene;
   property:hasUnit uo:UO_0000083;
   sosa:madeBySensor station:28079055 .
 
@@ -3608,18 +3603,23 @@ observableproperty:28079055_Nitrogen_dioxide_4_2018 property:hasMetricValue 35.4
   property:hasUnit uo:UO_0000083;
   sosa:madeBySensor station:28079055 .
 
+observableproperty:28079055_Methane_4_2018 property:hasMetricValue 1.2665782256166362;
+  property:hasSubstance dbpedia:Methane;
+  property:hasUnit uo:UO_0000083;
+  sosa:madeBySensor station:28079055 .
+
 observableproperty:28079055_Nitrous_oxide_4_2018 property:hasMetricValue 52.18915159944367;
   property:hasSubstance dbpedia:Nitrous_oxide;
   property:hasUnit uo:UO_0000083;
   sosa:madeBySensor station:28079055 .
 
-observableproperty:28079055_Benzene_4_2018 property:hasMetricValue 0.3900280961494767;
-  property:hasSubstance dbpedia:Benzene;
+observableproperty:28079055_Toluene_4_2018 property:hasMetricValue 1.5675561802901243;
+  property:hasSubstance dbpedia:Toluene;
   property:hasUnit uo:UO_0000083;
   sosa:madeBySensor station:28079055 .
 
-observableproperty:28079055_Nitrogen_oxide_4_2018 property:hasMetricValue 10.894297635605007;
-  property:hasSubstance dbpedia:Nitrogen_oxide;
+observableproperty:28079055_Hydrocarbon_4_2018 property:hasMetricValue 1.349245796156995;
+  property:hasSubstance dbpedia:Hydrocarbon;
   property:hasUnit uo:UO_0000083;
   sosa:madeBySensor station:28079055 .
 
@@ -3630,18 +3630,13 @@ observation:28079055_5_2018 a ssn:Observation;
     observableproperty:28079055_Nitrous_oxide_5_2018, observableproperty:28079055_Toluene_5_2018;
   sosa:resultTime "2018-05-01T00:00:00.000+02:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 
-observableproperty:28079055_Nitrogen_oxide_5_2018 property:hasMetricValue 1.0;
-  property:hasSubstance dbpedia:Nitrogen_oxide;
-  property:hasUnit uo:UO_0000083;
-  sosa:madeBySensor station:28079055 .
-
-observableproperty:28079055_Benzene_5_2018 property:hasMetricValue 0.5;
-  property:hasSubstance dbpedia:Benzene;
-  property:hasUnit uo:UO_0000083;
-  sosa:madeBySensor station:28079055 .
-
 observableproperty:28079055_Nitrous_oxide_5_2018 property:hasMetricValue 34.0;
   property:hasSubstance dbpedia:Nitrous_oxide;
+  property:hasUnit uo:UO_0000083;
+  sosa:madeBySensor station:28079055 .
+
+observableproperty:28079055_Methane_5_2018 property:hasMetricValue 1.25;
+  property:hasSubstance dbpedia:Methane;
   property:hasUnit uo:UO_0000083;
   sosa:madeBySensor station:28079055 .
 
@@ -3655,11 +3650,6 @@ observableproperty:28079055_Nitrogen_dioxide_5_2018 property:hasMetricValue 32.0
   property:hasUnit uo:UO_0000083;
   sosa:madeBySensor station:28079055 .
 
-observableproperty:28079055_Methane_5_2018 property:hasMetricValue 1.25;
-  property:hasSubstance dbpedia:Methane;
-  property:hasUnit uo:UO_0000083;
-  sosa:madeBySensor station:28079055 .
-
 observableproperty:28079055_Hydrocarbon_5_2018 property:hasMetricValue 1.3200000524520874;
   property:hasSubstance dbpedia:Hydrocarbon;
   property:hasUnit uo:UO_0000083;
@@ -3667,6 +3657,16 @@ observableproperty:28079055_Hydrocarbon_5_2018 property:hasMetricValue 1.3200000
 
 observableproperty:28079055_Toluene_5_2018 property:hasMetricValue 1.600000023841858;
   property:hasSubstance dbpedia:Toluene;
+  property:hasUnit uo:UO_0000083;
+  sosa:madeBySensor station:28079055 .
+
+observableproperty:28079055_Nitrogen_oxide_5_2018 property:hasMetricValue 1.0;
+  property:hasSubstance dbpedia:Nitrogen_oxide;
+  property:hasUnit uo:UO_0000083;
+  sosa:madeBySensor station:28079055 .
+
+observableproperty:28079055_Benzene_5_2018 property:hasMetricValue 0.5;
+  property:hasSubstance dbpedia:Benzene;
   property:hasUnit uo:UO_0000083;
   sosa:madeBySensor station:28079055 .
 
@@ -3697,13 +3697,8 @@ observation:28079056_1_2018 a ssn:Observation;
     observableproperty:28079056_Ozone_1_2018;
   sosa:resultTime "2018-01-01T00:00:00.000+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 
-observableproperty:28079056_Nitrous_oxide_1_2018 property:hasMetricValue 179.6774628879892;
-  property:hasSubstance dbpedia:Nitrous_oxide;
-  property:hasUnit uo:UO_0000083;
-  sosa:madeBySensor station:28079056 .
-
-observableproperty:28079056_Ozone_1_2018 property:hasMetricValue 21.41644204851752;
-  property:hasSubstance dbpedia:Ozone;
+observableproperty:28079056_Nitrogen_oxide_1_2018 property:hasMetricValue 73.61538461538461;
+  property:hasSubstance dbpedia:Nitrogen_oxide;
   property:hasUnit uo:UO_0000083;
   sosa:madeBySensor station:28079056 .
 
@@ -3717,8 +3712,13 @@ observableproperty:28079056_Nitrogen_dioxide_1_2018 property:hasMetricValue 66.8
   property:hasUnit uo:UO_0000083;
   sosa:madeBySensor station:28079056 .
 
-observableproperty:28079056_Nitrogen_oxide_1_2018 property:hasMetricValue 73.61538461538461;
-  property:hasSubstance dbpedia:Nitrogen_oxide;
+observableproperty:28079056_Nitrous_oxide_1_2018 property:hasMetricValue 179.6774628879892;
+  property:hasSubstance dbpedia:Nitrous_oxide;
+  property:hasUnit uo:UO_0000083;
+  sosa:madeBySensor station:28079056 .
+
+observableproperty:28079056_Ozone_1_2018 property:hasMetricValue 21.41644204851752;
+  property:hasSubstance dbpedia:Ozone;
   property:hasUnit uo:UO_0000083;
   sosa:madeBySensor station:28079056 .
 
@@ -3728,16 +3728,6 @@ observation:28079056_2_2018 a ssn:Observation;
     observableproperty:28079056_Ozone_2_2018;
   sosa:resultTime "2018-02-01T00:00:00.000+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 
-observableproperty:28079056_Nitrous_oxide_2_2018 property:hasMetricValue 142.99850746268658;
-  property:hasSubstance dbpedia:Nitrous_oxide;
-  property:hasUnit uo:UO_0000083;
-  sosa:madeBySensor station:28079056 .
-
-observableproperty:28079056_Ozone_2_2018 property:hasMetricValue 27.58569299552906;
-  property:hasSubstance dbpedia:Ozone;
-  property:hasUnit uo:UO_0000083;
-  sosa:madeBySensor station:28079056 .
-
 observableproperty:28079056_Carbon_monoxide_2_2018 property:hasMetricValue 0.4123123193735833;
   property:hasSubstance dbpedia:Carbon_monoxide;
   property:hasUnit uo:UO_0000083;
@@ -3745,6 +3735,16 @@ observableproperty:28079056_Carbon_monoxide_2_2018 property:hasMetricValue 0.412
 
 observableproperty:28079056_Nitrogen_dioxide_2_2018 property:hasMetricValue 66.17014925373134;
   property:hasSubstance dbpedia:Nitrogen_dioxide;
+  property:hasUnit uo:UO_0000083;
+  sosa:madeBySensor station:28079056 .
+
+observableproperty:28079056_Nitrous_oxide_2_2018 property:hasMetricValue 142.99850746268658;
+  property:hasSubstance dbpedia:Nitrous_oxide;
+  property:hasUnit uo:UO_0000083;
+  sosa:madeBySensor station:28079056 .
+
+observableproperty:28079056_Ozone_2_2018 property:hasMetricValue 27.58569299552906;
+  property:hasSubstance dbpedia:Ozone;
   property:hasUnit uo:UO_0000083;
   sosa:madeBySensor station:28079056 .
 
@@ -3758,11 +3758,6 @@ observation:28079056_3_2018 a ssn:Observation;
     observableproperty:28079056_Nitrogen_oxide_3_2018, observableproperty:28079056_Nitrous_oxide_3_2018,
     observableproperty:28079056_Ozone_3_2018;
   sosa:resultTime "2018-03-01T00:00:00.000+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
-
-observableproperty:28079056_Nitrogen_oxide_3_2018 property:hasMetricValue 18.638239339752406;
-  property:hasSubstance dbpedia:Nitrogen_oxide;
-  property:hasUnit uo:UO_0000083;
-  sosa:madeBySensor station:28079056 .
 
 observableproperty:28079056_Nitrous_oxide_3_2018 property:hasMetricValue 66.53645116918844;
   property:hasSubstance dbpedia:Nitrous_oxide;
@@ -3784,19 +3779,19 @@ observableproperty:28079056_Nitrogen_dioxide_3_2018 property:hasMetricValue 37.9
   property:hasUnit uo:UO_0000083;
   sosa:madeBySensor station:28079056 .
 
+observableproperty:28079056_Nitrogen_oxide_3_2018 property:hasMetricValue 18.638239339752406;
+  property:hasSubstance dbpedia:Nitrogen_oxide;
+  property:hasUnit uo:UO_0000083;
+  sosa:madeBySensor station:28079056 .
+
 observation:28079056_4_2018 a ssn:Observation;
   sosa:observedProperty observableproperty:28079056_Carbon_monoxide_4_2018, observableproperty:28079056_Nitrogen_dioxide_4_2018,
     observableproperty:28079056_Nitrogen_oxide_4_2018, observableproperty:28079056_Nitrous_oxide_4_2018,
     observableproperty:28079056_Ozone_4_2018;
   sosa:resultTime "2018-04-01T00:00:00.000+02:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 
-observableproperty:28079056_Carbon_monoxide_4_2018 property:hasMetricValue 0.2768583507453409;
-  property:hasSubstance dbpedia:Carbon_monoxide;
-  property:hasUnit uo:UO_0000083;
-  sosa:madeBySensor station:28079056 .
-
-observableproperty:28079056_Nitrogen_dioxide_4_2018 property:hasMetricValue 44.53781512605042;
-  property:hasSubstance dbpedia:Nitrogen_dioxide;
+observableproperty:28079056_Nitrogen_oxide_4_2018 property:hasMetricValue 21.022408963585434;
+  property:hasSubstance dbpedia:Nitrogen_oxide;
   property:hasUnit uo:UO_0000083;
   sosa:madeBySensor station:28079056 .
 
@@ -3810,8 +3805,13 @@ observableproperty:28079056_Ozone_4_2018 property:hasMetricValue 51.033850493653
   property:hasUnit uo:UO_0000083;
   sosa:madeBySensor station:28079056 .
 
-observableproperty:28079056_Nitrogen_oxide_4_2018 property:hasMetricValue 21.022408963585434;
-  property:hasSubstance dbpedia:Nitrogen_oxide;
+observableproperty:28079056_Carbon_monoxide_4_2018 property:hasMetricValue 0.2768583507453409;
+  property:hasSubstance dbpedia:Carbon_monoxide;
+  property:hasUnit uo:UO_0000083;
+  sosa:madeBySensor station:28079056 .
+
+observableproperty:28079056_Nitrogen_dioxide_4_2018 property:hasMetricValue 44.53781512605042;
+  property:hasSubstance dbpedia:Nitrogen_dioxide;
   property:hasUnit uo:UO_0000083;
   sosa:madeBySensor station:28079056 .
 
@@ -3820,6 +3820,11 @@ observation:28079056_5_2018 a ssn:Observation;
     observableproperty:28079056_Nitrogen_oxide_5_2018, observableproperty:28079056_Nitrous_oxide_5_2018,
     observableproperty:28079056_Ozone_5_2018;
   sosa:resultTime "2018-05-01T00:00:00.000+02:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+observableproperty:28079056_Nitrogen_oxide_5_2018 property:hasMetricValue 1.0;
+  property:hasSubstance dbpedia:Nitrogen_oxide;
+  property:hasUnit uo:UO_0000083;
+  sosa:madeBySensor station:28079056 .
 
 observableproperty:28079056_Nitrous_oxide_5_2018 property:hasMetricValue 36.0;
   property:hasSubstance dbpedia:Nitrous_oxide;
@@ -3838,11 +3843,6 @@ observableproperty:28079056_Carbon_monoxide_5_2018 property:hasMetricValue 0.200
 
 observableproperty:28079056_Nitrogen_dioxide_5_2018 property:hasMetricValue 34.0;
   property:hasSubstance dbpedia:Nitrogen_dioxide;
-  property:hasUnit uo:UO_0000083;
-  sosa:madeBySensor station:28079056 .
-
-observableproperty:28079056_Nitrogen_oxide_5_2018 property:hasMetricValue 1.0;
-  property:hasSubstance dbpedia:Nitrogen_oxide;
   property:hasUnit uo:UO_0000083;
   sosa:madeBySensor station:28079056 .
 
@@ -3873,6 +3873,16 @@ observation:28079057_1_2018 a ssn:Observation;
     observableproperty:28079057_Sulfur_dioxide_1_2018;
   sosa:resultTime "2018-01-01T00:00:00.000+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 
+observableproperty:28079057_Sulfur_dioxide_1_2018 property:hasMetricValue 6.794078061911171;
+  property:hasSubstance dbpedia:Sulfur_dioxide;
+  property:hasUnit uo:UO_0000083;
+  sosa:madeBySensor station:28079057 .
+
+observableproperty:28079057_Nitrogen_oxide_1_2018 property:hasMetricValue 32.869448183041726;
+  property:hasSubstance dbpedia:Nitrogen_oxide;
+  property:hasUnit uo:UO_0000083;
+  sosa:madeBySensor station:28079057 .
+
 observableproperty:28079057_Carbon_monoxide_1_2018 property:hasMetricValue 0.4094212738092623;
   property:hasSubstance dbpedia:Carbon_monoxide;
   property:hasUnit uo:UO_0000083;
@@ -3885,16 +3895,6 @@ observableproperty:28079057_Nitrogen_dioxide_1_2018 property:hasMetricValue 45.9
 
 observableproperty:28079057_Nitrous_oxide_1_2018 property:hasMetricValue 96.4185733512786;
   property:hasSubstance dbpedia:Nitrous_oxide;
-  property:hasUnit uo:UO_0000083;
-  sosa:madeBySensor station:28079057 .
-
-observableproperty:28079057_Sulfur_dioxide_1_2018 property:hasMetricValue 6.794078061911171;
-  property:hasSubstance dbpedia:Sulfur_dioxide;
-  property:hasUnit uo:UO_0000083;
-  sosa:madeBySensor station:28079057 .
-
-observableproperty:28079057_Nitrogen_oxide_1_2018 property:hasMetricValue 32.869448183041726;
-  property:hasSubstance dbpedia:Nitrogen_oxide;
   property:hasUnit uo:UO_0000083;
   sosa:madeBySensor station:28079057 .
 
@@ -3966,6 +3966,16 @@ observation:28079057_4_2018 a ssn:Observation;
     observableproperty:28079057_Sulfur_dioxide_4_2018;
   sosa:resultTime "2018-04-01T00:00:00.000+02:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 
+observableproperty:28079057_Sulfur_dioxide_4_2018 property:hasMetricValue 8.23643949930459;
+  property:hasSubstance dbpedia:Sulfur_dioxide;
+  property:hasUnit uo:UO_0000083;
+  sosa:madeBySensor station:28079057 .
+
+observableproperty:28079057_Nitrogen_oxide_4_2018 property:hasMetricValue 4.879166666666666;
+  property:hasSubstance dbpedia:Nitrogen_oxide;
+  property:hasUnit uo:UO_0000083;
+  sosa:madeBySensor station:28079057 .
+
 observableproperty:28079057_Nitrous_oxide_4_2018 property:hasMetricValue 31.8125;
   property:hasSubstance dbpedia:Nitrous_oxide;
   property:hasUnit uo:UO_0000083;
@@ -3981,31 +3991,11 @@ observableproperty:28079057_Nitrogen_dioxide_4_2018 property:hasMetricValue 24.3
   property:hasUnit uo:UO_0000083;
   sosa:madeBySensor station:28079057 .
 
-observableproperty:28079057_Nitrogen_oxide_4_2018 property:hasMetricValue 4.879166666666666;
-  property:hasSubstance dbpedia:Nitrogen_oxide;
-  property:hasUnit uo:UO_0000083;
-  sosa:madeBySensor station:28079057 .
-
-observableproperty:28079057_Sulfur_dioxide_4_2018 property:hasMetricValue 8.23643949930459;
-  property:hasSubstance dbpedia:Sulfur_dioxide;
-  property:hasUnit uo:UO_0000083;
-  sosa:madeBySensor station:28079057 .
-
 observation:28079057_5_2018 a ssn:Observation;
   sosa:observedProperty observableproperty:28079057_Carbon_monoxide_5_2018, observableproperty:28079057_Nitrogen_dioxide_5_2018,
     observableproperty:28079057_Nitrogen_oxide_5_2018, observableproperty:28079057_Nitrous_oxide_5_2018,
     observableproperty:28079057_Sulfur_dioxide_5_2018;
   sosa:resultTime "2018-05-01T00:00:00.000+02:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
-
-observableproperty:28079057_Sulfur_dioxide_5_2018 property:hasMetricValue 9.0;
-  property:hasSubstance dbpedia:Sulfur_dioxide;
-  property:hasUnit uo:UO_0000083;
-  sosa:madeBySensor station:28079057 .
-
-observableproperty:28079057_Nitrogen_oxide_5_2018 property:hasMetricValue 1.0;
-  property:hasSubstance dbpedia:Nitrogen_oxide;
-  property:hasUnit uo:UO_0000083;
-  sosa:madeBySensor station:28079057 .
 
 observableproperty:28079057_Nitrous_oxide_5_2018 property:hasMetricValue 15.0;
   property:hasSubstance dbpedia:Nitrous_oxide;
@@ -4019,6 +4009,16 @@ observableproperty:28079057_Carbon_monoxide_5_2018 property:hasMetricValue 0.300
 
 observableproperty:28079057_Nitrogen_dioxide_5_2018 property:hasMetricValue 13.0;
   property:hasSubstance dbpedia:Nitrogen_dioxide;
+  property:hasUnit uo:UO_0000083;
+  sosa:madeBySensor station:28079057 .
+
+observableproperty:28079057_Sulfur_dioxide_5_2018 property:hasMetricValue 9.0;
+  property:hasSubstance dbpedia:Sulfur_dioxide;
+  property:hasUnit uo:UO_0000083;
+  sosa:madeBySensor station:28079057 .
+
+observableproperty:28079057_Nitrogen_oxide_5_2018 property:hasMetricValue 1.0;
+  property:hasSubstance dbpedia:Nitrogen_oxide;
   property:hasUnit uo:UO_0000083;
   sosa:madeBySensor station:28079057 .
 
@@ -4048,8 +4048,13 @@ observation:28079058_1_2018 a ssn:Observation;
     observableproperty:28079058_Nitrous_oxide_1_2018, observableproperty:28079058_Ozone_1_2018;
   sosa:resultTime "2018-01-01T00:00:00.000+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 
-observableproperty:28079058_Nitrogen_oxide_1_2018 property:hasMetricValue 9.789473684210526;
-  property:hasSubstance dbpedia:Nitrogen_oxide;
+observableproperty:28079058_Nitrous_oxide_1_2018 property:hasMetricValue 35.57085020242915;
+  property:hasSubstance dbpedia:Nitrous_oxide;
+  property:hasUnit uo:UO_0000083;
+  sosa:madeBySensor station:28079058 .
+
+observableproperty:28079058_Ozone_1_2018 property:hasMetricValue 32.73279352226721;
+  property:hasSubstance dbpedia:Ozone;
   property:hasUnit uo:UO_0000083;
   sosa:madeBySensor station:28079058 .
 
@@ -4058,13 +4063,8 @@ observableproperty:28079058_Nitrogen_dioxide_1_2018 property:hasMetricValue 20.5
   property:hasUnit uo:UO_0000083;
   sosa:madeBySensor station:28079058 .
 
-observableproperty:28079058_Nitrous_oxide_1_2018 property:hasMetricValue 35.57085020242915;
-  property:hasSubstance dbpedia:Nitrous_oxide;
-  property:hasUnit uo:UO_0000083;
-  sosa:madeBySensor station:28079058 .
-
-observableproperty:28079058_Ozone_1_2018 property:hasMetricValue 32.73279352226721;
-  property:hasSubstance dbpedia:Ozone;
+observableproperty:28079058_Nitrogen_oxide_1_2018 property:hasMetricValue 9.789473684210526;
+  property:hasSubstance dbpedia:Nitrogen_oxide;
   property:hasUnit uo:UO_0000083;
   sosa:madeBySensor station:28079058 .
 
@@ -4123,6 +4123,11 @@ observation:28079058_4_2018 a ssn:Observation;
     observableproperty:28079058_Nitrous_oxide_4_2018, observableproperty:28079058_Ozone_4_2018;
   sosa:resultTime "2018-04-01T00:00:00.000+02:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 
+observableproperty:28079058_Nitrogen_dioxide_4_2018 property:hasMetricValue 10.370833333333334;
+  property:hasSubstance dbpedia:Nitrogen_dioxide;
+  property:hasUnit uo:UO_0000083;
+  sosa:madeBySensor station:28079058 .
+
 observableproperty:28079058_Nitrous_oxide_4_2018 property:hasMetricValue 14.002777777777778;
   property:hasSubstance dbpedia:Nitrous_oxide;
   property:hasUnit uo:UO_0000083;
@@ -4130,11 +4135,6 @@ observableproperty:28079058_Nitrous_oxide_4_2018 property:hasMetricValue 14.0027
 
 observableproperty:28079058_Ozone_4_2018 property:hasMetricValue 65.51527777777778;
   property:hasSubstance dbpedia:Ozone;
-  property:hasUnit uo:UO_0000083;
-  sosa:madeBySensor station:28079058 .
-
-observableproperty:28079058_Nitrogen_dioxide_4_2018 property:hasMetricValue 10.370833333333334;
-  property:hasSubstance dbpedia:Nitrogen_dioxide;
   property:hasUnit uo:UO_0000083;
   sosa:madeBySensor station:28079058 .
 
@@ -4148,11 +4148,6 @@ observation:28079058_5_2018 a ssn:Observation;
     observableproperty:28079058_Nitrous_oxide_5_2018, observableproperty:28079058_Ozone_5_2018;
   sosa:resultTime "2018-05-01T00:00:00.000+02:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 
-observableproperty:28079058_Nitrogen_oxide_5_2018 property:hasMetricValue 1.0;
-  property:hasSubstance dbpedia:Nitrogen_oxide;
-  property:hasUnit uo:UO_0000083;
-  sosa:madeBySensor station:28079058 .
-
 observableproperty:28079058_Nitrous_oxide_5_2018 property:hasMetricValue 5.0;
   property:hasSubstance dbpedia:Nitrous_oxide;
   property:hasUnit uo:UO_0000083;
@@ -4165,6 +4160,11 @@ observableproperty:28079058_Ozone_5_2018 property:hasMetricValue 76.0;
 
 observableproperty:28079058_Nitrogen_dioxide_5_2018 property:hasMetricValue 3.0;
   property:hasSubstance dbpedia:Nitrogen_dioxide;
+  property:hasUnit uo:UO_0000083;
+  sosa:madeBySensor station:28079058 .
+
+observableproperty:28079058_Nitrogen_oxide_5_2018 property:hasMetricValue 1.0;
+  property:hasSubstance dbpedia:Nitrogen_oxide;
   property:hasUnit uo:UO_0000083;
   sosa:madeBySensor station:28079058 .
 
@@ -4194,16 +4194,6 @@ observation:28079059_1_2018 a ssn:Observation;
     observableproperty:28079059_Nitrous_oxide_1_2018, observableproperty:28079059_Ozone_1_2018;
   sosa:resultTime "2018-01-01T00:00:00.000+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 
-observableproperty:28079059_Nitrogen_oxide_1_2018 property:hasMetricValue 24.669811320754718;
-  property:hasSubstance dbpedia:Nitrogen_oxide;
-  property:hasUnit uo:UO_0000083;
-  sosa:madeBySensor station:28079059 .
-
-observableproperty:28079059_Nitrogen_dioxide_1_2018 property:hasMetricValue 35.95013477088949;
-  property:hasSubstance dbpedia:Nitrogen_dioxide;
-  property:hasUnit uo:UO_0000083;
-  sosa:madeBySensor station:28079059 .
-
 observableproperty:28079059_Nitrous_oxide_1_2018 property:hasMetricValue 73.75876010781671;
   property:hasSubstance dbpedia:Nitrous_oxide;
   property:hasUnit uo:UO_0000083;
@@ -4214,20 +4204,20 @@ observableproperty:28079059_Ozone_1_2018 property:hasMetricValue 28.681511470985
   property:hasUnit uo:UO_0000083;
   sosa:madeBySensor station:28079059 .
 
-observation:28079059_2_2018 a ssn:Observation;
-  sosa:observedProperty observableproperty:28079059_Nitrogen_dioxide_2_2018, observableproperty:28079059_Nitrogen_oxide_2_2018,
-    observableproperty:28079059_Nitrous_oxide_2_2018, observableproperty:28079059_Ozone_2_2018;
-  sosa:resultTime "2018-02-01T00:00:00.000+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+observableproperty:28079059_Nitrogen_dioxide_1_2018 property:hasMetricValue 35.95013477088949;
+  property:hasSubstance dbpedia:Nitrogen_dioxide;
+  property:hasUnit uo:UO_0000083;
+  sosa:madeBySensor station:28079059 .
 
-observableproperty:28079059_Nitrogen_oxide_2_2018 property:hasMetricValue 14.557377049180328;
+observableproperty:28079059_Nitrogen_oxide_1_2018 property:hasMetricValue 24.669811320754718;
   property:hasSubstance dbpedia:Nitrogen_oxide;
   property:hasUnit uo:UO_0000083;
   sosa:madeBySensor station:28079059 .
 
-observableproperty:28079059_Nitrogen_dioxide_2_2018 property:hasMetricValue 31.06408345752608;
-  property:hasSubstance dbpedia:Nitrogen_dioxide;
-  property:hasUnit uo:UO_0000083;
-  sosa:madeBySensor station:28079059 .
+observation:28079059_2_2018 a ssn:Observation;
+  sosa:observedProperty observableproperty:28079059_Nitrogen_dioxide_2_2018, observableproperty:28079059_Nitrogen_oxide_2_2018,
+    observableproperty:28079059_Nitrous_oxide_2_2018, observableproperty:28079059_Ozone_2_2018;
+  sosa:resultTime "2018-02-01T00:00:00.000+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 
 observableproperty:28079059_Nitrous_oxide_2_2018 property:hasMetricValue 53.32190760059613;
   property:hasSubstance dbpedia:Nitrous_oxide;
@@ -4236,6 +4226,16 @@ observableproperty:28079059_Nitrous_oxide_2_2018 property:hasMetricValue 53.3219
 
 observableproperty:28079059_Ozone_2_2018 property:hasMetricValue 42.28614008941878;
   property:hasSubstance dbpedia:Ozone;
+  property:hasUnit uo:UO_0000083;
+  sosa:madeBySensor station:28079059 .
+
+observableproperty:28079059_Nitrogen_dioxide_2_2018 property:hasMetricValue 31.06408345752608;
+  property:hasSubstance dbpedia:Nitrogen_dioxide;
+  property:hasUnit uo:UO_0000083;
+  sosa:madeBySensor station:28079059 .
+
+observableproperty:28079059_Nitrogen_oxide_2_2018 property:hasMetricValue 14.557377049180328;
+  property:hasSubstance dbpedia:Nitrogen_oxide;
   property:hasUnit uo:UO_0000083;
   sosa:madeBySensor station:28079059 .
 
@@ -4249,6 +4249,11 @@ observableproperty:28079059_Nitrogen_oxide_3_2018 property:hasMetricValue 5.5876
   property:hasUnit uo:UO_0000083;
   sosa:madeBySensor station:28079059 .
 
+observableproperty:28079059_Nitrogen_dioxide_3_2018 property:hasMetricValue 21.41374663072776;
+  property:hasSubstance dbpedia:Nitrogen_dioxide;
+  property:hasUnit uo:UO_0000083;
+  sosa:madeBySensor station:28079059 .
+
 observableproperty:28079059_Nitrous_oxide_3_2018 property:hasMetricValue 29.954177897574123;
   property:hasSubstance dbpedia:Nitrous_oxide;
   property:hasUnit uo:UO_0000083;
@@ -4256,11 +4261,6 @@ observableproperty:28079059_Nitrous_oxide_3_2018 property:hasMetricValue 29.9541
 
 observableproperty:28079059_Ozone_3_2018 property:hasMetricValue 63.232839838492595;
   property:hasSubstance dbpedia:Ozone;
-  property:hasUnit uo:UO_0000083;
-  sosa:madeBySensor station:28079059 .
-
-observableproperty:28079059_Nitrogen_dioxide_3_2018 property:hasMetricValue 21.41374663072776;
-  property:hasSubstance dbpedia:Nitrogen_dioxide;
   property:hasUnit uo:UO_0000083;
   sosa:madeBySensor station:28079059 .
 
@@ -4274,11 +4274,6 @@ observableproperty:28079059_Nitrogen_oxide_4_2018 property:hasMetricValue 4.0696
   property:hasUnit uo:UO_0000083;
   sosa:madeBySensor station:28079059 .
 
-observableproperty:28079059_Nitrogen_dioxide_4_2018 property:hasMetricValue 20.5041782729805;
-  property:hasSubstance dbpedia:Nitrogen_dioxide;
-  property:hasUnit uo:UO_0000083;
-  sosa:madeBySensor station:28079059 .
-
 observableproperty:28079059_Nitrous_oxide_4_2018 property:hasMetricValue 26.618384401114206;
   property:hasSubstance dbpedia:Nitrous_oxide;
   property:hasUnit uo:UO_0000083;
@@ -4289,18 +4284,18 @@ observableproperty:28079059_Ozone_4_2018 property:hasMetricValue 64.986091794158
   property:hasUnit uo:UO_0000083;
   sosa:madeBySensor station:28079059 .
 
+observableproperty:28079059_Nitrogen_dioxide_4_2018 property:hasMetricValue 20.5041782729805;
+  property:hasSubstance dbpedia:Nitrogen_dioxide;
+  property:hasUnit uo:UO_0000083;
+  sosa:madeBySensor station:28079059 .
+
 observation:28079059_5_2018 a ssn:Observation;
   sosa:observedProperty observableproperty:28079059_Nitrogen_dioxide_5_2018, observableproperty:28079059_Nitrogen_oxide_5_2018,
     observableproperty:28079059_Nitrous_oxide_5_2018, observableproperty:28079059_Ozone_5_2018;
   sosa:resultTime "2018-05-01T00:00:00.000+02:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 
-observableproperty:28079059_Nitrous_oxide_5_2018 property:hasMetricValue 21.0;
-  property:hasSubstance dbpedia:Nitrous_oxide;
-  property:hasUnit uo:UO_0000083;
-  sosa:madeBySensor station:28079059 .
-
-observableproperty:28079059_Ozone_5_2018 property:hasMetricValue 65.0;
-  property:hasSubstance dbpedia:Ozone;
+observableproperty:28079059_Nitrogen_oxide_5_2018 property:hasMetricValue 1.0;
+  property:hasSubstance dbpedia:Nitrogen_oxide;
   property:hasUnit uo:UO_0000083;
   sosa:madeBySensor station:28079059 .
 
@@ -4309,8 +4304,13 @@ observableproperty:28079059_Nitrogen_dioxide_5_2018 property:hasMetricValue 19.0
   property:hasUnit uo:UO_0000083;
   sosa:madeBySensor station:28079059 .
 
-observableproperty:28079059_Nitrogen_oxide_5_2018 property:hasMetricValue 1.0;
-  property:hasSubstance dbpedia:Nitrogen_oxide;
+observableproperty:28079059_Nitrous_oxide_5_2018 property:hasMetricValue 21.0;
+  property:hasSubstance dbpedia:Nitrous_oxide;
+  property:hasUnit uo:UO_0000083;
+  sosa:madeBySensor station:28079059 .
+
+observableproperty:28079059_Ozone_5_2018 property:hasMetricValue 65.0;
+  property:hasSubstance dbpedia:Ozone;
   property:hasUnit uo:UO_0000083;
   sosa:madeBySensor station:28079059 .
 
@@ -4340,13 +4340,8 @@ observation:28079060_1_2018 a ssn:Observation;
     observableproperty:28079060_Nitrous_oxide_1_2018, observableproperty:28079060_Ozone_1_2018;
   sosa:resultTime "2018-01-01T00:00:00.000+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 
-observableproperty:28079060_Nitrous_oxide_1_2018 property:hasMetricValue 88.37516869095816;
-  property:hasSubstance dbpedia:Nitrous_oxide;
-  property:hasUnit uo:UO_0000083;
-  sosa:madeBySensor station:28079060 .
-
-observableproperty:28079060_Ozone_1_2018 property:hasMetricValue 32.36856368563686;
-  property:hasSubstance dbpedia:Ozone;
+observableproperty:28079060_Nitrogen_oxide_1_2018 property:hasMetricValue 28.453441295546558;
+  property:hasSubstance dbpedia:Nitrogen_oxide;
   property:hasUnit uo:UO_0000083;
   sosa:madeBySensor station:28079060 .
 
@@ -4355,8 +4350,13 @@ observableproperty:28079060_Nitrogen_dioxide_1_2018 property:hasMetricValue 44.7
   property:hasUnit uo:UO_0000083;
   sosa:madeBySensor station:28079060 .
 
-observableproperty:28079060_Nitrogen_oxide_1_2018 property:hasMetricValue 28.453441295546558;
-  property:hasSubstance dbpedia:Nitrogen_oxide;
+observableproperty:28079060_Nitrous_oxide_1_2018 property:hasMetricValue 88.37516869095816;
+  property:hasSubstance dbpedia:Nitrous_oxide;
+  property:hasUnit uo:UO_0000083;
+  sosa:madeBySensor station:28079060 .
+
+observableproperty:28079060_Ozone_1_2018 property:hasMetricValue 32.36856368563686;
+  property:hasSubstance dbpedia:Ozone;
   property:hasUnit uo:UO_0000083;
   sosa:madeBySensor station:28079060 .
 
@@ -4390,11 +4390,6 @@ observation:28079060_3_2018 a ssn:Observation;
     observableproperty:28079060_Nitrous_oxide_3_2018, observableproperty:28079060_Ozone_3_2018;
   sosa:resultTime "2018-03-01T00:00:00.000+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 
-observableproperty:28079060_Nitrogen_oxide_3_2018 property:hasMetricValue 4.383580080753701;
-  property:hasSubstance dbpedia:Nitrogen_oxide;
-  property:hasUnit uo:UO_0000083;
-  sosa:madeBySensor station:28079060 .
-
 observableproperty:28079060_Nitrous_oxide_3_2018 property:hasMetricValue 29.93270524899058;
   property:hasSubstance dbpedia:Nitrous_oxide;
   property:hasUnit uo:UO_0000083;
@@ -4407,6 +4402,11 @@ observableproperty:28079060_Ozone_3_2018 property:hasMetricValue 67.904441453566
 
 observableproperty:28079060_Nitrogen_dioxide_3_2018 property:hasMetricValue 23.21130551816958;
   property:hasSubstance dbpedia:Nitrogen_dioxide;
+  property:hasUnit uo:UO_0000083;
+  sosa:madeBySensor station:28079060 .
+
+observableproperty:28079060_Nitrogen_oxide_3_2018 property:hasMetricValue 4.383580080753701;
+  property:hasSubstance dbpedia:Nitrogen_oxide;
   property:hasUnit uo:UO_0000083;
   sosa:madeBySensor station:28079060 .
 
@@ -4440,11 +4440,6 @@ observation:28079060_5_2018 a ssn:Observation;
     observableproperty:28079060_Nitrous_oxide_5_2018, observableproperty:28079060_Ozone_5_2018;
   sosa:resultTime "2018-05-01T00:00:00.000+02:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 
-observableproperty:28079060_Nitrogen_oxide_5_2018 property:hasMetricValue 1.0;
-  property:hasSubstance dbpedia:Nitrogen_oxide;
-  property:hasUnit uo:UO_0000083;
-  sosa:madeBySensor station:28079060 .
-
 observableproperty:28079060_Nitrous_oxide_5_2018 property:hasMetricValue 16.0;
   property:hasSubstance dbpedia:Nitrous_oxide;
   property:hasUnit uo:UO_0000083;
@@ -4457,6 +4452,11 @@ observableproperty:28079060_Ozone_5_2018 property:hasMetricValue 81.0;
 
 observableproperty:28079060_Nitrogen_dioxide_5_2018 property:hasMetricValue 14.0;
   property:hasSubstance dbpedia:Nitrogen_dioxide;
+  property:hasUnit uo:UO_0000083;
+  sosa:madeBySensor station:28079060 .
+
+observableproperty:28079060_Nitrogen_oxide_5_2018 property:hasMetricValue 1.0;
+  property:hasSubstance dbpedia:Nitrogen_oxide;
   property:hasUnit uo:UO_0000083;
   sosa:madeBySensor station:28079060 .
 
