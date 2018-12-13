@@ -145,15 +145,116 @@ $.ajax({
                                 neighbourhood.neighbourhoodInfo.imageURI = wdNeigh.imageURI.value;
                             }
                             $("#populate").after('<li><div class="collapsible-header"><i class="material-icons">location_city</i>'
-                            +neighbourhood.neighbourhoodInfo.name
-                            +'</div><div class="collapsible-body"><span>'
-                            +'<img class="circle" src="'+neighbourhood.neighbourhoodInfo.imageURI+'" width="200" height="200"><br><br>'
-                            +'Population: '+neighbourhood.neighbourhoodInfo.population+' citizens.<br>'
-                            +'Area:  '+neighbourhood.neighbourhoodInfo.area+' km².<br>'
-                            +'</span></div></li>');
+                                + neighbourhood.neighbourhoodInfo.name
+                                + '</div><div class="collapsible-body"><span>'
+                                + '<img class="circle" src="' + neighbourhood.neighbourhoodInfo.imageURI + '" width="200" height="200"><br><br>'
+                                + 'Population: ' + neighbourhood.neighbourhoodInfo.population + ' citizens.<br>'
+                                + 'Area:  ' + neighbourhood.neighbourhoodInfo.area + ' km².<br>'
+                                + '</span>'
+                                + '<div id="' + neighbourhoodCode + '"></div>'
+                                + '</div>');
                         }
                     });
                 });
+
+
+
+
+
+
+
+
+
+
+
+
+
+                for (var e in data) {
+
+                    var s = '<div class="row">';
+
+                    for (var prop in data[e]["airInfo"]) {
+                        s = s + ' <div class="col s3"><canvas id="' + e + prop + '" width="10" height="10"></canvas></div>';
+                    }
+
+                    s = s + '</div></div></li>';
+                    $("#" + data[e].neighbourhood).after(s);
+                }
+
+                for (var e in data) {
+
+                    for (var prop in data[e]["airInfo"]) {
+
+                        var labels = ["Jan-2017", "Feb-2017", "Mar-2017", "Apr-2017", "May-2017", "Jun-2017", "Jul-2017", "Aug-2017", "Sep-2017", "Dec-2017", "Jan-2018", "Feb-2018", "Mar-2018", "Apr-2018", "May-2018"];
+                        var measures = data[e]["airInfo"][prop][0].concat(data[e]["airInfo"][prop][1]);
+                        var new_measures = [];
+                        for (var i = 0; i < measures.length; i++) {
+                            var set = measures[i];
+                            console.log(set)
+                            // var sum = set.reduce((a,b) => a + b, 0);
+                            var sum = set;
+                            // set.forEach(elem => sum += elem);
+                            // sum = sum/ set.length;
+                            new_measures.push(sum);
+                        }
+                        var clean_measures = [];
+                        var clean_labels = [];
+                        for (var i = 0; i < new_measures.length; i++) {
+                            // console.log(new_measures[i])
+                            if (isNaN(new_measures[i]) || new_measures[i] == undefined || new_measures[i] == 0 || i >= labels.length) {
+
+                            } else {
+                                clean_measures.push(new_measures[i]);
+                                clean_labels.push(labels[i]);
+                            }
+                        }
+
+                        var ctx = document.getElementById(e + prop).getContext('2d');
+                        var name = prop.replace('_', ' ');
+                        var myChart = new Chart(ctx, {
+                            type: 'line',
+                            data: {
+                                labels: clean_labels,
+                                datasets: [{
+                                    label: name,
+                                    data: clean_measures,
+                                    backgroundColor: [
+                                        'rgba(50, 100, 255, 0.2)'
+                                    ],
+                                    borderColor: [
+                                        'rgba(100, 100, 255, 1)'
+
+                                    ],
+                                    borderWidth: 2
+                                }]
+                            },
+                            options: {
+                                scales: {
+                                    yAxes: [{
+                                        ticks: {
+                                            beginAtZero: true
+                                        }
+                                    }]
+                                }
+                            }
+                        });
+                    }
+                }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
             },
             async: false
         });
